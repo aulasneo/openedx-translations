@@ -112,7 +112,7 @@ class Command:
         for release_translation in self.get_translations(lang_id=lang_id, resource=release_resource):
             translation_id = self.get_translation_id(release_translation)
             if translation_from_main_project := translations_from_main_project.get(translation_id):
-                status, updates = self.sync_translation_entry(
+                status, updates = self.determine_translation_updates(
                     translation_from_main_project=translation_from_main_project,
                     release_translation=release_translation,
                 )
@@ -127,16 +127,17 @@ class Command:
 
         print(' finished', lang_id)
 
-    def sync_translation_entry(self, translation_from_main_project, release_translation):
+
+    def determine_translation_updates(self, translation_from_main_project, release_translation):
         """
-        Sync translation review from the main project to the release one.
+        Compare translations between main and release projects and determine needed updates.
 
         Return:
-            tuple: status code, updates
-                - status code:
-                    - updated: if the entry was updated
+            tuple: status, updates
+                - status:
+                    - updated: the entry needs to be updated
                     - no-op: if the entry don't need any updates
-                    - updated-dry-run: if the entry was updated in dry-run mode
+                    - updated-dry-run: the entry needs to be updated but actually skipped due to dry-run mode
                 - updates: dict of updates to be applied to the release translation
         """
         translation_id = self.get_translation_id(release_translation)
