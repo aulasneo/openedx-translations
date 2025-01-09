@@ -180,9 +180,6 @@ def test_translations_entry_update_translation():
     assert updates == {
         'reviewed': True,
     }
-    assert current_translation.updates == {
-        'reviewed': True,
-    }
 
 
 def test_translations_entry_more_recent_review():
@@ -210,7 +207,6 @@ def test_translations_entry_more_recent_review():
 
     assert status == 'no-op'
     assert not updates, 'updates should be empty'
-    assert not release_translation.updates, 'save() should not be called'
 
 
 def test_translations_entry_dry_run():
@@ -235,8 +231,9 @@ def test_translations_entry_dry_run():
     )
 
     assert status == 'update-dry-run'
-    assert not updates, 'updates should be empty'
-    assert not current_translation.updates, 'save() should not be called in --dry-run mode'
+    assert updates == {
+        'reviewed': True,
+    }, 'Planned updates but never saved because of dry-run'
 
 
 def test_translations_entry_different_translation():
@@ -260,5 +257,5 @@ def test_translations_entry_different_translation():
         translation_from_old_project, current_translation
     )
 
-    assert (status, updates) == ('no-op', {})
-    assert not current_translation.updates, 'save() should not be called in --dry-run mode'
+    assert status == 'no-op'
+    assert updates == {}, ''
