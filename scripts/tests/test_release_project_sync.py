@@ -251,9 +251,9 @@ def test_translations_entry_different_translation():
         translation='another translation',
     )
 
-    status = command.sync_translation_entry(
+    status, updates = command.sync_translation_entry(
         translation_from_old_project, current_translation
     )
 
-    assert status == 'no-op'
+    assert (status, updates) == ('no-op', {})
     assert not current_translation.updates, 'save() should not be called in --dry-run mode'
