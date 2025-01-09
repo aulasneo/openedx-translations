@@ -172,7 +172,7 @@ def test_translations_entry_update_translation():
         translation='same translation',
     )
 
-    status, updates = command.sync_translation_entry(
+    status, updates = command.determine_translation_updates(
         translation_from_old_project, current_translation
     )
 
@@ -201,7 +201,7 @@ def test_translations_entry_more_recent_review():
         reviewed=True,
     )
 
-    status, updates = command.sync_translation_entry(
+    status, updates = command.determine_translation_updates(
         translation_from_main_project, release_translation
     )
 
@@ -226,7 +226,7 @@ def test_translations_entry_dry_run():
         translation='same translation',
     )
 
-    status, updates = command.sync_translation_entry(
+    status, updates = command.determine_translation_updates(
         translation_from_old_project, current_translation
     )
 
@@ -253,7 +253,7 @@ def test_translations_entry_different_translation():
         translation='another translation',
     )
 
-    status, updates = command.sync_translation_entry(
+    status, updates = command.determine_translation_updates(
         translation_from_old_project, current_translation
     )
 
