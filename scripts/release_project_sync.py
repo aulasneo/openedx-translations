@@ -28,6 +28,13 @@ MAIN_PROJECT_SLUG = 'openedx-translations'
 RELEASE_PROJECT_SLUG_TEMPLATE = 'openedx-translations-{release_name}'
 
 
+def chunks(lst, n):
+    """Yield successive n-sized chunks from lst."""
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+
+
+
 @dataclasses.dataclass
 class Command:
 
@@ -123,10 +130,10 @@ class Command:
                     })
 
         if updates_to_apply and not self.is_dry_run():
-            self.tx_api.ResourceTranslation.bulk_update(updates_to_apply)
+            for updates_chunk in chunks(updates_to_apply, 145):
+                self.tx_api.ResourceTranslation.bulk_update(updates_chunk)
 
         print(' finished', lang_id)
-
 
     def determine_translation_updates(self, translation_from_main_project, release_translation):
         """
@@ -144,16 +151,36 @@ class Command:
 
         updates = {}
 
-        # Only update review status if translations are the same across projects
-        if translation_from_main_project.strings == release_translation.strings:
+        def _update_review_proofread_attrs():
             for attr in ['reviewed', 'proofread']:
                 # Reviews won't be deleted in the release project
                 if main_attr_value := getattr(translation_from_main_project, attr, None):
                     if main_attr_value != getattr(release_translation, attr, None):
                         updates[attr] = main_attr_value
-        else:
+
+        if (
+            translation_from_main_project.strings
+            and release_translation.strings
+            and translation_from_main_project.strings != release_translation.strings
+        ):
+            # Do not override anything if translations are different
             print(translation_id, 'has different translations will not update it')
             return 'no-op', updates
+
+        if (
+            translation_from_main_project.strings
+            and translation_from_main_project.strings == release_translation.strings
+        ):
+            # Only update review status if translations are the same across projects
+            _update_review_proofread_attrs()
+
+        if (
+            translation_from_main_project.strings
+            and not release_translation.strings
+        ):
+            # Set translations from the old project and update review status
+            updates['strings'] = translation_from_main_project.strings
+            _update_review_proofread_attrs()
 
         if updates:
             print(translation_id, updates, '[Dry run]' if self.is_dry_run() else '')
@@ -178,6 +205,10 @@ class Command:
             dict_item = item.to_dict()
             main_quick_lookup[dict_item['attributes']['string_hash']] = dict_item['attributes']['tags']
 
+        dry_run_note = ''
+        if self.is_dry_run():
+            dry_run_note = ' (dry-run)'
+
         for release_info in release_resource_str.all():
             main_tags = main_quick_lookup.get(release_info.string_hash)
             release_tags = release_info.tags
@@ -188,7 +219,7 @@ class Command:
                 continue
 
             if len(release_tags) != len(main_tags) or set(release_tags) != set(main_tags):
-                print(f'  - found tag difference for {release_info.string_hash}. overwriting: {release_tags} with {main_tags}')
+                print(f'  - found tag difference for {release_info.string_hash}. overwriting{dry_run_note}: {release_tags} with {main_tags}')
 
                 if not self.is_dry_run():
                     release_info.save(tags=main_tags)
