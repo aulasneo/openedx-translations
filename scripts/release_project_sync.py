@@ -314,6 +314,10 @@ def main():  # pragma: no cover
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dry-run', action='store_true', dest='dry_run',
                         help='Run the script without writing anything to Transifex.')
+
+    ## TODO: Override source project
+    ## TODO: Override older translations
+
     parser.add_argument('--resource', default='', dest='resource',
                         help='Resource slug e.g. "AudioXBlock" or "frontend-app-learning". '
                              'Leave empty to sync all resources.')
