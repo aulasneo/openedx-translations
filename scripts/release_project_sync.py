@@ -11,6 +11,7 @@ Variable names meaning:
  - main_translation: translation in the main "open-edx/openedx-translations" project
  - release_translation: translation in the release project "open-edx/openedx-translations-<release-name>"
 
+Python API docs: https://github.com/transifex/transifex-python/blob/devel/transifex/api/README.md
 """
 
 import argparse
@@ -107,13 +108,23 @@ class Command:
             for translation in self.get_translations(lang_id=lang_id, resource=main_resource)
         }
 
+        updates_to_apply = []
         for release_translation in self.get_translations(lang_id=lang_id, resource=release_resource):
             translation_id = self.get_translation_id(release_translation)
             if translation_from_main_project := translations_from_main_project.get(translation_id):
-                self.sync_translation_entry(
+                status, updates = self.sync_translation_entry(
                     translation_from_main_project=translation_from_main_project,
                     release_translation=release_translation,
                 )
+                if updates and status == 'update':
+                    updates_to_apply.append({
+                        'id': release_translation.id,
+                        'attributes': updates,
+                    })
+
+        if updates_to_apply and not self.is_dry_run():
+            self.tx_api.ResourceTranslation.bulk_update(updates_to_apply)
+
         print(' finished', lang_id)
 
     def sync_translation_entry(self, translation_from_main_project, release_translation):
@@ -121,10 +132,12 @@ class Command:
         Sync translation review from the main project to the release one.
 
         Return:
-            str: status code
-               - updated: if the entry was updated
-               - no-op: if the entry don't need any updates
-               - updated-dry-run: if the entry was updated in dry-run mode
+            tuple: status code, updates
+                - status code:
+                    - updated: if the entry was updated
+                    - no-op: if the entry don't need any updates
+                    - updated-dry-run: if the entry was updated in dry-run mode
+                - updates: dict of updates to be applied to the release translation
         """
         translation_id = self.get_translation_id(release_translation)
 
@@ -139,17 +152,16 @@ class Command:
                         updates[attr] = main_attr_value
         else:
             print(translation_id, 'has different translations will not update it')
-            return 'no-op'
+            return 'no-op', updates
 
         if updates:
             print(translation_id, updates, '[Dry run]' if self.is_dry_run() else '')
             if self.is_dry_run():
-                return 'updated-dry-run'
+                return 'update-dry-run', updates
             else:
-                release_translation.save(**updates)
-                return 'updated'
+                return 'update', updates
 
-        return 'no-op'
+        return 'no-op', updates
 
     def sync_tags(self, main_resource, release_resource):
         """
