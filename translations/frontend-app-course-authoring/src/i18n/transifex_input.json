@@ -412,7 +412,7 @@
   "course-authoring.course-outline.card.menu.duplicate": "Duplicate",
   "course-authoring.course-outline.card.menu.moveup": "Move up",
   "course-authoring.course-outline.card.menu.movedown": "Move down",
-  "course-authoring.course-outline.card.menu.delete": "Copy to clipboard",
+  "course-authoring.course-outline.card.menu.delete": "Delete",
   "course-authoring.course-outline.card.menu.proctoring-settings": "Proctoring settings",
   "course-authoring.course-outline.card.menu.proctoring-settings-tooltip": "Proctoring settings",
   "course-authoring.course-outline.card.badge.discussionEnabled": "Discussions enabled",
