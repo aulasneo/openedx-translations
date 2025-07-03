@@ -932,7 +932,7 @@ msgstr "Más información acerca de %(name)s"
 #: templates/legacy/grade/oa_grade_not_started.html:14
 #: templates/legacy/grade/oa_grade_waiting.html:14
 msgid "Your Grade"
-msgstr "Su Nota"
+msgstr "Su Idea"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:19
 #, python-format
@@ -1094,7 +1094,7 @@ msgstr "Usted no ha iniciado el problema. "
 
 #: templates/legacy/grade/oa_grade_waiting.html:16
 msgid "Waiting for Assessments"
-msgstr "Esperando las Evaluaciones "
+msgstr "Esperando la revisión "
 
 #: templates/legacy/grade/oa_grade_waiting.html:33
 msgid ""
@@ -1103,10 +1103,9 @@ msgid ""
 "complete, you will see feedback from everyone who assessed your response, "
 "and you will receive your final grade."
 msgstr ""
-"Ha completado los pasos en la tarea, pero algunas evaluaciones aún no se han"
-" realizado sobre su respuesta. Cuando las evaluaciones de su respuesta hayan"
-" sido terminadas, podrá ver los comentarios de las personas que evaluaron su"
-" respuesta, así como su calificación final."
+"Ya has completado los pasos del formulario de idea, revisá que esté completo"
+" y el 24 de agosto anunciaremos los 50 finalistas que pasan a la etapa de"
+" cocreación!"
 
 #: templates/legacy/instructor_dashboard/oa_grade_available_responses.html:15
 #: templates/legacy/staff_area/oa_staff_area.html:16
@@ -1198,8 +1197,9 @@ msgid ""
 "You have completed this assignment. Your final grade will be available when "
 "the assessments of your response are complete."
 msgstr ""
-"Ha completado esta tarea. Su nota final estará disponible cuando las "
-"revisiones de su respuesta hayan sido completadas."
+"Ya has completado los pasos del formulario de idea, revisá que esté completo "
+"y el 24 de agosto anunciaremos los 50 finalistas que pasan a la etapa "
+" de cocreación!
 
 #: templates/legacy/message/oa_message_complete.html:10
 msgid ""
@@ -1640,7 +1640,9 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
-msgstr "Ingrese su respuesta a la pregunta o planteamiento del ejercicio."
+msgstr “Ingresa tu respuesta a la pregunta. Tus respuestas se guardarán "
+"automáticamente y podrás regresar para completar tu respuesta en cualquier "
+"momento antes de que finalice la etapa de ideación (jueves, 21 de agosto de 2025).“
 
 #: templates/legacy/response/oa_response.html:92
 msgid ""
@@ -1948,8 +1950,9 @@ msgid ""
 "Your response has been submitted. You will receive your grade after all "
 "steps are complete and your response is fully assessed."
 msgstr ""
-"Su respuesta ha sido enviada. Recibirá su nota una vez que todos los pasos "
-"estén completos y su respuesta haya sido calificada."
+"Ya has completado los pasos del formulario de idea, revisá que esté "
+"completo y el 24 de agosto anunciaremos los 50 finalistas que pasan "
+"a la etapa de cocreación!"
 
 #: templates/legacy/response/oa_response_submitted.html:34
 #, python-format

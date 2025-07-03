@@ -341,8 +341,9 @@ msgid ""
 "You're about to submit your response for this assignment. After you submit "
 "this response, you can't change it or submit a new response."
 msgstr ""
-"Está a punto de subir su respuesta para esta tarea. Después de subirla, no "
-"podrá cambiarla o subir una nueva respuesta."
+"Estás a punto de subir tu idea. Después de subirla, podrás editarla hasta "
+"el 21 de agosto, enviando un correo a solvefortomorrow@conciencia.org "
+"con tu email y nombre de tu idea/proyecto."
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:377
 #: xblock/static/js/src/lms/oa_response.js:571
