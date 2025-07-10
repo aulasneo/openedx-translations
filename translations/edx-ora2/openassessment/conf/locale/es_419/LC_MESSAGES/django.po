@@ -1640,7 +1640,7 @@ msgstr ""
 
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
-msgstr “Ingresa tu respuesta a la pregunta. Tus respuestas se guardarán "
+msgstr "Ingresa tu respuesta a la pregunta. Tus respuestas se guardarán "
 "automáticamente y podrás regresar para completar tu respuesta en cualquier "
 "momento antes de que finalice la etapa de ideación (jueves, 21 de agosto de 2025).“
 
