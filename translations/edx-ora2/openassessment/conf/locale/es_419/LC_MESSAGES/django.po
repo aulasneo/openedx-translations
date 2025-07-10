@@ -1199,7 +1199,7 @@ msgid ""
 msgstr ""
 "Ya has completado los pasos del formulario de idea, revisá que esté completo "
 "y el 24 de agosto anunciaremos los 50 finalistas que pasan a la etapa "
-" de cocreación!
+" de cocreación!"
 
 #: templates/legacy/message/oa_message_complete.html:10
 msgid ""
@@ -1642,7 +1642,7 @@ msgstr ""
 msgid "Enter your response to the prompt."
 msgstr "Ingresa tu respuesta a la pregunta. Tus respuestas se guardarán "
 "automáticamente y podrás regresar para completar tu respuesta en cualquier "
-"momento antes de que finalice la etapa de ideación (jueves, 21 de agosto de 2025).“
+"momento antes de que finalice la etapa de ideación (jueves, 21 de agosto de 2025)."
 
 #: templates/legacy/response/oa_response.html:92
 msgid ""
