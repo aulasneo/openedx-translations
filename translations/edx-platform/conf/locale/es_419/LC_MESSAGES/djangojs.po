@@ -238,21 +238,21 @@ msgstr "Su exportación ha fallado."
 
 #: cms/static/js/factories/manage_users.js:11
 msgid "Already a course team member"
-msgstr "Ya un miembro del equipo del curso."
+msgstr "Ya un miembro del equipo de la idea."
 
 #: cms/static/js/factories/manage_users.js:13
 msgid ""
 "Are you sure you want to delete {email} from the course team for "
 "“{container}”?"
 msgstr ""
-"¿Está seguro de que desea borrar {email} del equipo del curso  "
+"¿Está seguro de que desea borrar {email} del equipo de la idea  "
 "“{container}”?"
 
 #: cms/static/js/factories/manage_users.js:20
 #: cms/static/js/factories/manage_users_lib.js:22
 #: common/static/common/templates/discussion/templates.underscore:344
 msgid "Staff"
-msgstr "Equipo del curso"
+msgstr "Equipo de la idea"
 
 #: cms/static/js/factories/manage_users.js:20
 #: cms/static/js/factories/manage_users_lib.js:23
@@ -317,7 +317,7 @@ msgstr ""
 
 #: cms/static/js/features/import/factories/import.js:58
 msgid "There was an error while importing the new course to our database."
-msgstr "Ha habido un error importando el nuevo curso a nuestra base de datos."
+msgstr "Ha habido un error importando el nueva idea a nuestra base de datos."
 
 #: cms/static/js/features/import/factories/import.js:121
 msgid "Your import has failed."
@@ -331,7 +331,7 @@ msgstr ""
 
 #: cms/static/js/features/import/views/import.js:253
 msgid "Error importing course"
-msgstr "Error al importar el curso"
+msgstr "Error al importar a la idea"
 
 #: cms/static/js/features/import/views/import.js:298
 msgid "There was an error with the upload"
@@ -415,17 +415,17 @@ msgstr "Todos los equipos deben tener un nombre único."
 
 #: cms/static/js/models/settings/course_details.js:59
 msgid "The course must have an assigned start date."
-msgstr "El curso debe tener asignada una fecha de inicio."
+msgstr "a la idea debe tener asignada una fecha de inicio."
 
 #: cms/static/js/models/settings/course_details.js:63
 msgid "The course end date must be later than the course start date."
 msgstr ""
-"La fecha de finalización del curso debe ser posterior a la fecha de inicio."
+"La fecha de finalización de la idea debe ser posterior a la fecha de inicio."
 
 #: cms/static/js/models/settings/course_details.js:68
 msgid "The course start date must be later than the enrollment start date."
 msgstr ""
-"La fecha de inicio del curso debe ser posterior a la fecha de inicio de "
+"La fecha de inicio de la idea debe ser posterior a la fecha de inicio de "
 "inscripciones."
 
 #: cms/static/js/models/settings/course_details.js:74
@@ -438,13 +438,13 @@ msgstr ""
 msgid "The enrollment end date cannot be after the course end date."
 msgstr ""
 "La fecha de finalización de inscripciones no puede ser posterior a la fecha "
-"de finalización del curso."
+"de finalización de la idea."
 
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
 msgstr ""
 "La fecha disponible para el certificado debe ser más tarde que la fecha de "
-"terminación del curso."
+"terminación de la idea."
 
 #: cms/static/js/models/settings/course_details.js:94
 msgid "The certificate display behavior must be one of: {behavior_options}"
@@ -747,7 +747,7 @@ msgstr "Se produjeron algunos errores"
 #: cms/static/js/views/pages/container.js:325
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
-msgstr "Los siguientes archivos obligatorios no se pudieron agregar al curso:"
+msgstr "Los siguientes archivos obligatorios no se pudieron agregar a la idea:"
 
 #: cms/static/js/views/course_outline.js:402
 #: cms/static/js/views/pages/container.js:333
@@ -762,7 +762,7 @@ msgid ""
 "The following files already exist in this course but don't match the version"
 " used by the component you pasted:"
 msgstr ""
-"Los siguientes archivos ya existen en este curso, pero no coinciden con la "
+"Los siguientes archivos ya existen en esta idea, pero no coinciden con la "
 "versión utilizada por el componente que pegó:"
 
 #: cms/static/js/views/course_outline.js:414
@@ -775,7 +775,7 @@ msgstr "Nuevos archivos agregados a Archivos y cargas."
 #: cms/static/js/views/pages/container.js:347
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
-msgstr "Los siguientes archivos obligatorios no se pudieron agregar al curso:"
+msgstr "Los siguientes archivos obligatorios no se pudieron agregar a la idea:"
 
 #: cms/static/js/views/course_outline.js:421
 #: cms/static/js/views/pages/container.js:352
@@ -1179,7 +1179,7 @@ msgstr "Destacados por {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js:279
 msgid "Enable Course Highlight Emails"
-msgstr "Habilitar correos electrónicos destacados del curso "
+msgstr "Habilitar correos electrónicos destacados de la idea "
 
 #: cms/static/js/views/modals/course_outline_modals.js:297
 msgid "Enable"
@@ -1195,7 +1195,7 @@ msgstr "Compartir subsección {display_name}"
 
 #: cms/static/js/views/modals/course_outline_modals.js:973
 msgid "All Learners and Staff"
-msgstr "Todos los estudiantes y equipo del curso"
+msgstr "Todos los estudiantes y equipo de la idea"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -1335,7 +1335,7 @@ msgstr "Esta {parentCategory} no tiene {childCategory}"
 #: cms/templates/js/group-configuration-details.underscore:88
 #: cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
-msgstr "Estructura del curso"
+msgstr "Estructura de la idea"
 
 #: cms/static/js/views/paged_container.js:260
 msgid "Date added"
@@ -1404,11 +1404,11 @@ msgstr "Haciendo visible a los estudiantes"
 
 #: cms/static/js/views/pages/course_outline.js:248
 msgid "Course Index"
-msgstr "Indice de Curso"
+msgstr "Indice de Idea"
 
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
-msgstr "Hubo errores al reindexar el curso."
+msgstr "Hubo errores al reindexar a la idea."
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1490,9 +1490,9 @@ msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
 msgstr ""
-"Eliminar un video de esta lista no afecta el contenido del curso. Cualquier "
+"Eliminar un video de esta lista no afecta el contenido de la idea. Cualquier "
 "contenido que use un ID de un video cargado con anterioridad se seguirá "
-"mostrando en el curso."
+"mostrando en a la idea."
 
 #: cms/static/js/views/previous_video_upload.js:81
 #: cms/static/js/views/video/translations_editor.js:177
@@ -1531,17 +1531,17 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:62
 msgid "Course Credit Requirements"
-msgstr "Requerimientos de créditos para el curso"
+msgstr "Requerimientos de créditos para a la idea"
 
 #: cms/static/js/views/settings/main.js:63
 msgid "The minimum grade for course credit is not set."
 msgstr ""
-"La calificación mínima para obtener créditos por el curso no está definida."
+"La calificación mínima para obtener créditos por a la idea no está definida."
 
 #: cms/static/js/views/settings/main.js:155
 msgid "Course pacing cannot be changed once a course has started."
 msgstr ""
-"El ritmo del curso no puede ser modificado una vez que el curso haya "
+"El ritmo de la idea no puede ser modificado una vez que a la idea haya "
 "iniciado."
 
 #: cms/static/js/views/settings/main.js:223
@@ -1550,7 +1550,7 @@ msgstr "{hours}:{minutes} (hora UTC actual)"
 
 #: cms/static/js/views/settings/main.js:460
 msgid "Upload your course image."
-msgstr "Cargar la imagen para su curso"
+msgstr "Cargar la imagen para su idea"
 
 #: cms/static/js/views/settings/main.js:466
 msgid "Upload your banner image."
@@ -1570,7 +1570,7 @@ msgid ""
 " your courseware's navigation will also be removed."
 msgstr ""
 "El borrado de un libro de texto no se puede deshacer y una vez borrado, "
-"cualquier referencia al mismo en la navegación del curso será eliminada."
+"cualquier referencia al mismo en la navegación de la idea será eliminada."
 
 #: cms/static/js/views/tabs.js:160
 msgid "Delete Page Confirmation"
@@ -1598,8 +1598,8 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-"La duración combinada de los campos de organización, número de curso y "
-"ejecución del curso no puede ser superior a <%- limit %> carácteres."
+"La duración combinada de los campos de organización, número de idea y "
+"ejecución de la idea no puede ser superior a <%- limit %> carácteres."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
@@ -2477,19 +2477,19 @@ msgstr "Remover archivo"
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:17
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:43
 msgid "Course Name"
-msgstr "Título del curso"
+msgstr "Título de la idea"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:20
 msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
 msgstr ""
-"Para preguntas sobre ejercicios, calificaciones o estructura de un curso "
-"específico, por favor publica tu pregunta en el foro de discusión del curso."
+"Para preguntas sobre ejercicios, calificaciones o estructura de un idea "
+"específico, por favor publica tu pregunta en el foro de discusión de la idea."
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:30
 msgid "Not specific to a course"
-msgstr "No específico para un curso"
+msgstr "No específico para un idea"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
 #: lms/static/js/instructor_dashboard/util.js:200
@@ -2516,7 +2516,7 @@ msgstr "Certificados"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
 msgid "Course Content"
-msgstr "Contenidos del curso"
+msgstr "Contenidos de la idea"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:57
 msgid "Deadlines"
@@ -2545,7 +2545,7 @@ msgstr "Otro"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:73
 msgid "Course Discussion Forum"
-msgstr "Foro de discusión del curso"
+msgstr "Foro de discusión de la idea"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:90
 msgid ""
@@ -2555,10 +2555,10 @@ msgid ""
 "within the Discussion Forum where the Course Staff can directly respond."
 msgstr ""
 "Si bien nuestro equipo de soporte está encantado de ayudar con la plataforma"
-" edX, el personal del curso tiene la experiencia para preguntas específicas "
-"del curso, calificación o los procedimientos adecuados en cada curso. "
-"Publique todas las preguntas relacionadas con el curso en el Foro de "
-"discusión donde el personal del curso pueda responder directamente."
+" edX, el personal de la idea tiene la experiencia para preguntas específicas "
+"de la idea, calificación o los procedimientos adecuados en cada idea. "
+"Publique todas las preguntas relacionadas con a la idea en el Foro de "
+"discusión donde el personal de la idea pueda responder directamente."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:15
 msgid "Sign in to {platform} so we can help you better."
@@ -2569,7 +2569,7 @@ msgid ""
 "Select a course or select \"Not specific to a course\" for your support "
 "request."
 msgstr ""
-"Seleccione un curso o seleccione \"No específico para un curso\" para su "
+"Seleccione un idea o seleccione \"No específico para un idea\" para su "
 "solicitud de soporte."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:48
@@ -2924,7 +2924,7 @@ msgid ""
 "are interested in the same topic as you are."
 msgstr ""
 "Vea todos los equipos a los que pertenece y todos los equipos públicos en su"
-" curso, organizados por tema. Únase a un equipo público abierto para "
+" idea, organizados por tema. Únase a un equipo público abierto para "
 "colaborar con otros estudiantes interesados en el mismo tema que usted."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:545
@@ -2933,7 +2933,7 @@ msgid ""
 "by topic."
 msgstr ""
 "Vea todos los equipos a los que pertenece y todos los equipos públicos en su"
-" curso, organizados por tema."
+" idea, organizados por tema."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:549
 msgid "See all teams you belong to."
@@ -3313,19 +3313,19 @@ msgstr ""
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
 msgid " learners already appear on the exception list in this course"
 msgstr ""
-"estudiantes ya aparecen registrados en la lista de excepción de este curso"
+"estudiantes ya aparecen registrados en la lista de excepción de esta idea"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
 msgid " learner already appears on the exception list in this course"
 msgstr ""
-"estudiante ya aparece registrado en la lista de excepción de este curso"
+"estudiante ya aparece registrado en la lista de excepción de esta idea"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:134
 msgid ""
 " learners are not enrolled in this course and have not added to the "
 "exception list"
 msgstr ""
-"estudiantes no están inscritos en el curso y no se añadieron a la lista de "
+"estudiantes no están inscritos en a la idea y no se añadieron a la lista de "
 "excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:136
@@ -3333,7 +3333,7 @@ msgid ""
 " learner is not enrolled in this course and has not been added to the "
 "exception list"
 msgstr ""
-"estudiante no está inscrito en el curso y no se añadió a la lista de "
+"estudiante no está inscrito en a la idea y no se añadió a la lista de "
 "excepciones"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:142
@@ -3341,7 +3341,7 @@ msgid ""
 " learners have an active certificate invalidation in this course and have "
 "not been added to the exception list"
 msgstr ""
-"estudiantes tienen una invalidación de certificado activa en este curso y "
+"estudiantes tienen una invalidación de certificado activa en esta idea y "
 "por lo tanto no han sido añadidos a la lista de excepción"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
@@ -3349,7 +3349,7 @@ msgid ""
 " learner has an active certificate invalidation in this course and has not "
 "been added to the exception list"
 msgstr ""
-"estudiante tiene una invalidación de certificado activa en este curso y por "
+"estudiante tiene una invalidación de certificado activa en esta idea y por "
 "lo tanto no ha sido añadido a la lista de excepción"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
@@ -3449,13 +3449,13 @@ msgid ""
 "Are you sure you want to unenroll from the purchased course {courseName} "
 "({courseNumber})?"
 msgstr ""
-"¿Seguro que quieres cancelar tu inscripción al curso pagado {courseName} "
+"¿Seguro que quieres cancelar tu inscripción a la idea pagado {courseName} "
 "({courseNumber})?"
 
 #: lms/static/js/dashboard/legacy.js:100
 msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
 msgstr ""
-"¿Seguro que quieres cancelar tu inscripción al curso {courseName} "
+"¿Seguro que quieres cancelar tu inscripción a la idea {courseName} "
 "({courseNumber})?"
 
 #: lms/static/js/dashboard/legacy.js:103 lms/static/js/dashboard/legacy.js:106
@@ -3479,7 +3479,7 @@ msgid ""
 "The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
-"Tu fecha límite para devolución en este curso ha pasado, por lo que no "
+"Tu fecha límite para devolución en esta idea ha pasado, por lo que no "
 "recibirás una devolución."
 
 #: lms/static/js/dashboard/legacy.js:190 lms/static/js/dashboard/legacy.js:200
@@ -3495,9 +3495,9 @@ msgstr ""
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "Viendo el curso %s"
-msgstr[1] "Ver cursos %s"
-msgstr[2] "Ver cursos %s"
+msgstr[0] "Viendo a la idea %s"
+msgstr[1] "Ver ideas %s"
+msgstr[2] "Ver ideas %s"
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
@@ -3555,7 +3555,7 @@ msgstr ""
 
 #: lms/static/js/discussions_management/views/discussions.js:182
 msgid "Discussion topics in the course are not divided."
-msgstr "Temas de discusión en el curso no son divididos."
+msgstr "Temas de discusión en a la idea no son divididos."
 
 #: lms/static/js/discussions_management/views/discussions.js:185
 msgid "Any divided discussion topics are divided based on enrollment track."
@@ -3620,7 +3620,7 @@ msgstr "Pestaña actual"
 
 #: lms/static/js/edxnotes/views/tabs/course_structure.js:52
 msgid "Location in Course"
-msgstr "Ubicación en el curso"
+msgstr "Ubicación en a la idea"
 
 #: lms/static/js/edxnotes/views/tabs/recent_activity.js:30
 msgid "Recent Activity"
@@ -3723,15 +3723,15 @@ msgid_plural ""
 "will automatically be added to the cohort when they enroll in the course."
 msgstr[0] ""
 "El alumno {numPreassigned} fue preasignado para esta cohorte. Este alumno se"
-" agregará automáticamente a la cohorte cuando se inscriba en el curso."
+" agregará automáticamente a la cohorte cuando se inscriba en a la idea."
 msgstr[1] ""
 "{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos "
 "alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el "
-"curso."
+"idea."
 msgstr[2] ""
 "{numPreassigned} los alumnos fueron preasignados para esta cohorte. Estos "
 "alumnos se agregarán automáticamente a la cohorte cuando se inscriban en el "
-"curso."
+"idea."
 
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
@@ -3766,7 +3766,7 @@ msgstr "No has seleccionado el contenido del grupo"
 
 #: lms/static/js/groups/views/cohort_form.js:115
 msgid "The selected content group does not exist"
-msgstr "No existe contenido para el curso seleccionado"
+msgstr "No existe contenido para a la idea seleccionado"
 
 #: lms/static/js/groups/views/cohort_form.js:143
 msgid "The cohort cannot be saved"
@@ -3826,17 +3826,17 @@ msgstr "Cohortes deshabilitados"
 
 #: lms/static/js/instructor_dashboard/certificates.js:20
 msgid "Allow students to generate certificates for this course?"
-msgstr "¿Permitir a los estudiantes generar certificados para este curso ?"
+msgstr "¿Permitir a los estudiantes generar certificados para esta idea ?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:22
 msgid "Prevent students from generating certificates in this course?"
-msgstr "¿Evitar que estudiantes generen certificados para este curso ?"
+msgstr "¿Evitar que estudiantes generen certificados para esta idea ?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:45
 msgid "Start generating certificates for all students in this course?"
 msgstr ""
 "¿Comenzar a generar los certificados para todos los estudiantes de este "
-"curso?"
+"idea?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:61
 msgid "Error while generating certificates. Please try again."
@@ -3844,7 +3844,7 @@ msgstr "Error al generar los certificados. Por favor intenta nuevamente."
 
 #: lms/static/js/instructor_dashboard/certificates.js:71
 msgid "Start regenerating certificates for students in this course?"
-msgstr "¿Iniciar regeneración de certificados para estudiantes de este curso?"
+msgstr "¿Iniciar regeneración de certificados para estudiantes de esta idea?"
 
 #: lms/static/js/instructor_dashboard/certificates.js:98
 msgid "Error while regenerating certificates. Please try again."
@@ -3900,7 +3900,7 @@ msgstr "Error al obtener la lista de estudiantes."
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
-"Error al generar la lista de estudiantes que pueden inscribirse al curso. "
+"Error al generar la lista de estudiantes que pueden inscribirse a la idea. "
 "Por favor inténtalo nuevamente."
 
 #: lms/static/js/instructor_dashboard/data_download.js:333
@@ -4155,18 +4155,18 @@ msgid ""
 "course:"
 msgstr ""
 "Los correos electrónicos fueron enviados exitósamente. Los siguientes "
-"usuarios ya no están inscritos en el curso:"
+"usuarios ya no están inscritos en a la idea:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:852
 msgid "The following users are no longer enrolled in the course:"
-msgstr "Los siguientes usuarios ya no están inscritos en el curso:"
+msgstr "Los siguientes usuarios ya no están inscritos en a la idea:"
 
 #: lms/static/js/instructor_dashboard/membership.js:863
 msgid ""
 "These users were not affiliated with the course so could not be unenrolled:"
 msgstr ""
-"Estos usuarios no estaban vinculados con el curso, por lo que no pudieron "
+"Estos usuarios no estaban vinculados con a la idea, por lo que no pudieron "
 "ser retirados:"
 
 #: lms/static/js/instructor_dashboard/send_email.js:68
@@ -4195,11 +4195,11 @@ msgstr "Tu mismo"
 
 #: lms/static/js/instructor_dashboard/send_email.js:87
 msgid "Everyone who has staff privileges in this course"
-msgstr "todos los usuarios con rol de funcionario para este curso"
+msgstr "todos los usuarios con rol de funcionario para esta idea"
 
 #: lms/static/js/instructor_dashboard/send_email.js:89
 msgid "All learners who are enrolled in this course"
-msgstr "Todos los estudiantes que están inscritos en el curso"
+msgstr "Todos los estudiantes que están inscritos en a la idea"
 
 #: lms/static/js/instructor_dashboard/send_email.js:91
 msgid "All learners in the {cohort_name} cohort"
@@ -4215,7 +4215,7 @@ msgid ""
 "large number of learners, email messages to learners might take up to an "
 "hour to be sent."
 msgstr ""
-"Tu mensaje fue procesado con éxito para ser enviado. En cursos con muchos "
+"Tu mensaje fue procesado con éxito para ser enviado. En ideas con muchos "
 "estudiantes, podría requerirse hasta una hora para que el mensaje sea "
 "enviado."
 
@@ -4238,19 +4238,19 @@ msgstr "Error enviando el correo electrónico."
 #: lms/static/js/instructor_dashboard/send_email.js:143
 #: lms/static/js/instructor_dashboard/send_email.js:171
 msgid "There is no email history for this course."
-msgstr "No hay historial de correos electrónicos para este curso."
+msgstr "No hay historial de correos electrónicos para esta idea."
 
 #: lms/static/js/instructor_dashboard/send_email.js:152
 msgid "There was an error obtaining email task history for this course."
 msgstr ""
 "Ocurrió un error obteniendo el historial de tareas de correo para este "
-"curso."
+"idea."
 
 #: lms/static/js/instructor_dashboard/send_email.js:180
 msgid "There was an error obtaining email content history for this course."
 msgstr ""
 "Ocurrió un error obteniendo el historial de correos electrónicos para este "
-"curso."
+"idea."
 
 #: lms/static/js/instructor_dashboard/send_email.js:207
 msgid "Send to:"
@@ -4653,7 +4653,7 @@ msgid ""
 "To access the courses available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
 msgstr ""
-"Para acceder a los cursos que tienes disponible en {enterpriseName}, visita "
+"Para acceder a los ideas que tienes disponible en {enterpriseName}, visita "
 "el panel de control de {enterpriseName}."
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:160
@@ -4690,7 +4690,7 @@ msgstr "Termina {end}"
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:220
 msgid "You must select a session to access the course."
-msgstr "Debe seleccionar una sesión para acceder al curso."
+msgstr "Debe seleccionar una sesión para acceder a la idea."
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:247
 msgid "There was an error. Please reload the page and try again."
@@ -4723,7 +4723,7 @@ msgstr "¿Está seguro de que quiere cambiar a una sesión diferente?"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
 msgid "Any course progress or grades from your current session will be lost."
 msgstr ""
-"Se perderá cualquier calificación o progreso del curso en la sesión actual. "
+"Se perderá cualquier calificación o progreso de la idea en la sesión actual. "
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
 msgid "Are you sure that you want to leave this session?"
@@ -4733,7 +4733,7 @@ msgstr "¿ Está seguro de que quiere salir de esta sesión?"
 msgid ""
 "Your unenrollment request could not be processed. Please try again later."
 msgstr ""
-"Su solicitud de cancelar la inscripción del curso no pudo ser procesada. Por"
+"Su solicitud de cancelar la inscripción de la idea no pudo ser procesada. Por"
 " favor intente de nuevo."
 
 #: lms/static/js/learner_dashboard/views/entitlement_unenrollment_view.js:118
@@ -4741,7 +4741,7 @@ msgid ""
 "Are you sure you want to unenroll from {courseName} ({courseNumber})? You "
 "will be refunded the amount you paid."
 msgstr ""
-"¿ Está seguro que quiere cancelar la inscripción del curso {courseName} "
+"¿ Está seguro que quiere cancelar la inscripción de la idea {courseName} "
 "({courseNumber})? Se reembolsará el dinero que pagó."
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:62
@@ -4890,7 +4890,7 @@ msgid ""
 "Once your account is deleted, you cannot use it to take courses on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
 msgstr ""
-"Una vez tu cuenta es borrada, no podrás usarla ni tomar cursos en la app "
+"Una vez tu cuenta es borrada, no podrás usarla ni tomar ideas en la app "
 "{platformName}, {siteName}, ni en cualquier otro sitio de {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:95
@@ -4951,7 +4951,7 @@ msgid ""
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
 msgstr ""
-"Si procedes, no podrás usarla ni tomar cursos en la app {platformName}, "
+"Si procedes, no podrás usarla ni tomar ideas en la app {platformName}, "
 "{siteName}, ni en cualquier otro sitio de {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:172
@@ -4992,15 +4992,15 @@ msgstr "Guardando tus preferencias de correo electrónico"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
-msgstr "Inscribiéndote en el curso seleccionado"
+msgstr "Inscribiéndote en a la idea seleccionado"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
-msgstr "Añadiendo el curso seleccionado a tu carrito de compras"
+msgstr "Añadiendo a la idea seleccionado a tu carrito de compras"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
-msgstr "Cargando tus cursos"
+msgstr "Cargando tus ideas"
 
 #: lms/static/js/student_account/views/FormView.js:20
 #: lms/static/js/student_account/views/RegisterView.js:150
@@ -5125,7 +5125,7 @@ msgstr "Dirección de correo electrónico (ingresar)"
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr ""
-"Recibe mensajes de {platform_name} y equipos del curso en esta dirección."
+"Recibe mensajes de {platform_name} y equipos de la idea en esta dirección."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:95
 msgid "Recovery Email Address"
@@ -5208,8 +5208,8 @@ msgid ""
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr ""
-"Selecciona la zona horaria para exponer las fechas del curso. Si no "
-"especificas una zona horaria, las fechas del curso, incluidas las fechas "
+"Selecciona la zona horaria para exponer las fechas de la idea. Si no "
+"especificas una zona horaria, las fechas de la idea, incluidas las fechas "
 "límites de tareas, serán expuestas en la zona horaria local de tu navegador."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:205
@@ -5605,15 +5605,15 @@ msgstr "MB"
 
 #: lms/static/lms/js/preview/preview_factory.js:13
 msgid "Course is not yet visible to students."
-msgstr "El curso aún no está visible para los estudiantes."
+msgstr "a la idea aún no está visible para los estudiantes."
 
 #: lms/static/lms/js/preview/preview_factory.js:24
 msgid ""
 "You cannot view the course as a student or beta tester before the course "
 "release date."
 msgstr ""
-"No se puede ver el curso como estudiante ni como usuario de prueba antes de "
-"la fecha de lanzamiento del curso."
+"No se puede ver a la idea como estudiante ni como usuario de prueba antes de "
+"la fecha de lanzamiento de la idea."
 
 #: lms/templates/courseware/progress_graph.js:294
 msgid "Overall Score"
@@ -5680,7 +5680,7 @@ msgid ""
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
 "Comparte con otros usuarios algo sobre ti: donde vives, cuales son tus "
-"intereses, porque estás tomando estos cursos, o cuales son tus expectativas "
+"intereses, porque estás tomando estos ideas, o cuales son tus expectativas "
 "de aprendizaje."
 
 #: openedx/features/learner_profile/static/learner_profile/js/views/learner_profile_fields.js:38
@@ -7173,7 +7173,7 @@ msgid ""
 "SequenceModule. Please contact the course staff."
 msgstr ""
 "¡Error de secuencia! No se ha podido navegar a %(tab_name)s en el actual "
-"SequenceModule. Por favor contacta al equipo del curso."
+"SequenceModule. Por favor contacta al equipo de la idea."
 
 #: xmodule/js/src/video/00_i18n.js:15
 #: xmodule/js/src/video/09_play_pause_control.js:30
@@ -7523,7 +7523,7 @@ msgstr "Descontinuado"
 
 #: cms/templates/js/asset-library.underscore:5
 msgid "List of uploaded files and assets in this course"
-msgstr "Lista de archivos y recursos cargados en este curso"
+msgstr "Lista de archivos y recursos cargados en esta idea"
 
 #: cms/templates/js/asset-library.underscore:20
 #: cms/templates/js/asset-library.underscore:53
@@ -7544,7 +7544,7 @@ msgstr "Acciones"
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "You haven't added any assets to this course yet."
-msgstr "No ha añadido aún ningún recurso a este curso."
+msgstr "No ha añadido aún ningún recurso a esta idea."
 
 #: cms/templates/js/asset-library.underscore:67
 msgid "Upload your first asset"
@@ -7596,20 +7596,20 @@ msgstr "Detalles del certificado"
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
 msgid "Course Title"
-msgstr "Título del curso"
+msgstr "Título de la idea"
 
 #: cms/templates/js/certificate-details.underscore:28
 #: cms/templates/js/certificate-editor.underscore:30
 msgid "Course Title Override"
-msgstr "Reemplazo para el título del curso"
+msgstr "Reemplazo para el título de la idea"
 
 #: cms/templates/js/certificate-details.underscore:36
 msgid "Course Number"
-msgstr "Código del curso"
+msgstr "Código de la idea"
 
 #: cms/templates/js/certificate-details.underscore:42
 msgid "Course Number Override"
-msgstr "Reemplazo para el número de curso"
+msgstr "Reemplazo para el número de idea"
 
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
@@ -7647,15 +7647,15 @@ msgstr "Descripción del certificado"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
-msgstr "Título del curso"
+msgstr "Título de la idea"
 
 #: cms/templates/js/certificate-editor.underscore:32
 msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
 msgstr ""
-"Especificar una alternativa al título oficial del curso para ser visualizado"
-" en los certificados. Dejar vacío para utilizar el título oficial del curso."
+"Especificar una alternativa al título oficial de la idea para ser visualizado"
+" en los certificados. Dejar vacío para utilizar el título oficial de la idea."
 
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
@@ -7761,7 +7761,7 @@ msgid ""
 "After the course\\'s end date has passed, learners can no longer access "
 "subsection content. The subsection remains included in grade calculations."
 msgstr ""
-"Después que la fecha de caducidad del curso haya pasado, los estudiantes ya "
+"Después que la fecha de caducidad de la idea haya pasado, los estudiantes ya "
 "no pueden acceder a las subsección del contenido. La subsección permanece "
 "incluida en el cálculo del grado."
 
@@ -7783,7 +7783,7 @@ msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
 msgstr ""
-"Los estudiantes no ven la subsección en el esquema del curso. La subsección "
+"Los estudiantes no ven la subsección en el esquema de la idea. La subsección "
 "no se incluye en los cálculos de calificaciones."
 
 #: cms/templates/js/content-visibility-editor.underscore:42
@@ -7803,7 +7803,7 @@ msgstr "Copiar la ubicación del Componente"
 
 #: cms/templates/js/course-highlights-enable.underscore:3
 msgid "Course Highlight Emails"
-msgstr "Correos destacados del curso"
+msgstr "Correos destacados de la idea"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
@@ -7880,7 +7880,7 @@ msgstr "Subir foto"
 
 #: cms/templates/js/course-manage-tags.underscore:3
 msgid "Course tags"
-msgstr "Etiquetas del curso"
+msgstr "Etiquetas de la idea"
 
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
@@ -7894,14 +7894,14 @@ msgstr "Prerrequisito: %(prereq_display_name)s "
 
 #: cms/templates/js/course-outline.underscore:56
 msgid "Contains staff only content"
-msgstr "Contiene solo contenido del equipo del curso"
+msgstr "Contiene solo contenido del equipo de la idea"
 
 #: cms/templates/js/course-outline.underscore:60
 msgid ""
 "Hidden in the course outline, but sections are accessible for your learners "
 "through their separate link."
 msgstr ""
-"Oculto en el esquema del curso, pero los alumnos pueden acceder a las "
+"Oculto en el esquema de la idea, pero los alumnos pueden acceder a las "
 "secciones a través de su enlace separado."
 
 #: cms/templates/js/course-outline.underscore:63
@@ -8044,7 +8044,7 @@ msgstr "Fecha de entrega:"
 #: cms/templates/js/course-outline.underscore:410
 msgid "Subsection is hidden after course end date"
 msgstr ""
-"La subsección está oculta después de la fecha de terminación del curso."
+"La subsección está oculta después de la fecha de terminación de la idea."
 
 #: cms/templates/js/course-outline.underscore:412
 msgid "Subsection is hidden after due date"
@@ -8066,7 +8066,7 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
-msgstr "Todavía no ha añadido ningún contenido a este curso."
+msgstr "Todavía no ha añadido ningún contenido a esta idea."
 
 #: cms/templates/js/course-outline.underscore:461
 #: cms/templates/js/course-outline.underscore:482
@@ -8119,15 +8119,15 @@ msgstr "Seleccione descartar cambios para descartar los cambios realizados"
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
 msgid "Press update settings to update course video settings"
 msgstr ""
-"Seleccione actualizar ajustes para actualizar los ajustes de vídeo del curso"
+"Seleccione actualizar ajustes para actualizar los ajustes de vídeo de la idea"
 
 #: cms/templates/js/course-video-settings.underscore:7
 msgid "Press close to hide course video settings"
-msgstr "Seleccione cerrar para ocultar los ajustes de vídeo del curso"
+msgstr "Seleccione cerrar para ocultar los ajustes de vídeo de la idea"
 
 #: cms/templates/js/course-video-settings.underscore:13
 msgid "Course Video Settings"
-msgstr "Ajustes de vídeo del curso"
+msgstr "Ajustes de vídeo de la idea"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:3
 msgid "Video Sharing"
@@ -8227,7 +8227,7 @@ msgid ""
 "The number of subsections in the course that contain problems of this "
 "assignment type."
 msgstr ""
-"El número de subdivisiones del curso que contiene problemas de este tipo de "
+"El número de subdivisiones de la idea que contiene problemas de este tipo de "
 "asignación."
 
 #: cms/templates/js/course_grade_policy.underscore:27
@@ -8253,11 +8253,11 @@ msgid ""
 "number of {type} assignments in the course:"
 msgstr ""
 "El número de tareas {type} definido aquí no coincide con el número actual de"
-" tareas {type} en el curso:"
+" tareas {type} en a la idea:"
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
-msgstr "No hay tareas de este tipo en el curso."
+msgstr "No hay tareas de este tipo en a la idea."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 msgid "{assignment_count} {type} assignment(s) found:"
@@ -8268,12 +8268,12 @@ msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
 msgstr ""
-"El número de asignaciones {type} en el curso coincide con el número definido"
+"El número de asignaciones {type} en a la idea coincide con el número definido"
 " aquí."
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
-msgstr "Materiales del curso"
+msgstr "Materiales de la idea"
 
 #: cms/templates/js/course_info_handouts.underscore:9
 msgid "You have no handouts defined"
@@ -8342,7 +8342,7 @@ msgstr "Ingrese el título / nombre del capítulo que se usará"
 
 #: cms/templates/js/edit-chapter.underscore:9
 msgid "Chapter Asset"
-msgstr "Recursos del capítulo"
+msgstr "recursos del capítulo"
 
 #: cms/templates/js/edit-chapter.underscore:10
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
@@ -8446,7 +8446,7 @@ msgid ""
 msgstr ""
 "Esta Configuración de grupo no está en uso. Comience añadiendo contenido "
 "experimental a cualquier Unidad a través de la {linkStart}Estructura del "
-"curso{linkEnd}."
+"idea{linkEnd}."
 
 #: cms/templates/js/group-configuration-editor.underscore:9
 msgid "Group Configuration information"
@@ -8547,7 +8547,7 @@ msgid ""
 "The following message will be displayed at the bottom of the courseware "
 "pages within your course:"
 msgstr ""
-"El siguiente mensaje será mostrado al final de las páginas de los cursos. "
+"El siguiente mensaje será mostrado al final de las páginas de los ideas. "
 
 #: cms/templates/js/license-selector.underscore:101
 msgid "Creative Commons licensed content, with terms as follow:"
@@ -8609,7 +8609,7 @@ msgstr "Seleccionado actualmente"
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "You haven't added any textbooks to this course yet."
-msgstr "No ha añadido aún ningún libro de texto a este curso."
+msgstr "No ha añadido aún ningún libro de texto a esta idea."
 
 #: cms/templates/js/no-textbooks.underscore:2
 msgid "Add your first textbook"
@@ -8630,7 +8630,7 @@ msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
 msgstr ""
-"En el {linkStart}perfil del curso{linkEnd}, usa este grupo para tener "
+"En el {linkStart}perfil de la idea{linkEnd}, usa este grupo para tener "
 "control de acceso a este componente."
 
 #: cms/templates/js/previous-video-upload-list.underscore:2
@@ -8693,7 +8693,7 @@ msgstr "Borrador (Nunca publicado)"
 
 #: cms/templates/js/publish-xblock.underscore:4
 msgid "Visible to Staff Only"
-msgstr "Visible solo para el equipo del curso"
+msgstr "Visible solo para el equipo de la idea"
 
 #: cms/templates/js/publish-xblock.underscore:6
 msgid "Published and Live"
@@ -8746,7 +8746,7 @@ msgstr "Será visible para:"
 
 #: cms/templates/js/publish-xblock.underscore:88
 msgid "Staff Only"
-msgstr "Solo equipo del curso"
+msgstr "Solo equipo de la idea"
 
 #: cms/templates/js/publish-xblock.underscore:92
 #, python-format
@@ -8965,7 +8965,7 @@ msgstr ""
 
 #: cms/templates/js/staff-lock-editor.underscore:22
 msgid "Hide in Course Outline, accessible via Link"
-msgstr "Ocultar en el esquema del curso, accesible a través de un enlace"
+msgstr "Ocultar en el esquema de la idea, accesible a través de un enlace"
 
 #: cms/templates/js/staff-lock-editor.underscore:24
 msgid ""
@@ -8989,7 +8989,7 @@ msgid ""
 "staff can view its contents."
 msgstr ""
 "Está intencionalmente oculto a los alumnos, lo que garantiza que solo el "
-"personal del curso pueda ver su contenido."
+"personal de la idea pueda ver su contenido."
 
 #: cms/templates/js/staff-lock-editor.underscore:45
 msgid ""
@@ -9255,7 +9255,7 @@ msgid ""
 "course settings:"
 msgstr ""
 "Por favor revisa la retroalimentación de validación y reflejalo en tu "
-"configuración de curso."
+"configuración de idea."
 
 #: cms/templates/js/verification-access-editor.underscore:3
 msgid "Verification Checkpoint"
@@ -9314,7 +9314,7 @@ msgid ""
 "You have done a dry run of force publishing the course. Nothing has changed."
 " Had you run it, the following course versions would have been change."
 msgstr ""
-"Ha corrido un simulacro de publicación del curso. No han habido cambios. Si "
+"Ha corrido un simulacro de publicación de la idea. No han habido cambios. Si "
 "lo hubiera hecho realmente, las siguientes versiones habrían tenido cambios."
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
@@ -9743,7 +9743,7 @@ msgstr "sigue esta publicación"
 
 #: common/static/common/templates/discussion/templates.underscore:483
 msgid "post anonymously to classmates"
-msgstr "publica anónimamente a tus compañeros de curso"
+msgstr "publica anónimamente a tus compañeros de idea"
 
 #: common/static/common/templates/discussion/templates.underscore:507
 msgid "Error posting your message."
@@ -9774,7 +9774,7 @@ msgstr "(Profesor ayudante de la comunidad)"
 
 #: common/static/common/templates/discussion/templates.underscore:550
 msgid "(Staff)"
-msgstr "(Equipo del curso)"
+msgstr "(Equipo de la idea)"
 
 #: common/static/common/templates/discussion/templates.underscore:572
 #: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:6
@@ -9932,7 +9932,7 @@ msgstr "nombre de usuario o correo electrónico"
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:17
 msgid "course id"
-msgstr "Id de Curso"
+msgstr "Id de idea"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:2
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:16
@@ -9942,7 +9942,7 @@ msgstr "Sin resultados"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
 msgid "Course Key"
-msgstr "Llave del curso"
+msgstr "Llave de la idea"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
 msgid "Status"
@@ -10004,15 +10004,15 @@ msgstr "Nombre de usuario o  correo electrónico"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:20
 msgid "Course ID"
-msgstr "Id de Curso"
+msgstr "Id de idea"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:21
 msgid "Course Start"
-msgstr "Inicio del Curso"
+msgstr "Inicio de la idea"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:22
 msgid "Course End"
-msgstr "Finalización del curso"
+msgstr "Finalización de la idea"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:23
 msgid "Upgrade Deadline"
@@ -10194,7 +10194,7 @@ msgstr ""
 
 #: lms/templates/api_admin/catalog-results.underscore:1
 msgid "This catalog's courses:"
-msgstr "Los cursos de este catálogo:"
+msgstr "Los ideas de este catálogo:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
@@ -10682,7 +10682,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
 msgid "Only the parent course staff of a CCX can create content groups."
 msgstr ""
-"Sólo el personal del curso principal de un CCX puede crear grupos de "
+"Sólo el personal de la idea principal de un CCX puede crear grupos de "
 "contenido."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
@@ -10747,7 +10747,7 @@ msgid ""
 msgstr ""
 "Para revisar asiginaciones de cohortes de los estudiantes o ver los "
 "resultados del archivo CVS que está subiendo, descargue la información del "
-"perfil del curso o los resultados del cohorte en la página {link_start}Data "
+"perfil de la idea o los resultados del cohorte en la página {link_start}Data "
 "Download{link_end}."
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
@@ -10756,11 +10756,11 @@ msgstr "Especifique si los temas de la discusión están divididos"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
 msgid "Course-Wide Discussion Topics"
-msgstr "Temas de discusión de todo el curso"
+msgstr "Temas de discusión de todo a la idea"
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
 msgid "Select the course-wide discussion topics that you want to divide."
-msgstr "Seleccione los temas de discusión del curso que desea dividir."
+msgstr "Seleccione los temas de discusión de la idea que desea dividir."
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
 msgid "Content-Specific Discussion Topics"
@@ -10769,7 +10769,7 @@ msgstr "Temas de discusión específicos al contenido"
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
 msgid "Specify whether content-specific discussion topics are divided."
 msgstr ""
-"Especifique si los contenidos específicos de la discusión del curso están "
+"Especifique si los contenidos específicos de la discusión de la idea están "
 "divididos."
 
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
@@ -10810,7 +10810,7 @@ msgstr "Cambia o abandona la edición"
 msgid "You must select a session by {expiration_date} to access the course."
 msgstr ""
 "Debes seleccionar una edición antes de {expiration_date} para acceder al "
-"curso."
+"idea."
 
 #: lms/templates/learner_dashboard/course_card.underscore:33
 msgid "You can no longer change sessions."
@@ -10822,11 +10822,11 @@ msgstr "Puede cambiar ediciones hasta {expiration_date}."
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:5
 msgid "View Archived Course"
-msgstr "Ver curso archivado"
+msgstr "Ver idea archivado"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:7
 msgid "View Course"
-msgstr "Ver curso"
+msgstr "Ver idea"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:15
 msgid "Select a session:"
@@ -10859,11 +10859,11 @@ msgstr "Cambiar a una sesión diferente o salir de la sección actual."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:9
 msgid "To access the course, select a session."
-msgstr "Para acceder al curso selecciona una edición."
+msgstr "Para acceder a la idea selecciona una edición."
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:15
 msgid "Session Selection Dropdown for {courseName}"
-msgstr "Menú desplegable para seleccionar la edición del curso {courseName}"
+msgstr "Menú desplegable para seleccionar la edición de la idea {courseName}"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:19
 msgid "{sessionDates} - Currently Selected"
@@ -10894,7 +10894,7 @@ msgid ""
 "Browse recently launched courses and see what\\'s new in your favorite "
 "subjects"
 msgstr ""
-"Echa un vistazo a nuestros cursos lanzados recientemente y qué hay de nuevo "
+"Echa un vistazo a nuestros ideas lanzados recientemente y qué hay de nuevo "
 "en tus temas favoritos."
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
@@ -10907,9 +10907,9 @@ msgstr "Explorar nuevos programas"
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] "Curso"
-msgstr[1] "Cursos"
-msgstr[2] "Cursos"
+msgstr[0] "idea"
+msgstr[1] "ideas"
+msgstr[2] "ideas"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -10996,14 +10996,14 @@ msgid ""
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
 msgstr ""
-"Supervisa y planifica tu progreso con los %(count)s cursos de este programa."
+"Supervisa y planifica tu progreso con los %(count)s ideas de este programa."
 " Para completar el programa, debes obtener un certificado verificado para "
-"cada curso."
+"cada idea."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
 msgid "Upgrade All Remaining Courses ("
-msgstr "Actualizar los cursos restantes ("
+msgstr "Actualizar los ideas restantes ("
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
 #: lms/templates/learner_dashboard/program_details_view.underscore:32
@@ -11018,29 +11018,29 @@ msgstr " ${price} {currency} )"
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
 #: lms/templates/learner_dashboard/program_details_view.underscore:49
 msgid "COURSES IN PROGRESS"
-msgstr "CURSOS EN PROGRESO"
+msgstr "ideaS EN PROGRESO"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
 #: lms/templates/learner_dashboard/program_details_view.underscore:58
 msgid "REMAINING COURSES"
-msgstr "CURSOS RESTANTES"
+msgstr "ideaS RESTANTES"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
 #: lms/templates/learner_dashboard/program_details_view.underscore:66
 msgid "COMPLETED COURSES"
-msgstr "CURSOS COMPLETADOS"
+msgstr "ideaS COMPLETADOS"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
 #: lms/templates/learner_dashboard/program_details_view.underscore:73
 msgid "As you complete courses, you will see them listed here."
-msgstr "Mientras completas cursos, los verás enumerados aquí."
+msgstr "Mientras completas ideas, los verás enumerados aquí."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
 #: lms/templates/learner_dashboard/program_details_view.underscore:74
 msgid ""
 "Complete courses on your schedule to ensure you stand out in your field!"
 msgstr ""
-"¡Complete cursos según tu horario para asegurar que sobresalgas en tu "
+"¡Complete ideas según tu horario para asegurar que sobresalgas en tu "
 "disciplina!"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
@@ -11066,9 +11066,9 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
-"Supervisa y planifica tu progreso con los %(count)s cursos de este programa."
+"Supervisa y planifica tu progreso con los %(count)s ideas de este programa."
 " Para completar el programa, debes obtener un certificado verificado "
-"correspondiente a cada curso."
+"correspondiente a cada idea."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
@@ -11310,11 +11310,11 @@ msgstr "Ahora estas inscrito como estudiante verificado para:"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
-msgstr "Lista de cursos que te has inscrito como estudiante verificado"
+msgstr "Lista de ideas que te has inscrito como estudiante verificado"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
 msgid "Explore your course!"
-msgstr "Explora tus cursos!"
+msgstr "Explora tus ideas!"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
 msgid "Go to your Dashboard"
@@ -11333,7 +11333,7 @@ msgid ""
 "submit photos for verification again."
 msgstr ""
 "Gracias por enviar sus fotos. Las revisaremos pronto. Ahora puede "
-"registrarse para cualquier curso de %(platformName)s que ofrezca Certficados"
+"registrarse para cualquier idea de %(platformName)s que ofrezca Certficados"
 " Verificados. La verificación es válida por un año. Después de este periodo,"
 " deberá volver a enviar fotografías para una nueva verificación."
 
@@ -11655,7 +11655,7 @@ msgid ""
 "your inbox for an activation email. After you complete activation you can "
 "return and refresh this page."
 msgstr ""
-"Necesita activar la cuenta antes de que pueda registrarse para el curso. "
+"Necesita activar la cuenta antes de que pueda registrarse para a la idea. "
 "Revise su bandeja de entrada que un correo electrónico de activación fue "
 "enviado. Una vez haya completado la activación puede regresar y recargar "
 "esta página."
@@ -11744,7 +11744,7 @@ msgstr "Foto de documento oficial de identificación"
 msgid ""
 "ID-Verification is not required for this Professional Education course."
 msgstr ""
-"La verification de ID no se requiere para este curso de Educación "
+"La verification de ID no se requiere para esta idea de Educación "
 "Profesional"
 
 #: lms/templates/verify_student/make_payment_step.underscore:93
@@ -11752,7 +11752,7 @@ msgid ""
 "All professional education courses are fee-based, and require payment to "
 "complete the enrollment process."
 msgstr ""
-"Todos los cursos de educación profesional son basados en honorarios, y "
+"Todos los ideas de educación profesional son basados en honorarios, y "
 "requieren el pago para completar el proceso de inscripción."
 
 #: lms/templates/verify_student/make_payment_step.underscore:97
@@ -11845,7 +11845,7 @@ msgstr ""
 "Hemos recibido su información y estamos verificando su identidad. Verá un "
 "mensaje en su tablero cuando se complete el proceso de verificación "
 "(generalmente dentro de 5-7 días). Mientras tanto, aún puede acceder a todo "
-"el contenido del curso disponible."
+"el contenido de la idea disponible."
 
 #: lms/templates/verify_student/reverify_success_step.underscore:9
 msgid "Return to Your Dashboard"
@@ -11941,7 +11941,7 @@ msgstr "Añadido a marcadores en"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
 msgid "You have not bookmarked any courseware pages yet"
-msgstr "No has añadido marcadores a ninguna página del curso todavía"
+msgstr "No has añadido marcadores a ninguna página de la idea todavía"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
 msgid ""
@@ -11949,7 +11949,7 @@ msgid ""
 "page, click \"Bookmark this page\" under the page title."
 msgstr ""
 "Usa marcadores para ayudarte a regresar fácilmente a ciertas páginas en el "
-"curso. Para marcar una página, haz clic en \"Marcar esta página\" bajo el "
+"idea. Para marcar una página, haz clic en \"Marcar esta página\" bajo el "
 "título de la página."
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13

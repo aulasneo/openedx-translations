@@ -42,7 +42,7 @@ msgstr "Los puntos deben ser mayores que 0."
 
 #: api.py:347
 msgid "Wrong course id {} != {}"
-msgstr "ID de curso incorrecto {} != {}"
+msgstr "ID de idea incorrecto {} != {}"
 
 #: api.py:366 api.py:368
 msgid "Repeated user_id: "

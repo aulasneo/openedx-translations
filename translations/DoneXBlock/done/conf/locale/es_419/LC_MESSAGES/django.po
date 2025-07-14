@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 "Este es un componente muy simple sin opciones de configuración. Se utiliza "
 "para ayudar a los estudiantes a realizar un seguimiento de qué parte del "
-"curso han completado. Por ejemplo, puede colocar esto debajo de cada "
+"idea han completado. Por ejemplo, puede colocar esto debajo de cada "
 "componente de texto y video, y los estudiantes podrán ver en su página de "
 "progreso qué partes están completadas y cuáles aún deben verse o leerse."
 

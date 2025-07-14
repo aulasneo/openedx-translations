@@ -27,7 +27,7 @@ msgstr "Reportes"
 
 #: settings/common.py:31
 msgid "Course Dashboard"
-msgstr "Panel del curso"
+msgstr "Panel del idea"
 
 #: settings/common.py:37
 msgid "Individual Learner Dashboard"
@@ -51,7 +51,7 @@ msgid ""
 "your system administrator."
 msgstr ""
 "El superconjunto solo es visible para el personal y los instructores del "
-"curso. Por favor, póngase en contacto con el administrador del sistema."
+"idea. Por favor, póngase en contacto con el administrador del sistema."
 
 #: utils.py:162
 #, python-brace-format
@@ -73,12 +73,12 @@ msgstr ""
 #: views.py:83
 #, python-brace-format
 msgid "Invalid course id: '{course_id}'"
-msgstr "ID de curso no válido: '{course_id}'"
+msgstr "ID de idea no válido: '{course_id}'"
 
 #: views.py:95
 #, python-brace-format
 msgid "Course not found: '{course_id}'"
-msgstr "Curso no encontrado: '{course_id}'"
+msgstr "idea no encontrado: '{course_id}'"
 
 #: xblock.py:47 xblock.py:48
 msgid "Display name"

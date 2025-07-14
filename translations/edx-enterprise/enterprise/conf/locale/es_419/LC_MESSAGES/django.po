@@ -27,7 +27,7 @@ msgid ""
 "enrollment."
 msgstr ""
 "Obtenga una vista previa de la página de consentimiento para compartir datos"
-" presentada en el contexto de la inscripción a un curso."
+" presentada en el contexto de la inscripción a una idea."
 
 #: consent/admin/__init__.py:110
 msgid ""
@@ -39,7 +39,7 @@ msgstr ""
 
 #: consent/admin/__init__.py:119 enterprise/admin/__init__.py:690
 msgid "Preview (course)"
-msgstr "Vista previa (curso)"
+msgstr "Vista previa (idea)"
 
 #: consent/admin/__init__.py:120 enterprise/admin/__init__.py:703
 msgid "Preview (program)"
@@ -64,7 +64,7 @@ msgstr "Registros de consentimiento para compartir datos"
 #: consent/models.py:252
 msgid "Course key for which data sharing consent is granted."
 msgstr ""
-"Clave del curso para el cual se otorga el consentimiento para compartir "
+"Clave de la idea para el cual se otorga el consentimiento para compartir "
 "datos."
 
 #: consent/models.py:266
@@ -84,11 +84,11 @@ msgstr ""
 "Complete un texto para el primer párrafo de la página. Las siguientes "
 "variables pueden estar disponibles:<br /><ul><li> empresa_cliente_nombre: "
 "nombre del cliente empresarial.</li><li> nombre_plataforma: Nombre de la "
-"plataforma.</li><li> elemento: una cadena que es &quot;curso&quot; o "
+"plataforma.</li><li> elemento: una cadena que es &quot;idea&quot; o "
 "&quot;programa&quot; según el tipo de consentimiento.</li><li> course_title:"
-" Título del curso. Disponible cuando el tipo de consentimiento es "
-"curso.</li><li> course_start_date: Fecha de inicio del curso. Disponible "
-"cuando el tipo de consentimiento es curso.</li></ul>"
+" Título de la idea. Disponible cuando el tipo de consentimiento es "
+"idea.</li><li> course_start_date: Fecha de inicio de la idea. Disponible "
+"cuando el tipo de consentimiento es idea.</li></ul>"
 
 #: consent/models.py:279
 msgid ""
@@ -104,11 +104,11 @@ msgstr ""
 "página. Las siguientes variables pueden estar disponibles:<br /><ul><li> "
 "empresa_cliente_nombre: nombre del cliente empresarial.</li><li> "
 "nombre_plataforma: Nombre de la plataforma.</li><li> elemento: una cadena "
-"que es &quot;curso&quot; o &quot;programa&quot; según el tipo de "
-"consentimiento.</li><li> course_title: Título del curso. Disponible cuando "
-"el tipo de consentimiento es curso.</li><li> course_start_date: Fecha de "
-"inicio del curso. Disponible cuando el tipo de consentimiento es "
-"curso.</li></ul>"
+"que es &quot;idea&quot; o &quot;programa&quot; según el tipo de "
+"consentimiento.</li><li> course_title: Título de la idea. Disponible cuando "
+"el tipo de consentimiento es idea.</li><li> course_start_date: Fecha de "
+"inicio de la idea. Disponible cuando el tipo de consentimiento es "
+"idea.</li></ul>"
 
 #: consent/models.py:289
 msgid ""
@@ -124,11 +124,11 @@ msgstr ""
 "siguientes variables pueden estar disponibles:<br /><ul><li> "
 "empresa_cliente_nombre: nombre del cliente empresarial.</li><li> "
 "nombre_plataforma: Nombre de la plataforma.</li><li> elemento: una cadena "
-"que es &quot;curso&quot; o &quot;programa&quot; según el tipo de "
-"consentimiento.</li><li> course_title: Título del curso. Disponible cuando "
-"el tipo de consentimiento es curso.</li><li> course_start_date: Fecha de "
-"inicio del curso. Disponible cuando el tipo de consentimiento es "
-"curso.</li></ul>"
+"que es &quot;idea&quot; o &quot;programa&quot; según el tipo de "
+"consentimiento.</li><li> course_title: Título de la idea. Disponible cuando "
+"el tipo de consentimiento es idea.</li><li> course_start_date: Fecha de "
+"inicio de la idea. Disponible cuando el tipo de consentimiento es "
+"idea.</li></ul>"
 
 #: consent/models.py:299
 msgid ""
@@ -143,11 +143,11 @@ msgstr ""
 "Complete un texto para el cuadro de diálogo que aparece cuando el usuario "
 "rechaza dar su consentimiento. Las siguientes variables pueden estar "
 "disponibles:<br /><ul><li> empresa_cliente_nombre: nombre del cliente "
-"empresarial.</li><li> elemento: una cadena que es &quot;curso&quot; o "
+"empresarial.</li><li> elemento: una cadena que es &quot;idea&quot; o "
 "&quot;programa&quot; según el tipo de consentimiento.</li><li> course_title:"
-" Título del curso. Disponible cuando el tipo de consentimiento es "
-"curso.</li><li> course_start_date: Fecha de inicio del curso. Disponible "
-"cuando el tipo de consentimiento es curso.</li></ul>"
+" Título de la idea. Disponible cuando el tipo de consentimiento es "
+"idea.</li><li> course_start_date: Fecha de inicio del idea. Disponible "
+"cuando el tipo de consentimiento es idea.</li></ul>"
 
 #: consent/models.py:309
 msgid ""
@@ -160,8 +160,8 @@ msgstr ""
 "Complete un texto como título de la notificación que aparece en el panel "
 "cuando el usuario rechaza dar su consentimiento. Las siguientes variables "
 "pueden estar disponibles:<br /><ul><li> empresa_cliente_nombre: nombre del "
-"cliente empresarial.</li><li> course_title: Título del curso. Disponible "
-"cuando el tipo de consentimiento es curso.</li></ul>"
+"cliente empresarial.</li><li> course_title: Título de la idea. Disponible "
+"cuando el tipo de consentimiento es idea.</li></ul>"
 
 #: consent/models.py:318
 msgid ""
@@ -174,8 +174,8 @@ msgstr ""
 "Complete un texto para el mensaje de la notificación que aparece en el panel"
 " cuando el usuario rechaza dar su consentimiento. Las siguientes variables "
 "pueden estar disponibles:<br /><ul><li> empresa_cliente_nombre: nombre del "
-"cliente empresarial.</li><li> course_title: Título del curso. Disponible "
-"cuando el tipo de consentimiento es curso.</li></ul>"
+"cliente empresarial.</li><li> course_title: Título de la idea. Disponible "
+"cuando el tipo de consentimiento es idea.</li></ul>"
 
 #: consent/models.py:329
 msgid "Title of page"
@@ -245,7 +245,7 @@ msgid ""
 "Required to create courses etc."
 msgstr ""
 "Número de cuenta que se utilizará durante las llamadas a la API. Se llama "
-"account_id en lienzo. Requerido para crear cursos, etc."
+"account_id en lienzo. Requerido para crear ideas, etc."
 
 #: integrated_channels/canvas/models.py:119
 msgid ""
@@ -357,11 +357,11 @@ msgstr "Si se marca, los temas no se enviarán a Cornerstone"
 #: integrated_channels/cornerstone/models.py:306
 msgid "This is the edX course key that is used as a unique identifier."
 msgstr ""
-"Esta es la clave del curso de edX que se utiliza como identificador único."
+"Esta es la clave de la idea de edX que se utiliza como identificador único."
 
 #: integrated_channels/cornerstone/models.py:313
 msgid "This is the course key that is being sent to our partners."
-msgstr "Esta es la clave del curso que se envía a nuestros socios."
+msgstr "Esta es la clave de la idea que se envía a nuestros socios."
 
 #: integrated_channels/integrated_channel/management/commands/__init__.py:67
 msgid ""
@@ -445,7 +445,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Transmitir datos de finalización del curso de aprendizaje de Enterprise para el EnterpriseCustomer determinado.\n"
+"Transmitir datos de finalización de la idea de aprendizaje de Enterprise para el EnterpriseCustomer determinado.\n"
 "    "
 
 #: integrated_channels/integrated_channel/management/commands/remove_stale_integrated_channel_api_logs.py:22
@@ -513,7 +513,7 @@ msgstr ""
 
 #: integrated_channels/integrated_channel/models.py:150
 msgid "Displays course price"
-msgstr "Muestra el precio del curso"
+msgstr "Muestra el precio de la idea"
 
 #: integrated_channels/integrated_channel/models.py:162
 msgid ""
@@ -531,8 +531,8 @@ msgid ""
 " newest catalog."
 msgstr ""
 "Una lista separada por comas de UUID de catálogo para transmitir. Si está en"
-" blanco, se transmitirán todos los catálogos de clientes. Si hay cursos "
-"superpuestos en los catálogos de clientes, los metadatos de los cursos "
+" blanco, se transmitirán todos los catálogos de clientes. Si hay ideas "
+"superpuestos en los catálogos de clientes, los metadatos de las ideas "
 "superpuestos se seleccionarán del catálogo más nuevo."
 
 #: integrated_channels/integrated_channel/models.py:176
@@ -569,7 +569,7 @@ msgstr "El nombre corto del servicio web Moodle."
 
 #: integrated_channels/moodle/models.py:55
 msgid "The category ID for what edX courses should be associated with."
-msgstr "El ID de categoría con el que se deben asociar los cursos de edX."
+msgstr "El ID de categoría con el que se deben asociar las ideas de edX."
 
 #: integrated_channels/moodle/models.py:64
 msgid ""
@@ -598,7 +598,7 @@ msgstr ""
 #: integrated_channels/moodle/models.py:169
 msgid "The maximum grade points for the courses. Default: 100"
 msgstr ""
-"Los puntos máximos de calificación para los cursos. Predeterminado: 100"
+"Los puntos máximos de calificación para las ideas. Predeterminado: 100"
 
 #: integrated_channels/moodle/models.py:177
 msgid "The name for the grade assigment created for the grade integration."
@@ -612,7 +612,7 @@ msgid ""
 "transmissions, for incomplete courses as well"
 msgstr ""
 "Cuando se establece en Verdadero, el cliente configurado recibirá "
-"transmisiones de datos del alumno, también para cursos incompletos."
+"transmisiones de datos del alumno, también para ideas incompletos."
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
@@ -681,7 +681,7 @@ msgid ""
 msgstr ""
 "Cuando se establece en Verdadero, la integración utilizará el usuario del "
 "servicio edX genérico (&#39;sapsf_user_id&#39;) definido en la Configuración"
-" del cliente de SAP para completar el curso."
+" del cliente de SAP para completar la idea."
 
 #: integrated_channels/xapi/models.py:33
 msgid "Version of xAPI."
@@ -704,7 +704,7 @@ msgid ""
 "Preview the HTML template rendered in the context of a course enrollment."
 msgstr ""
 "Obtenga una vista previa de la plantilla HTML representada en el contexto de"
-" la inscripción a un curso."
+" la inscripción a una idea."
 
 #: enterprise/admin/__init__.py:694
 msgid ""
@@ -737,20 +737,20 @@ msgstr ""
 "El archivo .csv debe tener una columna de direcciones de correo electrónico,"
 " indicada por el encabezado &quot;correo electrónico&quot; en la primera "
 "fila. Opcionalmente, el archivo .csv puede contener una columna de claves de"
-" ejecución del curso, indicadas por el encabezado &quot;course_id&quot; en "
-"la primera fila, para inscribir estudiantes en varios cursos."
+" ejecución de la idea, indicadas por el encabezado &quot;course_id&quot; en "
+"la primera fila, para inscribir estudiantes en varias ideas."
 
 #: enterprise/admin/forms.py:68
 msgid "Enroll these learners in this course"
-msgstr "Inscribir a estos estudiantes en este curso"
+msgstr "Inscribir a estos estudiantes en esta idea"
 
 #: enterprise/admin/forms.py:69
 msgid "To enroll learners in a course, enter a course ID."
-msgstr "Para inscribir estudiantes en un curso, ingrese un ID del curso."
+msgstr "Para inscribir estudiantes en una idea, ingrese un ID de la idea."
 
 #: enterprise/admin/forms.py:72
 msgid "Course enrollment track"
-msgstr "Pista de inscripción al curso"
+msgstr "Pista de inscripción a la idea"
 
 #: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1449
 msgid "Audit"
@@ -819,11 +819,11 @@ msgstr ""
 
 #: enterprise/admin/forms.py:315
 msgid "Course"
-msgstr "Curso"
+msgstr "Idea"
 
 #: enterprise/admin/forms.py:316
 msgid "Enter the course run key."
-msgstr "Ingrese la clave de ejecución del curso."
+msgstr "Ingrese la clave de ejecución de la idea."
 
 #: enterprise/admin/forms.py:436
 msgid "Preview"
@@ -1067,7 +1067,7 @@ msgid ""
 "[Enterprise API] CourseKey not found in the Catalog. Course: {course_key}, "
 "Catalog: {catalog_id}"
 msgstr ""
-"[API empresarial] CourseKey no se encuentra en el catálogo. Curso: "
+"[API empresarial] CourseKey no se encuentra en el catálogo. idea: "
 "{course_key} , Catálogo: {catalog_id}"
 
 #: enterprise/api/v1/views/enterprise_customer_catalog.py:217
@@ -1077,7 +1077,7 @@ msgid ""
 " Catalog: {catalog_id}"
 msgstr ""
 "[API empresarial] CourseRun no se encuentra en el catálogo. Ejecución del "
-"curso: {course_id} , Catálogo: {catalog_id}"
+"idea: {course_id} , Catálogo: {catalog_id}"
 
 #: enterprise/api/v1/views/enterprise_customer_catalog.py:245
 #, python-brace-format
@@ -1129,7 +1129,7 @@ msgid ""
 "{enterprise_customer_name}."
 msgstr ""
 "Para iniciar sesión con este proveedor de identidad SSO y acceder a ofertas "
-"de cursos especiales, primero debe dar su consentimiento para compartir sus "
+"de ideas especiales, primero debe dar su consentimiento para compartir sus "
 "logros de aprendizaje con {enterprise_customer_name} ."
 
 #: enterprise/constants.py:18
@@ -1139,7 +1139,7 @@ msgid ""
 "your course data with {enterprise_customer_name}."
 msgstr ""
 "Para iniciar sesión y acceder a ofertas especiales, debe dar su "
-"consentimiento para compartir los datos de su curso con "
+"consentimiento para compartir los datos de su idea con "
 "{enterprise_customer_name} ."
 
 #: enterprise/constants.py:22
@@ -1148,7 +1148,7 @@ msgid ""
 "If you do not consent to share your course data, that information may be "
 "shared with {enterprise_customer_name}."
 msgstr ""
-"Si no acepta compartir los datos de su curso, esa información puede "
+"Si no acepta compartir los datos de su idea, esa información puede "
 "compartirse con {enterprise_customer_name} ."
 
 #: enterprise/constants.py:25
@@ -1183,7 +1183,7 @@ msgid ""
 "eligible, provide in-demand knowledge and may be applied to accelerate a "
 "Master’s Degree."
 msgstr ""
-"Una serie de cursos a nivel de maestría para avanzar en tu carrera, creados "
+"Una serie de ideas a nivel de maestría para avanzar en tu carrera, creados "
 "por las mejores universidades y reconocidos por las empresas. Los programas "
 "MicroMasters son elegibles para obtener créditos, brindan conocimientos bajo"
 " demanda y pueden aplicarse para acelerar una maestría."
@@ -1209,7 +1209,7 @@ msgid ""
 msgstr ""
 "Creados por expertos de renombre mundial y las mejores universidades, "
 "XSeries está diseñado para brindar una comprensión profunda de temas clave a"
-" través de una serie de cursos. Complete la serie para ganar un valioso "
+" través de una serie de ideas. Complete la serie para ganar un valioso "
 "Certificado XSeries que ilustra su logro."
 
 #: enterprise/forms.py:15
@@ -1219,7 +1219,7 @@ msgid ""
 "out and sign back in."
 msgstr ""
 "Tienes acceso a múltiples organizaciones. Seleccione la organización que "
-"utilizará para inscribirse en los cursos. Si desea cambiar de organización, "
+"utilizará para inscribirse en las ideas. Si desea cambiar de organización, "
 "cierre sesión y vuelva a iniciar sesión."
 
 #: enterprise/forms.py:18
@@ -1350,7 +1350,7 @@ msgstr "Nombre del cliente empresarial."
 #: enterprise/models.py:238
 msgid "Hides course price on learning platform course confirmation screen."
 msgstr ""
-"Oculta el precio del curso en la pantalla de confirmación del curso de la "
+"Oculta el precio de la idea en la pantalla de confirmación de la idea de la "
 "plataforma de aprendizaje."
 
 #: enterprise/models.py:261
@@ -1360,7 +1360,7 @@ msgid ""
 " not be shared."
 msgstr ""
 "Permite solicitar el consentimiento para compartir datos a los estudiantes "
-"cada vez que se inscriben en un curso. Si no se marca, el mensaje no "
+"cada vez que se inscriben en una idea. Si no se marca, el mensaje no "
 "aparecerá y los datos relevantes no se compartirán."
 
 #: enterprise/models.py:273
@@ -1369,7 +1369,7 @@ msgid ""
 "enrollment, or through an external process."
 msgstr ""
 "Configuración para exigir que los estudiantes acepten el consentimiento para"
-" compartir datos al inscribirse en el curso o mediante un proceso externo."
+" compartir datos al inscribirse en la idea o mediante un proceso externo."
 
 #: enterprise/models.py:282
 msgid ""
@@ -1471,7 +1471,7 @@ msgid ""
 "for a course on the learner portal."
 msgstr ""
 "Habilitado automáticamente. Si no está marcada, los alumnos no podrán buscar"
-" un curso en el portal del alumno."
+" una idea en el portal del alumno."
 
 #: enterprise/models.py:396
 msgid ""
@@ -1614,8 +1614,8 @@ msgid ""
 "returned nothing. Proceeding with enrollment, but notifications won't be "
 "sent"
 msgstr ""
-"No se encontraron detalles del curso para la clave del curso {}: la API del "
-"catálogo de cursos no devolvió nada. Continuando con la inscripción, pero no"
+"No se encontraron detalles de la idea para la clave de la idea {}: la API del "
+"catálogo de ideas no devolvió nada. Continuando con la inscripción, pero no"
 " se enviarán notificaciones"
 
 #: enterprise/models.py:1080
@@ -1657,7 +1657,7 @@ msgstr ""
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
-"El UUID del curso (no del curso impartido) al que tiene derecho el alumno."
+"El UUID de la idea (no de la idea impartido) al que tiene derecho el alumno."
 
 #: enterprise/models.py:1900
 msgid "The enterprise learner to which this entitlement is attached."
@@ -1669,14 +1669,14 @@ msgstr "El alumno empresarial al que está adjunta esta inscripción."
 
 #: enterprise/models.py:2030
 msgid "The ID of the course in which the learner was enrolled."
-msgstr "El ID del curso en el que estaba inscrito el alumno."
+msgstr "El ID de la idea en el que estaba inscrito el alumno."
 
 #: enterprise/models.py:2037
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr ""
-"Especifica si un usuario marcó este curso como guardado para más adelante en"
+"Especifica si un usuario marcó esta idea como guardado para más adelante en"
 " el portal del alumno."
 
 #: enterprise/models.py:2053
@@ -1684,7 +1684,7 @@ msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
 msgstr ""
-"Especifica si se canceló la inscripción del objeto de inscripción al curso "
+"Especifica si se canceló la inscripción del objeto de inscripción a la idea "
 "de la empresa."
 
 #: enterprise/models.py:2063
@@ -1692,16 +1692,16 @@ msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr ""
-"Especifica cuándo se canceló la inscripción del objeto de inscripción en un "
-"curso empresarial."
+"Especifica cuándo se canceló la inscripción del objeto de inscripción en una "
+"idea empresarial."
 
 #: enterprise/models.py:2310
 msgid "The course entitlement the associated subsidy is for."
-msgstr "La titularidad del curso a la que se refiere la subvención asociada."
+msgstr "La titularidad de la idea a la que se refiere la subvención asociada."
 
 #: enterprise/models.py:2321
 msgid "The course enrollment the associated subsidy is for."
-msgstr "La matrícula del curso al que está destinada la subvención asociada."
+msgstr "La matrícula de la idea al que está destinada la subvención asociada."
 
 #: enterprise/models.py:2328
 msgid ""
@@ -1718,14 +1718,14 @@ msgstr "El cliente para el cual se realizará esta inscripción predeterminada."
 #: enterprise/models.py:2496
 msgid "The type of content (e.g. a course vs. a course run)."
 msgstr ""
-"El tipo de contenido (por ejemplo, un curso vs. una ejecución de curso)."
+"El tipo de contenido (por ejemplo, una idea vs. una ejecución de idea)."
 
 #: enterprise/models.py:2504
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
 msgstr ""
-"Un curso o ejecución de curso en el que los usuarios relacionados deberían "
+"Una idea o ejecución de idea en el que los usuarios relacionados deberían "
 "inscribirse automáticamente."
 
 #: enterprise/models.py:2584
@@ -1747,9 +1747,9 @@ msgid ""
 "types should be included in the catalog, executive-education-2u course types"
 " won't be excluded from the content of the associated catalog."
 msgstr ""
-"Especifica si el catálogo puede incluir cursos exec ed (2U). Esto significa "
+"Especifica si el catálogo puede incluir ideas exec ed (2U). Esto significa "
 "que, cuando content_filter especifica que los tipos de contenido de "
-"&#39;curso&#39; deben incluirse en el catálogo, los tipos de cursos de "
+"&#39;idea&#39; deben incluirse en el catálogo, los tipos de ideas de "
 "educación ejecutiva-2u no se excluirán del contenido del catálogo asociado."
 
 #: enterprise/models.py:2606
@@ -1778,14 +1778,14 @@ msgid ""
 "course runs in this catalog."
 msgstr ""
 "Lista ordenada de modos de inscripción que se pueden mostrar a los "
-"estudiantes para los cursos en este catálogo."
+"estudiantes para las ideas en este catálogo."
 
 #: enterprise/models.py:2735
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr ""
-"Especifica si los cursos deben publicarse con URL de inscripción directa "
+"Especifica si las ideas deben publicarse con URL de inscripción directa "
 "para auditoría."
 
 #: enterprise/models.py:2742
@@ -1802,7 +1802,7 @@ msgid ""
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
 msgstr ""
 "Complete una plantilla estándar de Django que, cuando se represente, genere el correo electrónico que desea enviar a los estudiantes de Clientes Empresariales recién inscritos. Las siguientes variables pueden estar disponibles:\n"
-"<ul><li> nombre_usuario: un nombre legible por humanos para la persona a la que se envía el correo electrónico. Asegúrese de manejar el caso en el que esto no esté definido, ya que puede faltar en algunos casos. También puede ser un nombre de usuario, si el alumno no ha configurado su nombre &quot;real&quot; en el sistema.</li><li> nombre_organización: el nombre de la organización que patrocina la inscripción.</li><li> enrolled_in: Detalles del curso o programa en el que estaba inscrito. Puede contener:<ul><li> nombre: el nombre del elemento que se puede inscribir (por ejemplo, &quot;Curso de demostración&quot;).</li><li> URL: un enlace a la página de inicio del artículo registrado.</li><li> marca: un nombre de marca personalizado para el artículo registrado. Por ejemplo, la marca de un programa MicroMasters sería &quot;MicroMasters&quot;.</li><li> inicio: la fecha en que el artículo registrado estará disponible. Represente esto en texto usando el filtro de plantilla `fecha` de Django (consulte <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">la documentación de Django</a> ).</li><li> tipo: si el elemento inscrito es un curso, un programa u otra cosa.</li></ul></ul>"
+"<ul><li> nombre_usuario: un nombre legible por humanos para la persona a la que se envía el correo electrónico. Asegúrese de manejar el caso en el que esto no esté definido, ya que puede faltar en algunos casos. También puede ser un nombre de usuario, si el alumno no ha configurado su nombre &quot;real&quot; en el sistema.</li><li> nombre_organización: el nombre de la organización que patrocina la inscripción.</li><li> enrolled_in: Detalles del idea o programa en el que estaba inscrito. Puede contener:<ul><li> nombre: el nombre del elemento que se puede inscribir (por ejemplo, &quot;idea de demostración&quot;).</li><li> URL: un enlace a la página de inicio del artículo registrado.</li><li> marca: un nombre de marca personalizado para el artículo registrado. Por ejemplo, la marca de un programa MicroMasters sería &quot;MicroMasters&quot;.</li><li> inicio: la fecha en que el artículo registrado estará disponible. Represente esto en texto usando el filtro de plantilla `fecha` de Django (consulte <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">la documentación de Django</a> ).</li><li> tipo: si el elemento inscrito es un idea, un programa u otra cosa.</li></ul></ul>"
 
 #: enterprise/models.py:3028
 #, python-brace-format
@@ -1813,7 +1813,7 @@ msgid ""
 msgstr ""
 "Ingrese una cadena que pueda usarse para generar una línea de asunto "
 "dinámica para los correos electrónicos de notificación. El marcador de "
-"posición {course_name} se reemplazará con el nombre del curso o programa en "
+"posición {course_name} se reemplazará con el nombre de la idea o programa en "
 "el que se inscribió."
 
 #: enterprise/models.py:3170
@@ -2392,7 +2392,7 @@ msgstr "Cancelar"
 #: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:33
 #: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:40
 msgid "Transmit Courses Metadata"
-msgstr "Transmitir metadatos de cursos"
+msgstr "Transmitir metadatos de ideas"
 
 #: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
 #: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
@@ -2418,13 +2418,13 @@ msgstr ""
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr ""
-"La vía de inscripción {course_mode} no está disponible para el curso "
+"La vía de inscripción {course_mode} no está disponible para la idea "
 "{course_id} ."
 
 #: enterprise/utils.py:153
 msgid "Select a course enrollment track for the given course(s)."
 msgstr ""
-"Seleccione una vía de inscripción al curso para los cursos determinados."
+"Seleccione una vía de inscripción a la idea para las ideas determinados."
 
 #: enterprise/utils.py:155
 #, python-brace-format
@@ -2432,7 +2432,7 @@ msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
 "ID."
 msgstr ""
-"No se pudieron recuperar los detalles del ID del curso {course_id} . "
+"No se pudieron recuperar los detalles del ID de la idea {course_id} . "
 "Especifique una identificación válida."
 
 #: enterprise/utils.py:158
@@ -2440,7 +2440,7 @@ msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
 msgstr ""
-"Se puede utilizar la &quot;carga masiva de CSV&quot; o un ID de curso "
+"Se puede utilizar la &quot;carga masiva de CSV&quot; o un ID de idea "
 "singular para las inscripciones manuales, pero no ambos a la vez."
 
 #: enterprise/utils.py:162
@@ -2499,7 +2499,7 @@ msgstr "El usuario con dirección de correo electrónico {email} no existe."
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr ""
-"El ID del curso {course_id} no existe en el catálogo del cliente empresarial"
+"El ID de la idea {course_id} no existe en el catálogo del cliente empresarial"
 
 #: enterprise/utils.py:183
 #, python-brace-format
@@ -2585,7 +2585,7 @@ msgid ""
 " my enrollment is sponsored by {enterprise_customer_name}."
 msgstr ""
 "Acepto permitir que {platform_name} comparta datos sobre mi inscripción, "
-"finalización y desempeño en todos los cursos y programas de {platform_name} "
+"finalización y desempeño en todas las ideas y programas de {platform_name} "
 "donde mi inscripción esté patrocinada por {enterprise_customer_name} ."
 
 #: enterprise/views.py:373
@@ -2604,7 +2604,7 @@ msgid ""
 "are limited to the following:"
 msgstr ""
 "Los datos de inscripción, finalización y rendimiento que pueden compartirse "
-"con {enterprise_customer_name} (o su designado) para estos cursos y "
+"con {enterprise_customer_name} (o su designado) para estas ideas y "
 "programas se limitan a lo siguiente:"
 
 #: enterprise/views.py:383
@@ -2640,16 +2640,16 @@ msgid ""
 " I enrolled in (audit or verified) and the date when I enrolled in each "
 "course or program"
 msgstr ""
-"En qué cursos y/o programas me he inscrito o de los que me he dado de baja, "
+"En qué ideas y/o programas me he inscrito o de los que me he dado de baja, "
 "en qué modalidad me inscribí (auditada o verificada) y la fecha en la que me"
-" inscribí en cada curso o programa"
+" inscribí en cada idea o programa"
 
 #: enterprise/views.py:402
 msgid ""
 "Information about each course or program I've enrolled in, including its "
 "duration and level of effort required"
 msgstr ""
-"Información sobre cada curso o programa en el que me he inscrito, incluida "
+"Información sobre cada idea o programa en el que me he inscrito, incluida "
 "su duración y nivel de esfuerzo requerido"
 
 #: enterprise/views.py:406
@@ -2658,7 +2658,7 @@ msgid ""
 "whether I watched a given video or attempted or completed a given homework "
 "assignment)"
 msgstr ""
-"Si completé partes específicas de cada curso o programa (por ejemplo, si vi "
+"Si completé partes específicas de cada idea o programa (por ejemplo, si vi "
 "un video determinado o intenté o completé una tarea determinada)"
 
 #: enterprise/views.py:410
@@ -2668,10 +2668,10 @@ msgid ""
 "when I last logged in to each course or program and how much of the course "
 "or program content I have consumed"
 msgstr ""
-"Mi porcentaje general de finalización de cada curso o programa de forma "
-"periódica, incluido el tiempo total dedicado a cada curso o programa, la "
-"fecha de la última vez que inicié sesión en cada curso o programa y cuánto "
-"contenido del curso o programa he consumido."
+"Mi porcentaje general de finalización de cada idea o programa de forma "
+"periódica, incluido el tiempo total dedicado a cada idea o programa, la "
+"fecha de la última vez que inicié sesión en cada idea o programa y cuánto "
+"contenido de la idea o programa he consumido."
 
 #: enterprise/views.py:414
 msgid ""
@@ -2679,7 +2679,7 @@ msgid ""
 "on each assignment and current average of correct answers out of total "
 "attempted answers"
 msgstr ""
-"Mi desempeño en cada curso o programa, incluido, por ejemplo, mi puntaje en "
+"Mi desempeño en cada idea o programa, incluido, por ejemplo, mi puntaje en "
 "cada tarea y el promedio actual de respuestas correctas del total de "
 "respuestas intentadas."
 
@@ -2688,12 +2688,12 @@ msgid ""
 "My final grade in each course or program, and the date when I completed each"
 " course or program"
 msgstr ""
-"Mi calificación final en cada curso o programa y la fecha en que completé "
-"cada curso o programa"
+"Mi calificación final en cada idea o programa y la fecha en que completé "
+"cada idea o programa"
 
 #: enterprise/views.py:417
 msgid "Whether I received a certificate in each course or program"
-msgstr "Si recibí un certificado en cada curso o programa"
+msgstr "Si recibí un certificado en cada idea o programa"
 
 #: enterprise/views.py:420
 #, python-brace-format
@@ -2704,11 +2704,11 @@ msgid ""
 " I may withdraw my permission only by fully unenrolling from any courses or "
 "programs that are sponsored by {enterprise_customer_name}."
 msgstr ""
-"Mi permiso se aplica únicamente a los datos de cursos o programas "
+"Mi permiso se aplica únicamente a los datos de ideas o programas "
 "patrocinados por {enterprise_customer_name} , y no a los datos de ningún "
-"curso o programa de {platform_name} que tome por mi cuenta. Entiendo que "
+"idea o programa de {platform_name} que tome por mi cuenta. Entiendo que "
 "puedo retirar mi permiso únicamente cancelando mi inscripción en cualquier "
-"curso o programa patrocinado por {enterprise_customer_name} ."
+"idea o programa patrocinado por {enterprise_customer_name} ."
 
 #: enterprise/views.py:428
 msgid "Please note"
@@ -2789,7 +2789,7 @@ msgstr "tu progreso de aprendizaje"
 
 #: enterprise/views.py:617
 msgid "course completion"
-msgstr "finalización del curso"
+msgstr "finalización de la idea"
 
 #: enterprise/views.py:985
 msgid "Enterprise Slug Login"
@@ -2845,11 +2845,11 @@ msgstr ""
 
 #: enterprise/views.py:1602 enterprise/views.py:1603
 msgid "Confirm your course"
-msgstr "Confirma tu curso"
+msgstr "Confirma tu idea"
 
 #: enterprise/views.py:1605
 msgid "View Course Details"
-msgstr "Ver detalles del curso"
+msgstr "Ver detalles de la idea"
 
 #: enterprise/views.py:1606
 msgid "Please select one:"
@@ -2877,31 +2877,31 @@ msgstr "lo que aprenderás"
 
 #: enterprise/views.py:1614 enterprise/views.py:2112
 msgid "About This Course"
-msgstr "Acerca de este curso"
+msgstr "Acerca de esta idea"
 
 #: enterprise/views.py:1615 enterprise/views.py:2113
 msgid "Course Staff"
-msgstr "Personal del curso"
+msgstr "Personal del idea"
 
 #: enterprise/views.py:2052
 #, python-brace-format
 msgid "{count} Course"
 msgid_plural "{count} Courses"
-msgstr[0] "{count} Curso"
-msgstr[1] "{count} Cursos"
-msgstr[2] "{count} Cursos"
+msgstr[0] "{count} idea"
+msgstr[1] "{count} ideas"
+msgstr[2] "{count} ideas"
 
 #: enterprise/views.py:2059
 msgid "{}-{} hours per week, per course"
-msgstr "{}-{} horas por semana, por curso"
+msgstr "{}-{} horas por semana, por idea"
 
 #: enterprise/views.py:2066
 msgid "{}-{} weeks per course"
-msgstr "{}-{} semanas por curso"
+msgstr "{}-{} semanas por idea"
 
 #: enterprise/views.py:2073
 msgid "Purchase all unenrolled courses"
-msgstr "Comprar todos los cursos no inscritos"
+msgstr "Comprar todas las ideas no inscritos"
 
 #: enterprise/views.py:2074
 msgid "enrollment"
@@ -2977,7 +2977,7 @@ msgstr "Elegible para crédito y certificado"
 
 #: enterprise/views.py:2139
 msgid "Self-paced; courses can be taken in any order"
-msgstr "Ritmo propio; Los cursos se pueden tomar en cualquier orden."
+msgstr "Ritmo propio; Las ideas se pueden tomar en cualquier orden."
 
 #: enterprise/views.py:2141
 #, python-brace-format

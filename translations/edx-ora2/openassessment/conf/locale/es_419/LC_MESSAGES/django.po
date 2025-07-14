@@ -570,7 +570,7 @@ msgid ""
 "studio page."
 msgstr ""
 "Esta característica está siendo habilitada por la configuración del nivel "
-"del curso. Se puede encontrar en la tarjeta Configuración de evaluación de "
+"de la idea. Se puede encontrar en la tarjeta Configuración de evaluación de "
 "respuesta abierta en la página del estudio Páginas y recursos."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:60
@@ -718,7 +718,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_schedule.html:27
 msgid "Match deadlines to the course end date"
-msgstr "Hacer coincidir los plazos con la fecha de finalización del curso."
+msgstr "Hacer coincidir los plazos con la fecha de finalización de la idea."
 
 #: templates/legacy/edit/oa_edit_schedule.html:30
 msgid "Learn more about open response date settings"
@@ -780,7 +780,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:8
 msgid "Step: Staff Assessment"
-msgstr "Paso: Evaluación del equipo del curso"
+msgstr "Paso: Evaluación del equipo de la idea"
 
 #: templates/legacy/edit/oa_edit_staff_assessment.html:12
 msgid ""
@@ -855,7 +855,7 @@ msgstr "Identificación de Bloque"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:21
 msgid "No other Open Response Assessments found in course"
-msgstr "No se encontraron otras Pruebas de Respuestas Abiertas en este curso"
+msgstr "No se encontraron otras Pruebas de Respuestas Abiertas en esta idea"
 
 #: templates/legacy/edit/oa_rubric_reuse.html:31
 msgid "Clone"
@@ -1020,16 +1020,16 @@ msgid ""
 "Your feedback has been submitted. Course staff will be able to see this "
 "feedback when they review course records."
 msgstr ""
-"Sus comentarios han sido enviados!. El equipo del curso los verá cuando "
-"revisen los registros del curso."
+"Sus comentarios han sido enviados!. El equipo de la idea los verá cuando "
+"revisen los registros de la idea."
 
 #: templates/legacy/grade/oa_grade_complete.html:140
 msgid ""
 "Course staff will be able to see any feedback that you provide here when "
 "they review course records."
 msgstr ""
-"El equipo del curso podrá ver todos los comentarios que publique aquí cuando"
-" revisen los registros del curso."
+"El equipo de la idea podrá ver todos los comentarios que publique aquí cuando"
+" revisen los registros de la idea."
 
 #: templates/legacy/grade/oa_grade_complete.html:146
 msgid ""
@@ -1120,7 +1120,7 @@ msgid ""
 "Staff Assessment."
 msgstr ""
 "Calificar Respuestas Disponibles no está disponible. Este artículo no está "
-"configurado para Revisión por el equipo del curso."
+"configurado para Revisión por el equipo de la idea."
 
 #: templates/legacy/instructor_dashboard/oa_listing.html:6
 msgid "Please wait"
@@ -1164,7 +1164,7 @@ msgid ""
 "resubmit a response."
 msgstr ""
 "La entrega de tu equipo ha sido cancelada. Tu equipo recibirá una "
-"calificación de cero a no ser que el personal del curso restablezca tu "
+"calificación de cero a no ser que el personal de la idea restablezca tu "
 "prueba para permitir que el equipo pueda enviar nuevamente una respuesta."
 
 #: templates/legacy/message/oa_message_cancelled.html:10
@@ -1400,7 +1400,7 @@ msgid ""
 "been verified, screened, approved, reviewed, or endorsed by the site "
 "administrator. If you access the files, you do so at your own risk.)"
 msgstr ""
-"Cuidado: Estos archivos fueron subidos por otro estudiante en el curso y no "
+"Cuidado: Estos archivos fueron subidos por otro estudiante en el idea y no "
 "han sido verificados, filtrados, aprobados, revisados, o respaldados por el "
 "administrador del sitio. Si abre los archivos, los abre bajo su propio "
 "riesgo.)"
@@ -1659,7 +1659,7 @@ msgid ""
 "response at any time before the course ends "
 msgstr ""
 "Tu trabajo se guardará automáticamente y podrás regresar para completar tu "
-"respuesta en cualquier momento antes de que finalice el curso."
+"respuesta en cualquier momento antes de que finalice la idea."
 
 #: templates/legacy/response/oa_response.html:96
 msgid ""
@@ -1925,7 +1925,7 @@ msgstr ""
 "La fecha límite para este paso se ha vencido. El paso está cerrado. Ya no "
 "puede completar calificaciones entre pares ni seguir con esta tarea, y "
 "recibirá una calificación de Incompleto. Si usted guardó una respuesta pero "
-"no la envió, la respuesta aparece en el registro del curso."
+"no la envió, la respuesta aparece en el registro de la idea."
 
 #: templates/legacy/response/oa_response_graded.html:20
 #: templates/legacy/response/oa_response_submitted.html:20
@@ -2012,7 +2012,7 @@ msgstr ""
 "\n"
 "                            Te uniste al equipo %(team_name)sdespués de que ellos enviaron una respuesta para esta tarea\n"
 "                            y no recibirás una calificación por su respuesta. También anteriormente no has enviado\n"
-"                            una respuesta para esta tarea con otro equipo. Por favor ponte en contacto con el personal encargado del curso para discutir tus \n"
+"                            una respuesta para esta tarea con otro equipo. Por favor ponte en contacto con el personal encargado de la idea para discutir tus \n"
 "                            alternativas para esta tarea.\n"
 "                        "
 
@@ -2146,7 +2146,7 @@ msgstr "N/D"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners.html:7
 msgid "Staff Assessment"
-msgstr "Evaluación del equipo del curso"
+msgstr "Evaluación del equipo de la idea"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:14
 msgid "Give this team a grade using the problem's rubric."
@@ -2313,7 +2313,7 @@ msgstr "Auto evaluación del estudiante"
 
 #: templates/legacy/staff_area/oa_student_info.html:87
 msgid "Staff Assessment for This Learner"
-msgstr "Revisión del equipo del curso para este estudiante"
+msgstr "Revisión del equipo de la idea para este estudiante"
 
 #: templates/legacy/staff_area/oa_student_info.html:89
 msgid "Staff Assessment for this Team"
@@ -2420,8 +2420,8 @@ msgid ""
 "end date."
 msgstr ""
 "Las calificaciones están bloqueadas. Las calificaciones están "
-"automáticamente bloqueadas 30 días después de la fecha de finalización del "
-"curso."
+"automáticamente bloqueadas 30 días después de la fecha de finalización de la "
+"idea."
 
 #: templates/legacy/staff_area/oa_student_info.html:212
 msgid ""
@@ -2648,7 +2648,7 @@ msgstr "Comentarios guardados."
 
 #: xblock/grade_mixin.py:370 xblock/grade_mixin.py:535
 msgid "Staff Comments"
-msgstr "Comentarios del equipo del curso"
+msgstr "Comentarios del equipo de la idea"
 
 #: xblock/grade_mixin.py:383 xblock/grade_mixin.py:542
 #, python-brace-format
@@ -2790,7 +2790,7 @@ msgstr "No tienes permiso para reprogramar tareas."
 
 #: xblock/staff_area_mixin.py:69
 msgid "You do not have permission to access the ORA staff area"
-msgstr "No tiene permisos para acceder el área del equipo del curso para ORA"
+msgstr "No tiene permisos para acceder el área del equipo de la idea para ORA"
 
 #: xblock/staff_area_mixin.py:70
 msgid "You do not have permission to access ORA learner information."
@@ -2800,7 +2800,7 @@ msgstr "No tiene permiso para acceder la información de estudiantes de ORA."
 msgid "You do not have permission to access ORA staff grading."
 msgstr ""
 "No tiene permisos para acceder a la calificación de miembros del equipo de "
-"curso de ORA."
+"idea de ORA."
 
 #: xblock/staff_area_mixin.py:241
 msgid "Pending"
@@ -2838,7 +2838,7 @@ msgstr ""
 
 #: xblock/staff_area_mixin.py:387
 msgid "Error getting staff grade information."
-msgstr "Error obteniendo la información de calificación del equipo del curso."
+msgstr "Error obteniendo la información de calificación del equipo de la idea."
 
 #: xblock/staff_area_mixin.py:408
 msgid "Error getting staff grade ungraded and checked out counts."
@@ -3008,7 +3008,7 @@ msgstr ""
 msgid "The \"required\" value must be true if staff assessment is the only step."
 msgstr ""
 "El valor \"requerido\" debe estar en true si la calificación de miembros del"
-" equipo del curso es el único paso."
+" equipo de la idea es el único paso."
 
 #: xblock/utils/validation.py:164
 msgid ""
