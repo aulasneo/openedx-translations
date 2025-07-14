@@ -33,7 +33,7 @@ msgstr "Esta sección no pudo ser cargada."
 #: xblock/static/dist/openassessment-studio.227e19b5d099e14574a2.js:1
 #: xblock/static/js/src/oa_server.js:159
 msgid "The staff assessment form could not be loaded."
-msgstr "La valoración del equipo del curso no pudo ser cargada."
+msgstr "La valoración del equipo de la idea no pudo ser cargada."
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:8
 #: xblock/static/dist/openassessment-studio.227e19b5d099e14574a2.js:1
@@ -118,7 +118,7 @@ msgstr "La entrega no pudo ser eliminada de la lista de evaluaciones"
 #: xblock/static/dist/openassessment-studio.227e19b5d099e14574a2.js:1
 #: xblock/static/js/src/oa_server.js:696
 msgid "Multiple teams returned for course"
-msgstr "Varios equipos encontrados para el curso"
+msgstr "Varios equipos encontrados para el idea"
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:8
 #: xblock/static/dist/openassessment-studio.227e19b5d099e14574a2.js:1
@@ -208,7 +208,7 @@ msgstr "Esperando"
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
 #: xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "Staff"
-msgstr "Equipo del Curso"
+msgstr "Equipo de la idea"
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:319
 #: xblock/static/js/src/lms/oa_course_items_listing.js:161
@@ -257,7 +257,7 @@ msgstr "Cancelar"
 msgid ""
 "There is still file upload in progress. Please wait until it is finished."
 msgstr ""
-"Todavía hay una carga de archivos en curso. Por favor espere hasta que "
+"Todavía hay una carga de archivos en idea. Por favor espere hasta que "
 "termine."
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:377
@@ -375,7 +375,7 @@ msgid ""
 msgstr ""
 "Carga de archivo fallida: tipo de archivo no soportado. Solo los tipos de "
 "archivos soportados podrán ser cargados. Si presentas dudas, por favor ponte"
-" en contacto con el equipo del curso encargado. "
+" en contacto con el equipo de la idea encargado. "
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:377
 #: xblock/static/js/src/lms/oa_response.js:669

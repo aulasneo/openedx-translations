@@ -303,7 +303,7 @@ msgid ""
 msgstr ""
 "Información sobre zonas, elementos, comentarios, explicación e imagen de "
 "fondo de este problema. Esta información se deriva de la entrada que "
-"proporciona el autor del curso a través del editor interactivo al configurar"
+"proporciona el autor de la idea a través del editor interactivo al configurar"
 " el problema."
 
 #: drag_and_drop_v2.py:213
@@ -344,7 +344,7 @@ msgstr ""
 #: drag_and_drop_v2.py:593
 #, python-brace-format
 msgid "Unknown DnDv2 mode {mode} - course is misconfigured"
-msgstr "Modo DnDv2 desconocido {mode} : el curso está mal configurado"
+msgstr "Modo DnDv2 desconocido {mode} : la idea está mal configurado"
 
 #: drag_and_drop_v2.py:669
 msgid "show_answer handler should only be called for assessment mode"

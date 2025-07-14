@@ -78,7 +78,7 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroBachelors program certificate in"
 msgstr ""
-"ha completado con éxito todos los cursos y ha recibido calificaciones "
+"ha completado con éxito todos las ideas y ha recibido calificaciones "
 "aprobatorias para obtener un certificado del programa MicroBachelors en"
 
 #. Translators: MicroBachelors should not be translated
@@ -102,9 +102,9 @@ msgid ""
 "included in the program."
 msgstr ""
 "Una credencial edX MicroBachelors significa que el alumno ha completado un "
-"grupo de cursos que se suman a una rica comprensión de un área de estudio. "
+"grupo de ideas que se suman a una rica comprensión de un área de estudio. "
 "Para completar los programas MicroBachelors, los estudiantes deben obtener "
-"certificados verificados {link_start} {link_end} de cada uno de los cursos "
+"certificados verificados {link_start} {link_end} de cada uno de las ideas "
 "incluidos en el programa."
 
 #. Translators: MicroMasters should not be translated
@@ -124,7 +124,7 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroMasters program certificate in"
 msgstr ""
-"ha completado con éxito todos los cursos y ha recibido calificaciones "
+"ha completado con éxito todas las ideas y ha recibido calificaciones "
 "aprobatorias para obtener un certificado del programa MicroMasters en"
 
 #. Translators: MicroMasters should not be translated
@@ -148,10 +148,10 @@ msgid ""
 "included in the Program."
 msgstr ""
 "Una credencial edX MicroMasters significa que el alumno ha completado un "
-"grupo de cursos que suman una rica comprensión de un área de estudio. La "
+"grupo de ideas que suman una rica comprensión de un área de estudio. La "
 "finalización de los programas MicroMasters requiere que los estudiantes "
 "obtengan certificados verificados {link_start} {link_end} de cada uno de los"
-" cursos incluidos en el programa."
+" ideas incluidos en el programa."
 
 #. Translators: This phrase is preceded by the learner's name and followed by
 #. a program title
@@ -160,7 +160,7 @@ msgid ""
 "successfully completed all courses and received passing grades for a "
 "Professional Certificate in"
 msgstr ""
-"Finalizados con éxito todos los cursos y recibida las calificaciones de "
+"Finalizados con éxito todas las ideas y recibida las calificaciones de "
 "aprobado para el Certificado Profesional en"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:11
@@ -181,10 +181,10 @@ msgid ""
 "included in the Program."
 msgstr ""
 "Un Certificado Profesional de edX significa que el alumno ha completado un "
-"grupo de cursos que suman una rica comprensión de un área de estudio. La "
+"grupo de ideas que suman una rica comprensión de un área de estudio. La "
 "finalización de los programas de certificación profesional requiere que los "
 "estudiantes obtengan certificados verificados {link_start} {link_end} de "
-"cada uno de los cursos incluidos en el programa."
+"cada uno de las ideas incluidos en el programa."
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:8
@@ -203,7 +203,7 @@ msgid ""
 "has successfully completed all courses and received passing grades for an "
 "XSeries Program certificate in"
 msgstr ""
-"ha completado con éxito todos los cursos y ha recibido calificaciones "
+"ha completado con éxito todas las ideas y ha recibido calificaciones "
 "aprobatorias para obtener un certificado del programa XSeries en"
 
 #. Translators: XSeries should not be translated
@@ -227,7 +227,7 @@ msgid ""
 "included in the Program."
 msgstr ""
 "Un certificado del programa edX XSeries significa que el alumno ha "
-"completado un grupo de cursos que suman una rica comprensión de un área de "
+"completado un grupo de ideas que suman una rica comprensión de un área de "
 "estudio. La finalización de los programas XSeries requiere que los "
 "estudiantes obtengan certificados verificados {link_start} {link_end} de "
-"cada uno de los cursos incluidos en el programa."
+"cada uno de las ideas incluidos en el programa."

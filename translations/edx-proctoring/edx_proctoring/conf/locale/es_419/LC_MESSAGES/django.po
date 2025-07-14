@@ -39,11 +39,11 @@ msgstr "exámenes supervisados activos"
 
 #: admin.py:197
 msgid "courses with active proctored exams"
-msgstr "cursos con exámenes supervisados activos"
+msgstr "ideas con exámenes supervisados activos"
 
 #: admin.py:354
 msgid "Course Id"
-msgstr "Id de Curso"
+msgstr "Id de idea"
 
 #: admin.py:392
 msgid "Created"
@@ -116,7 +116,7 @@ msgstr "Hay {remaining_time} restante"
 
 #: api.py:1651
 msgid "your course"
-msgstr "tu curso"
+msgstr "tu idea"
 
 #: api.py:1741
 #, python-brace-format
@@ -288,7 +288,7 @@ msgstr ""
 "\n"
 "        Tu examen supervisado \"%(exam_name)s\" en\n"
 "        <a href=\"%(course_url)s\">%(course_name)s</a> fue revisado y el\n"
-"        equipo del curso ha identificado que una o más reglas del examen supervisado fueron violadas. Ejemplos\n"
+"        equipo de la idea ha identificado que una o más reglas del examen supervisado fueron violadas. Ejemplos\n"
 "        de situaciones que pueden resultar en la violación de una regla incluye busquedas\n"
 "   en internet, foto de identificación desenfocada o no identificada, uso de dispositivos moviles,\n"
 "       o solicitar ayuda de otra persona. Como resultado de las situaciones previamente descrita(s),\n"
@@ -372,7 +372,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"  La supervisión de este curso se da a través de  %(provider_name)s.  Revisión de inducción, incluyendo verificación de identidad, puede tomar 2+ días hábiles.\n"
+"  La supervisión de esta idea se da a través de  %(provider_name)s.  Revisión de inducción, incluyendo verificación de identidad, puede tomar 2+ días hábiles.\n"
 "    "
 
 #: templates/onboarding_exam/entrance.html:40
@@ -548,7 +548,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"      Si ya tienes un perfil de inducción aprobado a través de otros curso,\n"
+"      Si ya tienes un perfil de inducción aprobado a través de otras idea,\n"
 "      esta submisión no sera revisada. Debes realizar nuevamente este examen en cualquier momento\n"
 "      para validar que su configuración cumpla con los requirimientos de supervisación.\n"
 "    "
@@ -604,7 +604,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"     Tu perfil ha sido establecido, y estas listo para proceder a tomar examenes supervisados en este curso.\n"
+"     Tu perfil ha sido establecido, y estas listo para proceder a tomar examenes supervisados en esta idea.\n"
 "    "
 
 #: templates/practice_exam/entrance.html:5
@@ -625,8 +625,8 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        Familiarízate con los examenes supervisados a lo largo de este curso. Este examen de practica no tiene impacto\n"
-"        en tu calificación del curso.\n"
+"        Familiarízate con los examenes supervisados a lo largo de esta idea. Este examen de practica no tiene impacto\n"
+"        en tu calificación de la idea.\n"
 "      "
 
 #: templates/practice_exam/entrance.html:20
@@ -693,7 +693,7 @@ msgid ""
 msgstr ""
 "\n"
 "        Los examenes de practia no afectan tu calificación.\n"
-"        Has completado este examen y puedes continuar con el trabajo del curso.\n"
+"        Has completado este examen y puedes continuar con el trabajo de la idea.\n"
 "      "
 
 #: templates/proctored_exam/confirm-decline.html:5
@@ -712,7 +712,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        Si tomas este examen sin supervisión, no serás elegible para los creditos de curso o para los credenciales del MicroMasters si alguno aplica para este curso. \n"
+"        Si tomas este examen sin supervisión, no serás elegible para los creditos de la idea o para los credenciales del MicroMasters si alguno aplica para esta idea. \n"
 "      "
 
 #: templates/proctored_exam/confirm-decline.html:16
@@ -742,7 +742,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"      Para ser elegibles para creditos o los credenciales del programa asociados con este curso, deberás aprobar la revisión supervisada para este examen.\n"
+"      Para ser elegibles para creditos o los credenciales del programa asociados con esta idea, deberás aprobar la revisión supervisada para este examen.\n"
 "\n"
 "    "
 
@@ -783,7 +783,7 @@ msgid ""
 msgstr ""
 "\n"
 "        Un error de sistema ha ocurrido con tu examen supervisado. Por favor ponte en contacto con el equipo de soporte \n"
-"        del curso  <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a> \n"
+"        de la idea  <a href=\"mailto:%(proctoring_escalation_email)s\">%(proctoring_escalation_email)s</a> \n"
 "       para asistencia, y devolverse al examen una vez recibido soporte.\n"
 "      "
 
@@ -1243,7 +1243,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"Regrese a la ventana del curso de %(platform_name)s para iniciar su examen. Una vez que haya completado su examen y\n"
+"Regrese a la ventana de la idea de %(platform_name)s para iniciar su examen. Una vez que haya completado su examen y\n"
 "lo haya marcado como completo, puede cerrar esta ventana para terminar la sesión supervisada\n"
 "y enviar su grabación para la revisión de los supervisores."
 
@@ -1275,7 +1275,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"       Para ser elegible para creditos o para el programa credencial asociado con este curso, debes aprobar la revisión de supervisación para este examen.\n"
+"       Para ser elegible para creditos o para el programa credencial asociado con esta idea, debes aprobar la revisión de supervisación para este examen.\n"
 "    "
 
 #: templates/proctored_exam/ready_to_start.html:5
@@ -1325,7 +1325,7 @@ msgid ""
 msgstr ""
 "\n"
 "         Deberás cumplir con las siguientes reglas para completar este examen.\n"
-"         <strong>Si violas estas reglas, recibirás una calificación final de 0 en este examen, y no serás elegible para un credito academico de curso.\n"
+"         <strong>Si violas estas reglas, recibirás una calificación final de 0 en este examen, y no serás elegible para un credito academico de la idea.\n"
 "         </strong></br>\n"
 "      "
 
@@ -1443,7 +1443,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"        Si tienes precupaciones acerca de los resultado de tu examen supervisado, ponte en contacto con el equipo del curso.\n"
+"        Si tienes precupaciones acerca de los resultado de tu examen supervisado, ponte en contacto con el equipo de la idea.\n"
 "      "
 
 #: templates/proctored_exam/submitted.html:4
@@ -1568,7 +1568,7 @@ msgstr ""
 "\n"
 "Si tiene una incapacidad,\n"
 "puede ser eligible para un permiso de tiempo adicional en los exámenes cronometrados.\n"
-"Pida información sobre tiempo adicional al equipo del curso."
+"Pida información sobre tiempo adicional al equipo de la idea."
 
 #: templates/timed_exam/ready_to_submit.html:4
 msgid ""
@@ -1695,7 +1695,7 @@ msgstr "un examen de práctica"
 
 #: views.py:151
 msgid "could not determine the course_id"
-msgstr "No se pudo determinar la ID del curso"
+msgstr "No se pudo determinar la ID de la idea"
 
 #: views.py:160 views.py:675
 msgid "Must be a Staff User to Perform this request."
@@ -1704,11 +1704,11 @@ msgstr "Hay que ser un usuario del equipo para cumplir esta pedida."
 #: views.py:663
 msgid "Missing required query parameter course_id"
 msgstr ""
-"Requerimiento de parametro query de la identificación de curso faltante"
+"Requerimiento de parametro query de la identificación de la idea faltante"
 
 #: views.py:693 views.py:874
 msgid "There is no onboarding exam related to this course id."
-msgstr "No se registra un examen de inducción relacionado a este id de curso."
+msgstr "No se registra un examen de inducción relacionado a este id de la idea."
 
 #: views.py:722
 msgid "There is no onboarding exam accessible to this user."
@@ -1753,12 +1753,12 @@ msgstr "No es posible actualizar el estado de revisión de los intentos "
 #: views.py:2157
 #, python-brace-format
 msgid "No exams in course {course_id}."
-msgstr "No hay examenes en el curso {course_id}."
+msgstr "No hay examenes en la idea {course_id}."
 
 #: views.py:2163
 #, python-brace-format
 msgid "No proctored exams in course {course_id}"
-msgstr "No hay examenes de revisión en el curso {course_id}"
+msgstr "No hay examenes de revisión en la idea {course_id}"
 
 #: views.py:2190
 #, python-brace-format
