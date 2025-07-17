@@ -331,9 +331,9 @@ msgid ""
 "this response, you may have a limited time to resubmit before your "
 "submission is graded."
 msgstr ""
-"Estás a punto de enviar tu respuesta para esta tarea. Después de enviar esta"
-" respuesta, es posible que tenga un tiempo limitado para volver a enviarla "
-"antes de que se califique su envío."
+"Estás a punto de subir tu idea. Después de subirla, podrás editarla hasta "
+"el 21 de agosto, enviando un correo a solvefortomorrow@conciencia.org "
+"con tu email y nombre de tu idea/proyecto."
 
 #: xblock/static/dist/openassessment-lms.b3707a16482220084870.js:377
 #: xblock/static/js/src/lms/oa_response.js:529
