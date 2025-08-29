@@ -26998,3 +26998,11 @@ msgstr "vous recevrez un certificat que vous pourrez partager avec votre réseau
 #: env/build/openedx/themes/theme/lms/templates/index.html:499
 msgid "and submit as a part of your CPD requirements."
 msgstr "et soumettre dans le cadre de vos exigences CPD."
+
+#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:153
+msgid "HOME"
+msgstr "ACCUEIL"
+
+#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:154
+msgid "ABOUT"
+msgstr "À PROPOS"
