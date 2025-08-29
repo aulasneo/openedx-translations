@@ -26858,3 +26858,143 @@ msgstr "Placer votre texte de droits d'auteur ici!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Éditeur de code"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:43
+msgid "WELCOME TO"
+msgstr "BIENVENUE À"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:44
+msgid "THE HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
+msgstr "L’Académie Holcim de la construction durable"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:45
+msgid "Explore CPD-certified courses on low-carbon, circular and"
+msgstr "Explorez des cours certifiés CPD sur des concepts à faible carbone et circulaires"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:46
+msgid "regenerative design concepts developed with top global institutions and architecture firms."
+msgstr "et des approches de conception régénératrice développées avec des institutions et des cabinets d’architecture de premier plan."
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:48
+msgid "Enroll for free"
+msgstr "Inscrivez-vous gratuitement"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:63
+msgid "FIND YOUR COURSE"
+msgstr "TROUVEZ VOTRE COURS"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:64
+msgid "Covering a wide range of sustainable construction topics, explore these flexible-learning courses"
+msgstr "Couvrant un large éventail de sujets liés à la construction durable, explorez ces cours d’apprentissage flexible"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:73
+msgid "All levels"
+msgstr "Tous les niveaux"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:74
+msgid "From basic to advanced"
+msgstr "Du débutant à l’avancé"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:110
+msgid "ALL LEVELS"
+msgstr "TOUS LES NIVEAUX"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:115
+msgid "BASIC"
+msgstr "DÉBUTANT"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:120
+msgid "INTERMEDIATE"
+msgstr "INTERMÉDIAIRE"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:125
+msgid "ADVANCED"
+msgstr "AVANCÉ"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:438
+msgid "TESTIMONIALS"
+msgstr "TÉMOIGNAGES"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:442
+msgid "Quote"
+msgstr "Citation"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:444
+msgid "To reduce a building's embodied carbon footprint, it is imperative to"
+msgstr "Pour réduire l’empreinte carbone intrinsèque d’un bâtiment, il est impératif de"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:445
+msgid "learn about the latest innovations, adaptability, and scalability. The"
+msgstr "se tenir au courant des dernières innovations, de l’adaptabilité et de l’évolutivité. L’"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:446
+msgid "Holcim Sustainable Construction Academy is a great place to start.”"
+msgstr "Académie Holcim de la construction durable est un excellent point de départ."
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:450
+msgid "Head of Sustainability, Henning Larsen Architects"
+msgstr "Responsable du développement durable, Henning Larsen Architects"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:459
+msgid "This is an exciting new tool to empower professionals in the built environment."
+msgstr "Il s’agit d’un nouvel outil passionnant pour autonomiser les professionnels de l’environnement bâti."
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:460
+msgid "I'm proud to have contributed to the program, which has the potential"
+msgstr "Je suis fier d’avoir contribué au programme, qui a le potentiel"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:461
+msgid "to make a lasting impact on both our industry and planet.”"
+msgstr "d’avoir un impact durable sur notre industrie et notre planète."
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:465
+msgid "Professor of Structural Engineering, University of Cambridge"
+msgstr "Professeur de génie des structures, Université de Cambridge"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:474
+msgid "CERTIFICATION"
+msgstr "CERTIFICATION"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:475
+msgid "Earn and share the CPD certificate with your network"
+msgstr "Obtenez et partagez le certificat CPD avec votre réseau"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:482
+msgid "All of our courses are certified by the CPD Certification Service. CPD stands"
+msgstr "Tous nos cours sont certifiés par le CPD Certification Service. CPD signifie"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:484
+msgid "for"
+msgstr "pour"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:485
+msgid "Continuing Professional Development and is the term used to describe the learning"
+msgstr "Développement professionnel continu et désigne le terme utilisé pour décrire les activités d’apprentissage"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:486
+msgid "activities professionals engage in to develop and enhance their abilities. CPD"
+msgstr "auxquelles les professionnels participent pour développer et améliorer leurs compétences. Le CPD"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:487
+msgid "Certification Service is widely recognised by the international construction sector,"
+msgstr "Certification Service est largement reconnu par le secteur international de la construction,"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:488
+msgid "and it works alongside professional bodies to ensure training courses, seminars and"
+msgstr "et il travaille aux côtés d’organismes professionnels pour garantir que les cours, séminaires et"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:489
+msgid "learning activities are compatible with CPD policies of the industry."
+msgstr "activités d’apprentissage sont compatibles avec les politiques CPD de l’industrie."
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:497
+msgid "Upon completion of each course with a minimum grade of 80%,"
+msgstr "À la fin de chaque cours avec une note minimale de 80 %,"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:498
+msgid "you will receive a certificate that you can share with your network"
+msgstr "vous recevrez un certificat que vous pourrez partager avec votre réseau"
+
+#: env/build/openedx/themes/theme/lms/templates/index.html:499
+msgid "and submit as a part of your CPD requirements."
+msgstr "et soumettre dans le cadre de vos exigences CPD."
