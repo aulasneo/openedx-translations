@@ -26911,6 +26911,18 @@ msgstr "INTERMÉDIAIRE"
 msgid "ADVANCED"
 msgstr "AVANCÉ"
 
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:116
+msgid "You have little knowledge or experience in construction or the built environment. You would like to gain some foundational knowledge of sustainable construction and the basic concepts, vocabulary and terms that are commonly used in this topic."
+msgstr "Vous avez peu de connaissances ou d’expérience dans la construction ou l’environnement bâti. Vous souhaitez acquérir des notions de base sur la construction durable ainsi que les concepts, le vocabulaire et les termes fondamentaux couramment utilisés dans ce domaine."
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:121
+msgid "You have some knowledge and experience in construction or the built environment. You would like to delve deeper into specific topics in Sustainable Construction, discover current trends and relate them to your current practice."
+msgstr "Vous avez certaines connaissances et de l’expérience dans la construction ou l’environnement bâti. Vous souhaitez approfondir des sujets spécifiques liés à la construction durable, découvrir les tendances actuelles et les relier à votre pratique."
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:126
+msgid "You have very good and holistic knowledge and are currently working in construction or the built environment. You would like to gain very specific technical knowledge, learn about practical tools and techniques that could be applied directly to your day-to-day work."
+msgstr "Vous possédez des connaissances approfondies et globales et travaillez actuellement dans la construction ou l’environnement bâti. Vous souhaitez acquérir des connaissances techniques très précises, découvrir des outils et des techniques pratiques pouvant être appliqués directement à votre travail quotidien."
+
 #: env/build/openedx/themes/theme/lms/templates/index.html:438
 msgid "TESTIMONIALS"
 msgstr "TÉMOIGNAGES"
@@ -26958,6 +26970,30 @@ msgstr "CERTIFICATION"
 #: env/build/openedx/themes/theme/lms/templates/index.html:475
 msgid "Earn and share the CPD certificate with your network"
 msgstr "Obtenez et partagez le certificat CPD avec votre réseau"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:83
+msgid "MEET OUR EXPERTS"
+msgstr "RENCONTREZ NOS EXPERTS"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:84
+msgid "Our global network of experts brings a wealth of industry expertise"
+msgstr "Notre réseau mondial d’experts apporte une riche expertise sectorielle"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:93
+msgid "Earn and share"
+msgstr "Gagnez et partagez"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:94
+msgid "Earn CPD certificates and share them with your network"
+msgstr "Obtenez des certificats CPD et partagez-les avec votre réseau"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:371
+msgid "AND MANY MORE..."
+msgstr "ET BIEN D’AUTRES…"
+
+#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:157
+msgid "TOPIC:"
+msgstr "SUJET :"
 
 #: env/build/openedx/themes/theme/lms/templates/index.html:482
 msgid "All of our courses are certified by the CPD Certification Service. CPD stands"
