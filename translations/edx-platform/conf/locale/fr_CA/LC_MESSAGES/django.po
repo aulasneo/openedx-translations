@@ -26859,186 +26859,401 @@ msgstr "Placer votre texte de droits d'auteur ici!"
 msgid "Code Editor"
 msgstr "Éditeur de code"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:43
+#: lms/templates/index.html:43
 msgid "WELCOME TO"
 msgstr "BIENVENUE À"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:44
+#: lms/templates/index.html:44
 msgid "THE HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
 msgstr "L’Académie Holcim de la construction durable"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:45
+#: lms/templates/index.html:45
 msgid "Explore CPD-certified courses on low-carbon, circular and"
 msgstr "Explorez des cours certifiés CPD sur des concepts à faible carbone et circulaires"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:46
+#: lms/templates/index.html:46
 msgid "regenerative design concepts developed with top global institutions and architecture firms."
 msgstr "et des approches de conception régénératrice développées avec des institutions et des cabinets d’architecture de premier plan."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:48
+#: lms/templates/index.html:48
 msgid "Enroll for free"
 msgstr "Inscrivez-vous gratuitement"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:63
+#: lms/templates/index.html:63
 msgid "FIND YOUR COURSE"
 msgstr "TROUVEZ VOTRE COURS"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:64
+#: lms/templates/index.html:64
 msgid "Covering a wide range of sustainable construction topics, explore these flexible-learning courses"
 msgstr "Couvrant un large éventail de sujets liés à la construction durable, explorez ces cours d’apprentissage flexible"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:73
+#: lms/templates/index.html:73
 msgid "All levels"
 msgstr "Tous les niveaux"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:74
+#: lms/templates/index.html:74
 msgid "From basic to advanced"
 msgstr "Du débutant à l’avancé"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:110
+#: lms/templates/index.html:110
 msgid "ALL LEVELS"
 msgstr "TOUS LES NIVEAUX"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:115
+#: lms/templates/index.html:115
 msgid "BASIC"
 msgstr "DÉBUTANT"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:120
+#: lms/templates/index.html:120
 msgid "INTERMEDIATE"
 msgstr "INTERMÉDIAIRE"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:125
+#: lms/templates/index.html:125
 msgid "ADVANCED"
 msgstr "AVANCÉ"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:116
+#: lms/templates/index.html:116
 msgid "You have little knowledge or experience in construction or the built environment. You would like to gain some foundational knowledge of sustainable construction and the basic concepts, vocabulary and terms that are commonly used in this topic."
 msgstr "Vous avez peu de connaissances ou d’expérience dans la construction ou l’environnement bâti. Vous souhaitez acquérir des notions de base sur la construction durable ainsi que les concepts, le vocabulaire et les termes fondamentaux couramment utilisés dans ce domaine."
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:121
+#: lms/templates/index.html:121
 msgid "You have some knowledge and experience in construction or the built environment. You would like to delve deeper into specific topics in Sustainable Construction, discover current trends and relate them to your current practice."
 msgstr "Vous avez certaines connaissances et de l’expérience dans la construction ou l’environnement bâti. Vous souhaitez approfondir des sujets spécifiques liés à la construction durable, découvrir les tendances actuelles et les relier à votre pratique."
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:126
+#: lms/templates/index.html:126
 msgid "You have very good and holistic knowledge and are currently working in construction or the built environment. You would like to gain very specific technical knowledge, learn about practical tools and techniques that could be applied directly to your day-to-day work."
 msgstr "Vous possédez des connaissances approfondies et globales et travaillez actuellement dans la construction ou l’environnement bâti. Vous souhaitez acquérir des connaissances techniques très précises, découvrir des outils et des techniques pratiques pouvant être appliqués directement à votre travail quotidien."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:438
+#: lms/templates/index.html:438
 msgid "TESTIMONIALS"
 msgstr "TÉMOIGNAGES"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:442
+#: lms/templates/index.html:442
 msgid "Quote"
 msgstr "Citation"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:444
+#: lms/templates/index.html:444
 msgid "To reduce a building's embodied carbon footprint, it is imperative to"
 msgstr "Pour réduire l’empreinte carbone intrinsèque d’un bâtiment, il est impératif de"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:445
+#: lms/templates/index.html:445
 msgid "learn about the latest innovations, adaptability, and scalability. The"
 msgstr "se tenir au courant des dernières innovations, de l’adaptabilité et de l’évolutivité. L’"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:446
+#: lms/templates/index.html:446
 msgid "Holcim Sustainable Construction Academy is a great place to start.”"
 msgstr "Académie Holcim de la construction durable est un excellent point de départ."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:450
+#: lms/templates/index.html:450
 msgid "Head of Sustainability, Henning Larsen Architects"
 msgstr "Responsable du développement durable, Henning Larsen Architects"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:459
+#: lms/templates/index.html:459
 msgid "This is an exciting new tool to empower professionals in the built environment."
 msgstr "Il s’agit d’un nouvel outil passionnant pour autonomiser les professionnels de l’environnement bâti."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:460
+#: lms/templates/index.html:460
 msgid "I'm proud to have contributed to the program, which has the potential"
 msgstr "Je suis fier d’avoir contribué au programme, qui a le potentiel"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:461
+#: lms/templates/index.html:461
 msgid "to make a lasting impact on both our industry and planet.”"
 msgstr "d’avoir un impact durable sur notre industrie et notre planète."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:465
+#: lms/templates/index.html:465
 msgid "Professor of Structural Engineering, University of Cambridge"
 msgstr "Professeur de génie des structures, Université de Cambridge"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:474
+#: lms/templates/index.html:474
 msgid "CERTIFICATION"
 msgstr "CERTIFICATION"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:475
+#: lms/templates/index.html:475
 msgid "Earn and share the CPD certificate with your network"
 msgstr "Obtenez et partagez le certificat CPD avec votre réseau"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:83
+#: lms/templates/index.html:83
 msgid "MEET OUR EXPERTS"
 msgstr "RENCONTREZ NOS EXPERTS"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:84
+#: lms/templates/index.html:84
 msgid "Our global network of experts brings a wealth of industry expertise"
 msgstr "Notre réseau mondial d’experts apporte une riche expertise sectorielle"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:93
+#: lms/templates/index.html:93
 msgid "Earn and share"
 msgstr "Gagnez et partagez"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:94
+#: lms/templates/index.html:94
 msgid "Earn CPD certificates and share them with your network"
 msgstr "Obtenez des certificats CPD et partagez-les avec votre réseau"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:371
+#: lms/templates/index.html:371
 msgid "AND MANY MORE..."
 msgstr "ET BIEN D’AUTRES…"
 
-#: env/build/openedx/themes/theme-holcim/lms/templates/index.html:157
+#: lms/templates/index.html:157
 msgid "TOPIC:"
-msgstr "SUJET :"
+msgstr "SUJET:"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:482
+#: lms/templates/index.html:482
 msgid "All of our courses are certified by the CPD Certification Service. CPD stands"
 msgstr "Tous nos cours sont certifiés par le CPD Certification Service. CPD signifie"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:484
+#: lms/templates/index.html:484
 msgid "for"
 msgstr "pour"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:485
+#: lms/templates/index.html:485
 msgid "Continuing Professional Development and is the term used to describe the learning"
 msgstr "Développement professionnel continu et désigne le terme utilisé pour décrire les activités d’apprentissage"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:486
+#: lms/templates/index.html:486
 msgid "activities professionals engage in to develop and enhance their abilities. CPD"
 msgstr "auxquelles les professionnels participent pour développer et améliorer leurs compétences. Le CPD"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:487
+#: lms/templates/index.html:487
 msgid "Certification Service is widely recognised by the international construction sector,"
 msgstr "Certification Service est largement reconnu par le secteur international de la construction,"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:488
+#: lms/templates/index.html:488
 msgid "and it works alongside professional bodies to ensure training courses, seminars and"
 msgstr "et il travaille aux côtés d’organismes professionnels pour garantir que les cours, séminaires et"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:489
+#: lms/templates/index.html:489
 msgid "learning activities are compatible with CPD policies of the industry."
 msgstr "activités d’apprentissage sont compatibles avec les politiques CPD de l’industrie."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:497
+#: lms/templates/index.html:497
 msgid "Upon completion of each course with a minimum grade of 80%,"
 msgstr "À la fin de chaque cours avec une note minimale de 80 %,"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:498
+#: lms/templates/index.html:498
 msgid "you will receive a certificate that you can share with your network"
 msgstr "vous recevrez un certificat que vous pourrez partager avec votre réseau"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:499
+#: lms/templates/index.html:499
 msgid "and submit as a part of your CPD requirements."
 msgstr "et soumettre dans le cadre de vos exigences CPD."
 
-#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:153
+#: lms/templates/header/navbar-not-authenticated.html:33
+msgid "ENROLL FOR FREE"
+msgstr "S'INSCRIRE GRATUITEMENT"
+
+#: lms/templates/header/navbar-not-authenticated.html:34
+msgid "SIGN IN"
+msgstr "SE CONNECTER"
+
+#: lms/templates/header/navbar-authenticated.html:155
 msgid "HOME"
 msgstr "ACCUEIL"
 
-#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:154
+#: lms/templates/header/navbar-authenticated.html:156
 msgid "ABOUT"
 msgstr "À PROPOS"
+
+#: lms/templates/footer.html:185
+msgid "Cookies Policy"
+msgstr "Politique relative aux témoins"
+
+#: lms/templates/footer.html:186
+msgid "Privacy Notice"
+msgstr "Avis de confidentialité"
+
+#: lms/templates/courseware/course_about.html:139
+msgid "From beginners to intermediate"
+msgstr "Des débutants aux intermédiaires"
+
+#: lms/templates/courseware/course_about.html:143
+msgid "Flexible schedule"
+msgstr "Horaire flexible"
+
+#: lms/templates/courseware/course_about.html:144
+msgid "Learn at your own pace anytime"
+msgstr "Apprenez à votre propre rythme, à tout moment"
+
+#: lms/templates/courseware/course_about.html:149
+msgid "Earn and share the certificate with your network"
+msgstr "Obtenez et partagez le certificat avec votre réseau"
+
+#: lms/templates/static_templates/about.html:6
+msgid "About"
+msgstr "À propos de l'Académie"
+
+#: lms/templates/static_templates/about.html:13
+msgid "ABOUT HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
+msgstr "À PROPOS DE L'ACADÉMIE HOLCIM DE LA CONSTRUCTION DURABLE"
+
+#: lms/templates/static_templates/about.html:20
+msgid "At Holcim, we’re on a mission to decarbonize building, and enable circular, low-carbon, energy-efficient, and regenerative buildings and cities. We’re doing this by partnering with like-minded organizations like the Canary Wharf Group. We also need to share knowledge and best practices across the entire value chain to accelerate the shift to sustainable construction."
+msgstr "Chez Holcim, nous avons pour mission de décarboner la construction et de permettre des bâtiments et des villes circulaires, à faible teneur en carbone, écoénergétiques et régénératifs. Nous y parvenons en collaborant avec des organisations partageant les mêmes valeurs, comme le Canary Wharf Group. Nous devons également partager les connaissances et les meilleures pratiques tout au long de la chaîne de valeur afin d’accélérer la transition vers la construction durable."
+
+#: lms/templates/static_templates/about.html:22
+msgid "That’s why we’re launching the Holcim Sustainable Construction Academy, which we developed with like-minded experts: academics from ETH Zurich and University of Cambridge, and leading experts from pioneering companies like Canary Wharf Group, Arup and Ramboll. It’s a one-stop-shop learning journey on sustainable construction – from design and materials to new technologies and circularity – for architects, engineers, developers and urban planners. And it’s more than just a learning portal – it’s a movement to accelerate the shift to more sustainable and regenerative building."
+msgstr "C’est pourquoi nous lançons l’Académie Holcim de la construction durable, que nous avons développée avec des experts partageant la même vision : des universitaires de l’ETH Zurich et de l’Université de Cambridge, ainsi que des spécialistes de sociétés pionnières comme Canary Wharf Group, Arup et Ramboll. Il s’agit d’un parcours d’apprentissage complet sur la construction durable — de la conception et des matériaux aux nouvelles technologies et à la circularité — destiné aux architectes, ingénieurs, promoteurs et urbanistes. Et c’est plus qu’un simple portail d’apprentissage : c’est un mouvement pour accélérer la transition vers une construction plus durable et régénérative."
+
+#: lms/templates/static_templates/about.html:30
+msgid "FREQUENTLY ASKED QUESTIONS"
+msgstr "FOIRE AUX QUESTIONS"
+
+#: lms/templates/static_templates/about.html:39
+msgid "What are the fees for these courses?"
+msgstr "Quels sont les frais pour ces cours?"
+
+#: lms/templates/static_templates/about.html:40
+msgid "All courses on the Holcim Sustainable Construction are free of charge. Simply register and enroll in any courses you choose."
+msgstr "Tous les cours de l’Académie Holcim de la construction durable sont gratuits. Il vous suffit de vous inscrire et de vous inscrire aux cours de votre choix."
+
+#: lms/templates/static_templates/about.html:44
+msgid "What is the right order to take these courses?"
+msgstr "Dans quel ordre dois-je suivre ces cours?"
+
+#: lms/templates/static_templates/about.html:45
+msgid "The courses are meant to be modular, with varying levels of difficulty aimed at learners with different backgrounds. You may first look into the Basic-level courses for an introduction to sustainable construction topics, or you may begin with the more specialized and Intermediate-level topic of \"Designing with Concrete\". It's up to you and your self-assessment of your knowledge level."
+msgstr "Les cours sont conçus pour être modulaires, avec différents niveaux de difficulté adaptés à des apprenants aux profils variés. Vous pouvez d’abord consulter les cours de niveau de base pour une introduction aux sujets de la construction durable, ou commencer par un sujet plus spécialisé de niveau intermédiaire comme « Concevoir avec le béton ». À vous de choisir selon votre autoévaluation de votre niveau de connaissances."
+
+#: lms/templates/static_templates/about.html:49
+msgid "What happens if I fail to gain a certificate for a course?"
+msgstr "Que se passe-t-il si je n’obtiens pas le certificat d’un cours?"
+
+#: lms/templates/static_templates/about.html:50
+msgid "If you fail to get a minimum grade of 80% in any course, you may request for a reset through this <a href=\"https://holcimacademy.com/contact\">contact form</a>. Please state your username and the topics that you would like to reset in your message."
+msgstr "Si vous n’obtenez pas la note minimale de 80 % dans un cours, vous pouvez demander une réinitialisation via ce <a href=\"https://holcimacademy.com/contact\">formulaire de contact</a>. Veuillez indiquer votre nom d’utilisateur et les modules que vous souhaitez réinitialiser dans votre message."
+
+#: lms/templates/static_templates/about.html:54
+msgid "How do I sign up for a Holcim Academy course?"
+msgstr "Comment m’inscrire à un cours de l’Académie Holcim?"
+
+#: lms/templates/static_templates/about.html:55
+msgid "Visit our course catalog to explore the range of courses that we offer and click on any link to view the course info page. You’ll see all the important details about the course, and have the opportunity to enroll. In order to enroll in courses on <a href=\"https://holcimacademy.com\">http://holcimacademy.com</a> you’ll need to register and create an account. Once you select Enroll Now, you can begin your learning journey."
+msgstr "Visitez notre catalogue pour découvrir la gamme de cours proposés et cliquez sur n’importe quel lien pour afficher la page d’informations du cours. Vous verrez tous les détails importants et aurez la possibilité de vous inscrire. Pour vous inscrire à des cours sur <a href=\"https://holcimacademy.com\">http://holcimacademy.com</a>, vous devez d’abord créer un compte. Une fois que vous avez choisi « S’inscrire maintenant », vous pouvez commencer votre parcours d’apprentissage."
+
+#: lms/templates/static_templates/about.html:58
+msgid "How can I earn a certificate?"
+msgstr "Comment puis-je obtenir un certificat?"
+
+#: lms/templates/static_templates/about.html:59
+msgid "To earn a verified certificate, you must complete and pass the course with a grade that is equal to or above the minimum of 80%. This certificate will be delivered digitally through your Learner Dashboard on the platform. You may either share this on LinkedIn as a certificate credential, on Twitter and Facebook as a post, or you may grab a screenshot of the certificate and share it on any of your preferred social media platforms."
+msgstr "Pour obtenir un certificat vérifié, vous devez terminer et réussir le cours avec une note égale ou supérieure à 80 %. Le certificat sera délivré numériquement via votre tableau de bord sur la plateforme. Vous pouvez le partager sur LinkedIn comme attestation, sur Twitter et Facebook en tant que publication, ou encore prendre une capture d’écran du certificat et la partager sur vos réseaux sociaux préférés."
+
+#: lms/templates/static_templates/about.html:62
+msgid "I have gone through an entire Holcim Academy course. How can I give my feedback?"
+msgstr "J’ai terminé un cours de l’Académie Holcim. Comment puis-je donner mon avis?"
+
+#: lms/templates/static_templates/about.html:63
+msgid "Please fill up <a href=\"https://forms.gle/1FvWiLjJUA6a9PFS7\">this form</a> to give your feedback and help us improve on the Academy."
+msgstr "Veuillez remplir <a href=\"https://forms.gle/1FvWiLjJUA6a9PFS7\">ce formulaire</a> pour nous transmettre votre avis et nous aider à améliorer l’Académie."
+
+#: lms/templates/static_templates/about.html:66
+msgid "Where can I get help for an issue with my Holcim Academy account or course experience?"
+msgstr "Où puis-je obtenir de l’aide pour un problème avec mon compte ou mon expérience de cours sur l’Académie Holcim?"
+
+#: lms/templates/static_templates/about.html:67
+msgid "You may contact us through this <a href=\"https://holcimacademy.com/contact\">contact form.</a>"
+msgstr "Vous pouvez nous contacter via ce <a href=\"https://holcimacademy.com/contact\">formulaire de contact.</a>"
+
+#: lms/templates/static_templates/contact.html:6
+msgid "Contact"
+msgstr "Contact"
+
+#: lms/templates/static_templates/contact.html:43
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+#: lms/templates/static_templates/contact.html:79
+msgid "HELP CENTER"
+msgstr "CENTRE D'AIDE"
+
+#: lms/templates/static_templates/contact.html:99
+msgid "First Name"
+msgstr "Prénom"
+
+#: lms/templates/static_templates/contact.html:100
+#: lms/templates/static_templates/contact.html:110
+#: lms/templates/static_templates/contact.html:126
+#: lms/templates/static_templates/contact.html:154
+#: lms/templates/static_templates/contact.html:175
+#: lms/templates/static_templates/contact.html:189
+msgid "This is required."
+msgstr "Ce champ est obligatoire."
+
+#: lms/templates/static_templates/contact.html:109
+msgid "E-mail Address"
+msgstr "Adresse courriel"
+
+#: lms/templates/static_templates/contact.html:119
+msgid "Main area of interest"
+msgstr "Domaine d'intérêt principal"
+
+#: lms/templates/static_templates/contact.html:120
+msgid "Holcim Group"
+msgstr "Groupe Holcim"
+
+#: lms/templates/static_templates/contact.html:121
+msgid "Holcim Sustainable Construction Academy"
+msgstr "Académie Holcim de la construction durable"
+
+#: lms/templates/static_templates/contact.html:122
+msgid "External Experts Network"
+msgstr "Réseau d'experts externes"
+
+#: lms/templates/static_templates/contact.html:123
+#: lms/templates/static_templates/contact.html:172
+#: lms/templates/static_templates/contact.html:124
+msgid "Other"
+msgstr "Autre"
+
+#: lms/templates/static_templates/contact.html:139
+msgid "Last Name"
+msgstr "Nom"
+
+#: lms/templates/static_templates/contact.html:149
+msgid "Country"
+msgstr "Pays"
+
+#: lms/templates/static_templates/contact.html:163
+msgid "Reason for enquiry"
+msgstr "Motif de la demande"
+
+#: lms/templates/static_templates/contact.html:164
+msgid "Request for face-to-face Holcim Academy, workshops, lunch and learn, etc"
+msgstr "Demande pour Académie Holcim en présentiel, ateliers, lunch & learn, etc."
+
+#: lms/templates/static_templates/contact.html:165
+msgid "Technical issues with Holcim Academy platform"
+msgstr "Problèmes techniques avec la plateforme de l'Académie Holcim"
+
+#: lms/templates/static_templates/contact.html:166
+msgid "Content issues with Holcim Academy content"
+msgstr "Problèmes liés au contenu de l'Académie Holcim"
+
+#: lms/templates/static_templates/contact.html:167
+msgid "Request for Holcim Academy grading reset"
+msgstr "Demande de réinitialisation de la notation de l'Académie Holcim"
+
+#: lms/templates/static_templates/contact.html:168
+msgid "Seeking information on Holcim's products and solutions"
+msgstr "Recherche d'informations sur les produits et solutions Holcim"
+
+#: lms/templates/static_templates/contact.html:170
+msgid "Seeking information about Holcim's innovations and R&D"
+msgstr "Recherche d'informations sur les innovations et la R&D de Holcim"
+
+#: lms/templates/static_templates/contact.html:171
+msgid "Contact with Experts"
+msgstr "Contacter des experts"
+
+#: lms/templates/static_templates/contact.html:186
+msgid "Provide your comments and/or questions"
+msgstr "Veuillez fournir vos commentaires et/ou questions"
+
+#: lms/templates/static_templates/contact.html:196
+msgid "Submit"
+msgstr "Soumettre"
+
+#: lms/templates/static_templates/about.html:67
+msgid "You may contact us through this <a href=\"https://holcimacademy.com/contact\">contact form.</a>"
+msgstr "Vous pouvez nous contacter via ce <a href=\"https://holcimacademy.com/contact\">formulaire de contact.</a>"
+
+#: lms/templates/static_templates/about.html:66
+msgid "Where can I get help for an issue with my Holcim Academy account or course experience?"
+msgstr "Où puis-je obtenir de l’aide pour un problème avec mon compte ou mon expérience de cours sur l’Académie Holcim?"
