@@ -3116,12 +3116,14 @@ msgstr "Faire un don"
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
 #: lms/templates/static_templates/about.html:10
+#: lms/templates/static_templates/about.html:6
 #: themes/red-theme/lms/templates/footer.html:20
 #: themes/red-theme/lms/templates/footer.html:24
 #: themes/stanford-style/lms/templates/footer.html:15
 #: themes/stanford-style/lms/templates/static_templates/about.html:9
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
+#: lms/templates/header/navbar-authenticated.html:156
 msgid "About"
 msgstr "À propos"
 
@@ -4502,6 +4504,7 @@ msgstr "{sign_in_link} ou {register_link}."
 #: lms/templates/header/navbar-not-authenticated.html:67
 #: lms/templates/lti_provider/user-auth-error.html:30
 #: lms/templates/navigation/navbar-not-authenticated.html:49
+#: lms/templates/header/navbar-not-authenticated.html:34
 msgid "Sign in"
 msgstr "Connexion"
 
@@ -10604,6 +10607,7 @@ msgstr ""
 "contactez votre administrateur à {enterprise_customer_name}."
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
+#: lms/templates/header/navbar-authenticated.html:155
 msgid "Home"
 msgstr "Accueil"
 
@@ -26876,6 +26880,7 @@ msgid "regenerative design concepts developed with top global institutions and a
 msgstr "et des approches de conception régénératrice développées avec des institutions et des cabinets d’architecture de premier plan."
 
 #: lms/templates/index.html:48
+#: lms/templates/header/navbar-not-authenticated.html:33
 msgid "Enroll for free"
 msgstr "Inscrivez-vous gratuitement"
 
@@ -27035,22 +27040,6 @@ msgstr "vous recevrez un certificat que vous pourrez partager avec votre réseau
 msgid "and submit as a part of your CPD requirements."
 msgstr "et soumettre dans le cadre de vos exigences CPD."
 
-#: lms/templates/header/navbar-not-authenticated.html:33
-msgid "ENROLL FOR FREE"
-msgstr "S'INSCRIRE GRATUITEMENT"
-
-#: lms/templates/header/navbar-not-authenticated.html:34
-msgid "SIGN IN"
-msgstr "SE CONNECTER"
-
-#: lms/templates/header/navbar-authenticated.html:155
-msgid "HOME"
-msgstr "ACCUEIL"
-
-#: lms/templates/header/navbar-authenticated.html:156
-msgid "ABOUT"
-msgstr "À PROPOS"
-
 #: lms/templates/footer.html:185
 msgid "Cookies Policy"
 msgstr "Politique relative aux témoins"
@@ -27074,10 +27063,6 @@ msgstr "Apprenez à votre propre rythme, à tout moment"
 #: lms/templates/courseware/course_about.html:149
 msgid "Earn and share the certificate with your network"
 msgstr "Obtenez et partagez le certificat avec votre réseau"
-
-#: lms/templates/static_templates/about.html:6
-msgid "About"
-msgstr "À propos de l'Académie"
 
 #: lms/templates/static_templates/about.html:13
 msgid "ABOUT HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
