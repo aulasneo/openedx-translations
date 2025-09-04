@@ -3167,8 +3167,8 @@ msgstr "Conditions générales du service & code sur l'honneur"
 #: lms/djangoapps/branding/api.py:318 lms/djangoapps/branding/api.py:392
 #: lms/djangoapps/certificates/views/webview.py:190
 #: cms/templates/widgets/footer.html:30
-#: lms/templates/static_templates/privacy.html:6
-#: lms/templates/static_templates/privacy.html:11
+#: lms/templates/static_templates/privacy.html:4
+#: lms/templates/static_templates/privacy.html:10
 #: themes/red-theme/lms/templates/footer.html:101
 #: themes/stanford-style/lms/templates/footer.html:19
 #: themes/stanford-style/lms/templates/static_templates/tos.html:15
@@ -26130,7 +26130,6 @@ msgstr "Votre demande a été limitée. Veuillez réessayer plus tard."
 #: lms/templates/static_templates/media-kit.html:13
 #: lms/templates/static_templates/news.html:14
 #: lms/templates/static_templates/press.html:14
-#: lms/templates/static_templates/privacy.html:14
 #: lms/templates/static_templates/tos.html:13
 msgid "This page left intentionally blank. Feel free to add your own content."
 msgstr ""
@@ -27090,3 +27089,362 @@ msgstr "Où puis-je obtenir de l’aide pour un problème avec mon compte ou mon
 #: lms/templates/static_templates/about.html:67
 msgid "You may contact us through this <a href=\"https://holcimacademy.com/contact\">contact form.</a>"
 msgstr "Vous pouvez nous contacter via ce <a href=\"https://holcimacademy.com/contact\">formulaire de contact.</a>"
+
+#: lms/templates/courseware/courses.html:169
+#: lms/templates/courses_list.html:127
+msgid "Find the right course for you"
+msgstr "Trouvez le cours qui vous convient"
+
+#: lms/templates/courseware/courses.html:173
+#: lms/templates/courses_list.html:131
+msgid "Language:"
+msgstr "Langue :"
+
+#: lms/templates/courseware/courses.html:191
+#: lms/templates/courses_list.html:140
+msgid "Level:"
+msgstr "Niveau :"
+
+#: lms/templates/static_templates/cookies.html:12
+msgid "What is a cookie?"
+msgstr "Qu’est-ce qu’un cookie ?"
+
+#: lms/templates/static_templates/cookies.html:19
+msgid "Use of cookies"
+msgstr "Utilisation des cookies"
+
+#: lms/templates/static_templates/cookies.html:27
+msgid "What type of cookies do we use?"
+msgstr "Quels types de cookies utilisons-nous ?"
+
+#: lms/templates/static_templates/cookies.html:31
+msgid "Cookie List"
+msgstr "Liste des cookies"
+
+#: lms/templates/static_templates/cookies.html:38
+msgid "Strictly Necessary Cookies"
+msgstr "Cookies strictement nécessaires"
+
+#: lms/templates/static_templates/cookies.html:44
+msgid "Performance Cookies"
+msgstr "Cookies de performance"
+
+#: lms/templates/static_templates/cookies.html:50
+msgid "Functional Cookies"
+msgstr "Cookies fonctionnels"
+
+#: lms/templates/static_templates/cookies.html:54
+msgid "Targeting Cookies"
+msgstr "Cookies de ciblage"
+
+#: lms/templates/static_templates/cookies.html:60
+msgid "Adapt Browser Settings To Cookies"
+msgstr "Adapter les paramètres du navigateur aux cookies"
+
+#: lms/templates/static_templates/cookies.html:65
+msgid "How Can I Stop The Cookies?"
+msgstr "Comment puis-je désactiver les cookies ?"
+
+#: lms/templates/static_templates/cookies.html:351
+msgid "Your rights"
+msgstr "Vos droits"
+
+#: lms/templates/static_templates/cookies.html:349
+msgid "We reserve the right to make any changes to this policy, particularly in response to legislative requirements."
+msgstr "Nous nous réservons le droit d’apporter toute modification à cette politique, notamment en réponse à des exigences législatives."
+
+#: lms/templates/static_templates/cookies.html:348
+msgid "Updates to the cookies policy"
+msgstr "Mises à jour de la politique relative aux cookies"
+
+#: lms/templates/static_templates/cookies.html:233
+msgid "On a smartphone or tablet"
+msgstr "Sur un smartphone ou une tablette"
+
+#: lms/templates/static_templates/privacy.html:25
+msgid "Information we collect about you."
+msgstr "Informations que nous recueillons à votre sujet."
+
+#: lms/templates/static_templates/privacy.html:43
+msgid "Minors."
+msgstr "Mineurs."
+
+#: lms/templates/static_templates/privacy.html:48
+msgid "How we use your information."
+msgstr "Comment nous utilisons vos informations."
+
+#: lms/templates/static_templates/privacy.html:74
+msgid "How we share your information."
+msgstr "Comment nous partageons vos informations."
+
+#: lms/templates/static_templates/privacy.html:102
+msgid "Retention, storage, and security."
+msgstr "Conservation, stockage et sécurité."
+
+#: lms/templates/static_templates/privacy.html:152
+msgid "How to manage your Personal Information."
+msgstr "Comment gérer vos informations personnelles."
+
+#: lms/templates/static_templates/privacy.html:163
+msgid "Updates."
+msgstr "Mises à jour."
+
+#: lms/templates/static_templates/privacy.html:170
+msgid "Contact Information."
+msgstr "Coordonnées."
+
+#: lms/templates/static_templates/tos.html:9
+msgid "General Disclosure"
+msgstr "Divulgation générale"
+
+#: lms/templates/static_templates/tos.html:41
+msgid "No Reproduction of Material"
+msgstr "Aucune reproduction du matériel"
+
+#: lms/templates/static_templates/tos.html:45
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: lms/templates/static_templates/tos.html:64
+msgid "Limitation of our Liability to You"
+msgstr "Limitation de notre responsabilité à votre égard"
+
+#: lms/templates/static_templates/cookies.html:75
+msgid "On computer"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:77
+msgid "Microsoft Internet Explorer"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:79
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:80
+msgid "Open Internet Explorer. At the top right select \"Tools\", point to \"Safety\", and then select \"Delete browsing history\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:81
+msgid "Select the \"Cookies and website data\" check box and then select \"Delete\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:83
+msgid "To block cookies, for example, in the Microsoft Internet Explorer 11 for Windows 10:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:84
+msgid "Open Internet Explorer, select \"Tools\" and then select \"Internet options\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:85
+msgid "Select the \"Privacy\" tab, \"Advanced\" and choose whether you want to block the cookies."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:92
+msgid "Google Chrome"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:94
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:95
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click on \"Content settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:96
+msgid "Select \"Cookies\" and then select \"See all cookies and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:97
+msgid "Select \"Remove all\". Confirm by clicking \"Clear all\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:99
+msgid "To block cookies, for example, by default:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:100
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click \"Content settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:101
+msgid "Select \"Cookies\" and turn off the \"Allow sites to save and read cookie data\" button."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:108
+msgid "Apple Safari"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:110
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:111
+msgid "Open Safari, select \"Preferences\", select \"Privacy\", select \"Manage Website Data\". Select one or more websites, and then click on \"Remove\" or \"Remove All\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:113
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:114
+msgid "Open Safari, select \"Preferences\", select \"Privacy\" and click on \"Block all cookies\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:121
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:124
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:125
+msgid "Open Mozilla Firefox, select \"Options\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:126
+msgid "Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Manage Data\" button and then choose \"Remove Selected\" and \"Remove All\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:128
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:129
+msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:136
+msgid "Opera"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:139
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:140
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:141
+msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:144
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:145
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:146
+msgid "Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites to save and read cookie data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:156
+msgid "Google Chrome"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:158
+msgid "Android"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:160
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:161
+msgid "Open the Google Chrome app. To the right of the address bar, select \"More\" and then \"Settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:162
+msgid "Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:163
+msgid "Uncheck all the other items. Select \"Clear data\" and then \"Clear\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:166
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:167
+msgid "Open the Google Chrome app. Select \"More\", \"Settings\". Click on \"Site settings\" and \"Cookies\". Turn \"Cookies\" off."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:174
+msgid "iOS (Apple)"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:176
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:177
+msgid "Open the Google Chrome app. At the bottom right, select \"More\" and then \"Settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:178
+msgid "Select \"Cookies, Site Data\". Uncheck the other items."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:179
+msgid "Select \"Clear Browsing Data\", and then \"Clear Browsing Data\". Select \"Done\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:184
+msgid "Safari Apple iOS"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:186
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:188
+msgid "Click on the \"Home\" button, select \"Settings\", select \"Safari\". Select \"Advanced\", and then \"Website Data\" and then tap \"Remove All Website Data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:191
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:193
+msgid "Click on the \"Home\" button, select \"Settings\", and select \"Safari\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:194
+msgid "Select \"Block All Cookies\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:201
+msgid "Android Browser"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:203
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:204
+msgid "Select the \"Menu\" button. Select \"Settings\", Select one of the option: \"Privacy & Security\", \"Privacy\", \"Security\". Select \"Clear Cache\". Confirm the action by clicking on \"OK\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:205
+msgid "Select \"Clear all cookie data\", Confirm the action by clicking on \"OK\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:207
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:208
+msgid "Select the \"Menu\" button. Select \"Settings\". Select one of the options: \"Privacy & Security\", \"Privacy\", \"Security\". De-activate the \"Allow cookies\" option."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:209
+msgid "To opt out from the Google Analytics tracking across all websites, please click on the following link:"
+msgstr ""

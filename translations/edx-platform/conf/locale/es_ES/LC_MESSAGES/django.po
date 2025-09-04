@@ -2853,6 +2853,7 @@ msgstr "Donación"
 #: themes/stanford-style/lms/templates/static_templates/about.html:9
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
+lms/templates/header/navbar-authenticated.html:154
 msgid "About"
 msgstr "Acerca de"
 
@@ -2893,8 +2894,8 @@ msgstr "Condiciones del servicio y código de honor"
 #: lms/djangoapps/branding/api.py:318 lms/djangoapps/branding/api.py:392
 #: lms/djangoapps/certificates/views/webview.py:190
 #: cms/templates/widgets/footer.html:30
-#: lms/templates/static_templates/privacy.html:6
-#: lms/templates/static_templates/privacy.html:11
+#: lms/templates/static_templates/privacy.html:4
+#: lms/templates/static_templates/privacy.html:10
 #: themes/red-theme/lms/templates/footer.html:101
 #: themes/stanford-style/lms/templates/footer.html:19
 #: themes/stanford-style/lms/templates/static_templates/tos.html:15
@@ -10144,6 +10145,7 @@ msgstr ""
 "{enterprise_customer_name}."
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
+lms/templates/header/navbar-authenticated.html:153
 msgid "Home"
 msgstr "Inicio"
 
@@ -25381,7 +25383,6 @@ msgstr ""
 #: lms/templates/static_templates/media-kit.html:13
 #: lms/templates/static_templates/news.html:14
 #: lms/templates/static_templates/press.html:14
-#: lms/templates/static_templates/privacy.html:14
 #: lms/templates/static_templates/tos.html:13
 msgid "This page left intentionally blank. Feel free to add your own content."
 msgstr ""
@@ -26073,150 +26074,550 @@ msgstr "Introduce tu texto de Copyright aquí"
 msgid "Code Editor"
 msgstr "Editor de Código"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:43
+lms/templates/index.html:43
 msgid "WELCOME TO"
 msgstr "BIENVENIDOS A"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:44
+lms/templates/index.html:44
 msgid "THE HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
 msgstr "LA ACADEMIA HOLCIM DE CONSTRUCCIÓN SOSTENIBLE"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:45
+lms/templates/index.html:45
 msgid "Explore CPD-certified courses on low-carbon, circular and"
 msgstr "Explora cursos certificados por CPD sobre conceptos de bajo carbono y economía circular"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:46
+lms/templates/index.html:46
 msgid "regenerative design concepts developed with top global institutions and architecture firms."
 msgstr "y enfoques de diseño regenerativo desarrollados con instituciones y estudios de arquitectura de primer nivel."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:48
+lms/templates/index.html:48
 msgid "Enroll for free"
 msgstr "Inscríbete gratis"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:63
+lms/templates/index.html:63
 msgid "FIND YOUR COURSE"
 msgstr "ENCUENTRA TU CURSO"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:64
+lms/templates/index.html:64
 msgid "Covering a wide range of sustainable construction topics, explore these flexible-learning courses"
 msgstr "Cubre una amplia gama de temas de construcción sostenible; explora estos cursos de aprendizaje flexible"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:73
+lms/templates/index.html:73
 msgid "All levels"
 msgstr "Todos los niveles"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:74
+lms/templates/index.html:74
 msgid "From basic to advanced"
 msgstr "Desde básico hasta avanzado"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:110
+lms/templates/index.html:110
 msgid "ALL LEVELS"
 msgstr "TODOS LOS NIVELES"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:115
+lms/templates/index.html:115
 msgid "BASIC"
 msgstr "BÁSICO"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:120
+lms/templates/index.html:120
 msgid "INTERMEDIATE"
 msgstr "INTERMEDIO"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:125
+lms/templates/index.html:125
 msgid "ADVANCED"
 msgstr "AVANZADO"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:438
+lms/templates/index.html:438
 msgid "TESTIMONIALS"
 msgstr "TESTIMONIOS"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:442
+lms/templates/index.html:442
 msgid "Quote"
 msgstr "Cita"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:444
+lms/templates/index.html:444
 msgid "To reduce a building's embodied carbon footprint, it is imperative to"
 msgstr "Para reducir la huella de carbono incorporada de un edificio, es imprescindible"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:445
+lms/templates/index.html:445
 msgid "learn about the latest innovations, adaptability, and scalability. The"
 msgstr "conocer las últimas innovaciones, su adaptabilidad y escalabilidad. La"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:446
+lms/templates/index.html:446
 msgid "Holcim Sustainable Construction Academy is a great place to start.”"
 msgstr "Academia Holcim de Construcción Sostenible es un excelente lugar para comenzar."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:450
+lms/templates/index.html:450
 msgid "Head of Sustainability, Henning Larsen Architects"
 msgstr "Jefe de Sostenibilidad, Henning Larsen Architects"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:459
+lms/templates/index.html:459
 msgid "This is an exciting new tool to empower professionals in the built environment."
 msgstr "Esta es una nueva y emocionante herramienta para empoderar a los profesionales del entorno construido."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:460
+lms/templates/index.html:460
 msgid "I'm proud to have contributed to the program, which has the potential"
 msgstr "Me enorgullece haber contribuido con el programa, que tiene el potencial"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:461
+lms/templates/index.html:461
 msgid "to make a lasting impact on both our industry and planet.”"
 msgstr "de generar un impacto duradero tanto en nuestra industria como en el planeta."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:465
+lms/templates/index.html:465
 msgid "Professor of Structural Engineering, University of Cambridge"
 msgstr "Profesor de Ingeniería Estructural, Universidad de Cambridge"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:474
+lms/templates/index.html:474
 msgid "CERTIFICATION"
 msgstr "CERTIFICACIÓN"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:475
+lms/templates/index.html:475
 msgid "Earn and share the CPD certificate with your network"
 msgstr "Obtén y comparte el certificado CPD con tu red"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:482
+lms/templates/index.html:482
 msgid "All of our courses are certified by the CPD Certification Service. CPD stands"
 msgstr "Todos nuestros cursos están certificados por el CPD Certification Service. CPD significa"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:484
+lms/templates/index.html:484
 msgid "for"
 msgstr "significa"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:485
+lms/templates/index.html:485
 msgid "Continuing Professional Development and is the term used to describe the learning"
 msgstr "Desarrollo Profesional Continuo y es el término usado para describir las actividades de aprendizaje"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:486
+lms/templates/index.html:486
 msgid "activities professionals engage in to develop and enhance their abilities. CPD"
 msgstr "en las que los profesionales participan para desarrollar y mejorar sus capacidades. El CPD"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:487
+lms/templates/index.html:487
 msgid "Certification Service is widely recognised by the international construction sector,"
 msgstr "Certification Service es ampliamente reconocido por el sector internacional de la construcción,"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:488
+lms/templates/index.html:488
 msgid "and it works alongside professional bodies to ensure training courses, seminars and"
 msgstr "y trabaja junto con organismos profesionales para asegurar que los cursos de formación, seminarios y"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:489
+lms/templates/index.html:489
 msgid "learning activities are compatible with CPD policies of the industry."
 msgstr "actividades de aprendizaje sean compatibles con las políticas de CPD de la industria."
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:497
+lms/templates/index.html:497
 msgid "Upon completion of each course with a minimum grade of 80%,"
 msgstr "Al completar cada curso con una calificación mínima del 80 %,"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:498
+lms/templates/index.html:498
 msgid "you will receive a certificate that you can share with your network"
 msgstr "recibirás un certificado que podrás compartir con tu red"
 
-#: env/build/openedx/themes/theme/lms/templates/index.html:499
+lms/templates/index.html:499
 msgid "and submit as a part of your CPD requirements."
 msgstr "y presentar como parte de tus requisitos de CPD."
 
-#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:153
-msgid "HOME"
-msgstr "INICIO"
+#: lms/templates/static_templates/cookies.html:10
+msgid "Cookies Policy"
+msgstr "Política de cookies"
 
-#: env/build/openedx/themes/theme/lms/templates/header/navbar-authenticated.html:154
-msgid "ABOUT"
-msgstr "ACERCA DE"
+#: lms/templates/static_templates/cookies.html:12
+msgid "What is a cookie?"
+msgstr "¿Qué es una cookie?"
+
+#: lms/templates/static_templates/cookies.html:19
+msgid "Use of cookies"
+msgstr "Uso de cookies"
+
+#: lms/templates/static_templates/cookies.html:27
+msgid "What type of cookies do we use?"
+msgstr "¿Qué tipos de cookies usamos?"
+
+#: lms/templates/static_templates/cookies.html:31
+msgid "Cookie List"
+msgstr "Lista de cookies"
+
+#: lms/templates/static_templates/cookies.html:38
+msgid "Strictly Necessary Cookies"
+msgstr "Cookies estrictamente necesarias"
+
+#: lms/templates/static_templates/cookies.html:44
+msgid "Performance Cookies"
+msgstr "Cookies de rendimiento"
+
+#: lms/templates/static_templates/cookies.html:50
+msgid "Functional Cookies"
+msgstr "Cookies funcionales"
+
+#: lms/templates/static_templates/cookies.html:54
+msgid "Targeting Cookies"
+msgstr "Cookies de segmentación"
+
+#: lms/templates/static_templates/cookies.html:60
+msgid "Adapt Browser Settings To Cookies"
+msgstr "Adaptar la configuración del navegador a las cookies"
+
+#: lms/templates/static_templates/cookies.html:65
+msgid "How Can I Stop The Cookies?"
+msgstr "¿Cómo puedo desactivar las cookies?"
+
+#: lms/templates/static_templates/cookies.html:233
+msgid "On a smartphone or tablet"
+msgstr "En un smartphone o tablet"
+
+#: lms/templates/static_templates/cookies.html:348
+msgid "Updates to the cookies policy"
+msgstr "Actualizaciones de la política de cookies"
+
+#: lms/templates/static_templates/cookies.html:349
+msgid "We reserve the right to make any changes to this policy, particularly in response to legislative requirements."
+msgstr "Nos reservamos el derecho de realizar cambios en esta política, en particular en respuesta a requisitos legislativos."
+
+#: lms/templates/static_templates/cookies.html:351
+msgid "Your rights"
+msgstr "Tus derechos"
+
+#: lms/templates/static_templates/cookies.html:352
+msgid "To exercise your right to query, access and amend your personal data, you can contact us by email at"
+msgstr "Para ejercer tu derecho a consultar, acceder y modificar tus datos personales, puedes contactarnos por correo electrónico a"
+
+#: lms/templates/static_templates/privacy.html:25
+msgid "Information we collect about you."
+msgstr "Información que recopilamos sobre ti."
+
+#: lms/templates/static_templates/privacy.html:43
+msgid "Minors."
+msgstr "Menores."
+
+#: lms/templates/static_templates/privacy.html:48
+msgid "How we use your information."
+msgstr "Cómo usamos tu información."
+
+#: lms/templates/static_templates/privacy.html:74
+msgid "How we share your information."
+msgstr "Cómo compartimos tu información."
+
+#: lms/templates/static_templates/privacy.html:102
+msgid "Retention, storage, and security."
+msgstr "Conservación, almacenamiento y seguridad."
+
+#: lms/templates/static_templates/privacy.html:152
+msgid "How to manage your Personal Information."
+msgstr "Cómo gestionar tu Información Personal."
+
+#: lms/templates/static_templates/privacy.html:163
+msgid "Updates."
+msgstr "Actualizaciones."
+
+#: lms/templates/static_templates/privacy.html:170
+msgid "Contact Information."
+msgstr "Información de contacto."
+
+#: lms/templates/static_templates/tos.html:9
+msgid "General Disclosure"
+msgstr "Divulgación general"
+
+#: lms/templates/static_templates/tos.html:41
+msgid "No Reproduction of Material"
+msgstr "Prohibida la reproducción del material"
+
+#: lms/templates/static_templates/tos.html:45
+msgid "Miscellaneous"
+msgstr "Disposiciones varias"
+
+#: lms/templates/static_templates/tos.html:64
+msgid "Limitation of our Liability to You"
+msgstr "Limitación de nuestra responsabilidad hacia ti"
+
+#: lms/templates/static_templates/cookies.html:13
+msgid "A cookie is a small file of letters and numbers, which are transferred to your computer's hard drive"
+msgstr "Una cookie es un pequeño archivo de letras y números que se transfiere al disco duro de tu ordenador"
+
+#: lms/templates/static_templates/cookies.html:16
+msgid "Cookies are mostly used to allow websites to function, or to function more efficiently, as well as to provide information to website owners."
+msgstr "Las cookies se utilizan principalmente para permitir que los sitios web funcionen, o para que funcionen de manera más eficiente, así como para proporcionar información a los propietarios de los sitios."
+
+#: lms/templates/static_templates/cookies.html:17
+msgid "Above all, cookies allow the identification of your device."
+msgstr "Por encima de todo, las cookies permiten la identificación de tu dispositivo."
+
+#: lms/templates/static_templates/cookies.html:19
+msgid "We use cookies for many different reasons. We may collect information about your computer, including your IP address, operating system and browser type, for system administration purposes. This is statistical data about our users' browsing actions and patterns and does not identify you as an individual. If you agree, we may obtain information about your general internet usage by using a cookie file. The website uses cookies to distinguish you from other users of the website. This helps us to deliver a better and more personalised service to you when you browse the website and also allows us to improve the website."
+msgstr "Usamos cookies por diversas razones. Podemos recopilar información sobre tu ordenador, incluida tu dirección IP, el sistema operativo y el tipo de navegador, con fines de administración del sistema. Estos datos son estadísticos sobre las acciones y patrones de navegación de nuestros usuarios y no te identifican como individuo. Si estás de acuerdo, podemos obtener información sobre tu uso general de Internet mediante un archivo de cookies. El sitio web utiliza cookies para distinguirte de otros usuarios del sitio. Esto nos ayuda a ofrecerte un servicio mejor y más personalizado cuando navegas por el sitio web y también nos permite mejorarlo."
+
+#: lms/templates/static_templates/cookies.html:21
+msgid "We are always looking for new ways to improve its website and improve the service it offers you. We use cookies to improve the use and functionality of its website and to gain a better understanding of how you use it."
+msgstr "Siempre buscamos nuevas formas de mejorar nuestro sitio web y el servicio que te ofrecemos. Utilizamos cookies para mejorar el uso y la funcionalidad de nuestro sitio web y para comprender mejor cómo lo utilizas."
+
+#: lms/templates/static_templates/cookies.html:23
+msgid "A cookie is a small piece of data (text file) that a website &ndash; when visited by a user &ndash; asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies &ndash; which are cookies from a domain different than the domain of the website you are visiting &ndash; for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:"
+msgstr "Una cookie es un pequeño fragmento de datos (archivo de texto) que un sitio web &ndash; cuando es visitado por un usuario &ndash; solicita a tu navegador que almacene en tu dispositivo para recordar información sobre ti, como tu preferencia de idioma o la información de inicio de sesión. Esas cookies son establecidas por nosotros y se denominan cookies de origen. También utilizamos cookies de terceros &ndash; que son cookies de un dominio diferente al del sitio web que estás visitando &ndash; para nuestros esfuerzos de publicidad y marketing. En concreto, utilizamos cookies y otras tecnologías de seguimiento para los siguientes fines:"
+
+#: lms/templates/static_templates/cookies.html:25
+msgid "These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information."
+msgstr "Estas cookies son necesarias para que el sitio web funcione y no pueden desactivarse en nuestros sistemas. Normalmente solo se establecen en respuesta a acciones realizadas por ti que equivalen a una solicitud de servicios, como configurar tus preferencias de privacidad, iniciar sesión o completar formularios. Puedes configurar tu navegador para bloquear o alertarte sobre estas cookies, pero entonces algunas partes del sitio no funcionarán. Estas cookies no almacenan ninguna información de identificación personal."
+
+#: lms/templates/static_templates/cookies.html:27
+msgid "These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Estas cookies nos permiten contar visitas y fuentes de tráfico para poder medir y mejorar el rendimiento de nuestro sitio. Nos ayudan a saber qué páginas son las más y las menos populares y a ver cómo se mueven los visitantes por el sitio. Toda la información que recopilan estas cookies es agregada y, por lo tanto, anónima. Si no permites estas cookies, no sabremos cuándo has visitado nuestro sitio y no podremos monitorear su rendimiento."
+
+#: lms/templates/static_templates/cookies.html:29
+msgid "These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly."
+msgstr "Estas cookies permiten que el sitio web ofrezca funciones mejoradas y personalización. Pueden ser establecidas por nosotros o por proveedores externos cuyos servicios hemos incorporado en nuestras páginas. Si no permites estas cookies, es posible que algunos o todos estos servicios no funcionen correctamente."
+
+#: lms/templates/static_templates/cookies.html:31
+msgid "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising."
+msgstr "Estas cookies pueden ser establecidas en nuestro sitio por nuestros socios publicitarios. Es posible que esas empresas las utilicen para crear un perfil de tus intereses y mostrarte anuncios relevantes en otros sitios. No almacenan información personal de forma directa, sino que se basan en la identificación única de tu navegador y tu dispositivo de Internet. Si no permites estas cookies, verás publicidad menos dirigida."
+
+#: lms/templates/static_templates/cookies.html:33
+msgid "If you are the only person using the computer, you may set long terms of expiry for browsing history. If you share the computer, you may consider setting the browser to delete the browsing data each time when you close the browser."
+msgstr "Si eres la única persona que utiliza el ordenador, puedes establecer plazos largos de caducidad para el historial de navegación. Si compartes el ordenador, puedes considerar configurar el navegador para que elimine los datos de navegación cada vez que lo cierres."
+
+#: lms/templates/static_templates/cookies.html:35
+msgid "Most internet browsers are initially set up to automatically accept cookies."
+msgstr "La mayoría de los navegadores de Internet están configurados inicialmente para aceptar cookies automáticamente."
+
+#: lms/templates/static_templates/cookies.html:36
+msgid "The users can configure their browser to reject all the cookie files or to alert the user when cookies are sent to the device."
+msgstr "Los usuarios pueden configurar su navegador para rechazar todos los archivos de cookies o para alertar cuando se envían cookies al dispositivo."
+
+#: lms/templates/static_templates/cookies.html:37
+msgid "It is important to note that the deactivation or refusal to receive cookies can make certain sections difficult to view and use."
+msgstr "Es importante tener en cuenta que la desactivación o el rechazo de recibir cookies puede dificultar la visualización y el uso de ciertas secciones."
+
+#: lms/templates/static_templates/cookies.html:75
+msgid "On computer"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:77
+msgid "Microsoft Internet Explorer"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:79
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:80
+msgid "Open Internet Explorer. At the top right select \"Tools\", point to \"Safety\", and then select \"Delete browsing history\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:81
+msgid "Select the \"Cookies and website data\" check box and then select \"Delete\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:83
+msgid "To block cookies, for example, in the Microsoft Internet Explorer 11 for Windows 10:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:84
+msgid "Open Internet Explorer, select \"Tools\" and then select \"Internet options\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:85
+msgid "Select the \"Privacy\" tab, \"Advanced\" and choose whether you want to block the cookies."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:92
+msgid "Google Chrome"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:94
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:95
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click on \"Content settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:96
+msgid "Select \"Cookies\" and then select \"See all cookies and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:97
+msgid "Select \"Remove all\". Confirm by clicking \"Clear all\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:99
+msgid "To block cookies, for example, by default:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:100
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click \"Content settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:101
+msgid "Select \"Cookies\" and turn off the \"Allow sites to save and read cookie data\" button."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:108
+msgid "Apple Safari"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:110
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:111
+msgid "Open Safari, select \"Preferences\", select \"Privacy\", select \"Manage Website Data\". Select one or more websites, and then click on \"Remove\" or \"Remove All\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:113
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:114
+msgid "Open Safari, select \"Preferences\", select \"Privacy\" and click on \"Block all cookies\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:121
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:124
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:125
+msgid "Open Mozilla Firefox, select \"Options\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:126
+msgid "Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Manage Data\" button and then choose \"Remove Selected\" and \"Remove All\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:128
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:129
+msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:136
+msgid "Opera"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:139
+msgid "To remove cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:140
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:141
+msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:144
+msgid "To block cookies:"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:145
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:146
+msgid "Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites to save and read cookie data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:156
+msgid "Google Chrome"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:158
+msgid "Android"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:160
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:161
+msgid "Open the Google Chrome app. To the right of the address bar, select \"More\" and then \"Settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:162
+msgid "Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:163
+msgid "Uncheck all the other items. Select \"Clear data\" and then \"Clear\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:166
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:167
+msgid "Open the Google Chrome app. Select \"More\", \"Settings\". Click on \"Site settings\" and \"Cookies\". Turn \"Cookies\" off."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:174
+msgid "iOS (Apple)"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:176
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:177
+msgid "Open the Google Chrome app. At the bottom right, select \"More\" and then \"Settings\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:178
+msgid "Select \"Cookies, Site Data\". Uncheck the other items."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:179
+msgid "Select \"Clear Browsing Data\", and then \"Clear Browsing Data\". Select \"Done\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:184
+msgid "Safari Apple iOS"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:186
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:188
+msgid "Click on the \"Home\" button, select \"Settings\", select \"Safari\". Select \"Advanced\", and then \"Website Data\" and then tap \"Remove All Website Data\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:191
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:193
+msgid "Click on the \"Home\" button, select \"Settings\", and select \"Safari\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:194
+msgid "Select \"Block All Cookies\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:201
+msgid "Android Browser"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:203
+msgid "To remove cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:204
+msgid "Select the \"Menu\" button. Select \"Settings\", Select one of the option: \"Privacy & Security\", \"Privacy\", \"Security\". Select \"Clear Cache\". Confirm the action by clicking on \"OK\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:205
+msgid "Select \"Clear all cookie data\", Confirm the action by clicking on \"OK\"."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:207
+msgid "To block cookies"
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:208
+msgid "Select the \"Menu\" button. Select \"Settings\". Select one of the options: \"Privacy & Security\", \"Privacy\", \"Security\". De-activate the \"Allow cookies\" option."
+msgstr ""
+
+#: lms/templates/static_templates/cookies.html:209
+msgid "To opt out from the Google Analytics tracking across all websites, please click on the following link:"
+msgstr ""
