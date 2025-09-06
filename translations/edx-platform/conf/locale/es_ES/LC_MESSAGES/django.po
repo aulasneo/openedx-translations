@@ -26466,6 +26466,10 @@ msgstr "Podemos usar periódicamente cookies y otras tecnologías de seguimiento
 msgid "The Sites are not designed or intended for minors (individuals under the age of 13, or the legal age of majority in your jurisdiction), and we do not knowingly collect Personal Information from minors. If we learn that we have collected Personal Information from a minor, we will take steps to delete the data without notice as soon as possible."
 msgstr "Los Sitios no están diseñados ni destinados a menores (personas menores de 13 años o por debajo de la mayoría de edad legal en tu jurisdicción), y no recopilamos conscientemente Información Personal de menores. Si llegamos a saber que hemos recopilado Información Personal de un menor, tomaremos medidas para eliminar los datos sin previo aviso lo antes posible."
 
+#: lms/templates/static_templates/privacy.html:29
+msgid "How we use your information."
+msgstr "Cómo utilizamos tus datos."
+
 #: lms/templates/static_templates/privacy.html:31
 msgid "To fulfill our contract with you. We use your information to provide you with offerings and services that you request. For example, when you sign up to program or enroll in a training course, we use your information to create and manage your participation or enrollment."
 msgstr "Cumplir nuestro contrato contigo. Usamos tu información para proporcionarte las ofertas y servicios que solicitas. Por ejemplo, cuando te registras en un programa o te inscribes en un curso de formación, utilizamos tu información para crear y gestionar tu participación o inscripción."
