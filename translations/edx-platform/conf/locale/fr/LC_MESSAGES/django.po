@@ -3168,7 +3168,6 @@ msgstr "Conditions générales du service & code sur l'honneur"
 #: lms/djangoapps/branding/api.py:318 lms/djangoapps/branding/api.py:392
 #: lms/djangoapps/certificates/views/webview.py:190
 #: cms/templates/widgets/footer.html:30
-#: lms/templates/static_templates/privacy.html:4
 #: lms/templates/static_templates/privacy.html:10
 #: themes/red-theme/lms/templates/footer.html:101
 #: themes/stanford-style/lms/templates/footer.html:19
@@ -26081,7 +26080,6 @@ msgstr "Votre demande a été limitée. Veuillez réessayer plus tard."
 #: lms/templates/static_templates/media-kit.html:13
 #: lms/templates/static_templates/news.html:14
 #: lms/templates/static_templates/press.html:14
-#: lms/templates/static_templates/tos.html:13
 msgid "This page left intentionally blank. Feel free to add your own content."
 msgstr ""
 "Cette page est laissée vide intentionnellement. Vous pouvez ajouter votre "
@@ -27335,6 +27333,10 @@ msgstr "Ces cookies peuvent être définis sur notre site par nos partenaires pu
 msgid "If you are the only person using the computer, you may set long terms of expiry for browsing history. If you share the computer, you may consider setting the browser to delete the browsing data each time when you close the browser."
 msgstr "Si vous êtes la seule personne à utiliser l'ordinateur, vous pouvez définir une longue durée de conservation pour l'historique de navigation. Si vous partagez l'ordinateur, vous pouvez envisager de configurer le navigateur pour supprimer les données de navigation à chaque fermeture."
 
+#: lms/templates/static_templates/cookies.html:32
+msgid "How Can I Stop The Cookies?"
+msgstr "Comment arrêter les cookies?"
+
 #: lms/templates/static_templates/cookies.html:33
 msgid "Most internet browsers are initially set up to automatically accept cookies."
 msgstr "La plupart des navigateurs Internet sont initialement configurés pour accepter automatiquement les cookies."
@@ -27351,14 +27353,241 @@ msgstr "Il est important de noter que la désactivation ou le refus des cookies 
 msgid "All the modern browsers offer the possibility to change the settings of cookies. You can configure the settings of the cookies following the instructions below:"
 msgstr "Tous les navigateurs modernes offrent la possibilité de modifier les paramètres des cookies. Vous pouvez configurer ces paramètres en suivant les instructions ci-dessous :"
 
+#: lms/templates/static_templates/cookies.html:39
+msgid "On computer"
+msgstr "Sur ordinateur"
+
+#: lms/templates/static_templates/cookies.html:16
+msgid "Use of cookies"
+msgstr "Utilisation des cookies"
+
+#: lms/templates/static_templates/cookies.html:18
+msgid "What type of cookies do we use?"
+msgstr "Quels types de cookies utilisons-nous ?"
+
+#: lms/templates/static_templates/cookies.html:119
+msgid "On a smartphone or tablet"
+msgstr "Sur un smartphone ou une tablette"
+
+#: lms/templates/static_templates/cookies.html:43
+#: lms/templates/static_templates/cookies.html:58
+#: lms/templates/static_templates/cookies.html:74
+#: lms/templates/static_templates/cookies.html:88
+#: lms/templates/static_templates/cookies.html:103
+#: lms/templates/static_templates/cookies.html:124
+#: lms/templates/static_templates/cookies.html:140
+#: lms/templates/static_templates/cookies.html:150
+#: lms/templates/static_templates/cookies.html:167
+msgid "To remove cookies:"
+msgstr "Pour supprimer les cookies :"
+
+#: lms/templates/static_templates/cookies.html:77
+#: lms/templates/static_templates/cookies.html:92
+#: lms/templates/static_templates/cookies.html:108
+#: lms/templates/static_templates/cookies.html:130
+#: lms/templates/static_templates/cookies.html:155
+#: lms/templates/static_templates/cookies.html:171
+msgid "To block cookies:"
+msgstr "Pour bloquer les cookies:"
+
+#: lms/templates/static_templates/cookies.html:181
+msgid "Updates to the cookies policy"
+msgstr "Mises à jour de la politique relative aux cookies"
+
 #: lms/templates/static_templates/cookies.html:182
 msgid "We reserve the right to make any changes to this policy, particularly in response to legislative requirements."
 msgstr "Nous nous réservons le droit d'apporter toute modification à cette politique, notamment pour répondre aux exigences législatives."
+
+#: lms/templates/static_templates/cookies.html:183
+#: lms/templates/static_templates/privacy.html:63
+msgid "Your rights"
+msgstr "Vos droits"
+
+#: lms/templates/static_templates/privacy.html:64
+msgid "You have the right to request from us access to and rectification of, erasure of your Personal Information, restriction of processing concerning you and to object to processing. In particular, you have the right to request a copy of the Personal Information that we hold about you. If you use this service repeatedly, we may make a small charge for this. If you would like to transfer your personal data to another controller, we will provide you with the personal data which you provided to us and which has been processed by automated means in a machine-readable portable format free of charge."
+msgstr "Vous avez le droit de nous demander l'accès à vos Informations personnelles, leur rectification, leur effacement, la limitation du traitement vous concernant et de vous opposer au traitement. En particulier, vous avez le droit de demander une copie des Informations personnelles que nous détenons à votre sujet. Si vous utilisez ce service à plusieurs reprises, nous pourrons demander une modeste participation aux frais. Si vous souhaitez transférer vos données personnelles à un autre responsable de traitement, nous vous fournirons gratuitement les données personnelles que vous nous avez fournies et qui ont été traitées par des moyens automatisés, dans un format portable lisible par machine."
+
+#: lms/templates/static_templates/privacy.html:66
+msgid "As we want to make sure that your personal data is accurate and up to date you may also ask us to correct or remove any information which you think is inaccurate."
+msgstr "Comme nous souhaitons nous assurer que vos données personnelles sont exactes et à jour, vous pouvez également nous demander de corriger ou de supprimer toute information que vous jugez inexacte."
+
+#: lms/templates/static_templates/privacy.html:67
+msgid "For any of the above requests, please send a description of your personal data concerned and state name, email address, your personal account number as proof of identity to"
+msgstr "Pour toute demande mentionnée ci‑dessus, veuillez envoyer une description des données personnelles concernées et indiquer vos nom, adresse e‑mail et numéro de compte personnel comme preuve d'identité à"
+
+#: lms/templates/static_templates/privacy.html:69
+msgid "If you have any concerns about how your Personal Information is handled by us or wish to raise a complaint on how we have handled your personal data, you can contact us at"
+msgstr "Si vous avez des préoccupations concernant la manière dont nous traitons vos Informations personnelles ou si vous souhaitez déposer une plainte concernant notre traitement de vos données personnelles, vous pouvez nous contacter à"
+
+#: lms/templates/static_templates/privacy.html:70
+msgid "to have the matter investigated. If you are not satisfied with our response or believe we are processing your personal data not in accordance with the law you can complain to the competent data protection supervisory authority in your country."
+msgstr "afin que la question soit examinée. Si vous n'êtes pas satisfait de notre réponse ou si vous estimez que nous traitons vos données personnelles en violation de la loi, vous pouvez adresser une réclamation à l'autorité de contrôle compétente en matière de protection des données dans votre pays."
+
+#: lms/templates/static_templates/privacy.html:71
+msgid "How to manage your Personal Information."
+msgstr "Comment gérer vos Informations personnelles."
+
+#: lms/templates/static_templates/privacy.html:72
+msgid "You may stop receiving promotional communications by following the \"unsubscribe\" instructions contained in the messages you receive or by contacting us directly at privacy@holcim.com. We may continue to contact you about non-promotional matters including administrative and transactional updates."
+msgstr "Vous pouvez cesser de recevoir des communications promotionnelles en suivant les instructions de « désabonnement » contenues dans les messages que vous recevez ou en nous contactant directement à l'adresse privacy@holcim.com. Nous pouvons continuer à vous contacter au sujet de questions non promotionnelles, notamment des mises à jour administratives et transactionnelles."
+
+#: lms/templates/static_templates/privacy.html:73
+msgid "You may manage cookies by updating your preferences in the \"cookie settings\" tool available on the applicable Site. Please see our Cookie Policy for more information."
+msgstr "Vous pouvez gérer les cookies en mettant à jour vos préférences dans l'outil « paramètres des cookies » disponible sur le Site concerné. Veuillez consulter notre Politique relative aux cookies pour plus d'informations."
+
+#: lms/templates/static_templates/privacy.html:75
+msgid "To update, edit, access, and/or delete your Personal Information, or to request that we restrict our use of your Personal Information for any purpose, please contact us directly at privacy@holcim.com."
+msgstr "Pour mettre à jour, modifier, accéder et/ou supprimer vos Informations personnelles, ou pour nous demander de restreindre notre utilisation de vos Informations personnelles pour quelque finalité que ce soit, veuillez nous contacter directement à l'adresse privacy@holcim.com."
+
+#: lms/templates/static_templates/privacy.html:76
+msgid "Updates."
+msgstr "Mises à jour."
+
+#: lms/templates/static_templates/privacy.html:77
+msgid "We reserve the right to modify this Privacy Policy at any time without advance notice. Any changes to the Privacy Policy will be effective immediately upon posting on this page, with an updated effective date. By continuing to use the Sites after any changes have been made, you signify your agreement on a prospective basis to the modified Privacy Policy and all the changes. Be sure to return to this page periodically to ensure familiarity with the most current version of the Privacy Policy."
+msgstr "Nous nous réservons le droit de modifier la présente Politique de confidentialité à tout moment et sans préavis. Toute modification de la Politique de confidentialité prendra effet dès sa publication sur cette page, avec une date d'entrée en vigueur mise à jour. En continuant à utiliser les Sites après toute modification, vous signifiez votre accord, pour l'avenir, avec la Politique de confidentialité modifiée et l'ensemble des changements. N'oubliez pas de revenir régulièrement sur cette page afin de prendre connaissance de la version la plus récente de la Politique de confidentialité."
+
+#: lms/templates/static_templates/privacy.html:78
+msgid "Contact Information."
+msgstr "Coordonnées."
+
+#: lms/templates/static_templates/privacy.html:79
+msgid "If you have privacy concerns, have disclosed data you would prefer to keep private, or would like to access the Personal Information that we maintain about you, please contact us at privacy@holcim.com. You may also write to us at: ATTN: Group Compliance, PRIVACY, Grafenauweg 10, 6300 Zug, Switzerland."
+msgstr "Si vous avez des préoccupations en matière de confidentialité, avez divulgué des données que vous préféreriez garder privées, ou souhaitez accéder aux Informations personnelles que nous détenons à votre sujet, veuillez nous contacter à l'adresse privacy@holcim.com. Vous pouvez également nous écrire à l'adresse suivante : ATTN : Group Compliance, PRIVACY, Grafenauweg 10, 6300 Zoug, Suisse."
 
 #: lms/templates/static_templates/cookies.html:184
 msgid "To exercise your right to query, access and amend your personal data, you can contact us by email at"
 msgstr "Pour exercer votre droit d'interroger, d'accéder et de modifier vos données personnelles, vous pouvez nous contacter par e‑mail à l'adresse"
 
+#: lms/templates/static_templates/cookies.html:44
+msgid "Open Internet Explorer. At the top right select \"Tools\", point to \"Safety\", and then select \"Delete browsing history\"."
+msgstr "Ouvrez Internet Explorer. En haut à droite, sélectionnez « Outils », pointez sur « Sécurité », puis sélectionnez « Supprimer l’historique de navigation »."
+
+#: lms/templates/static_templates/cookies.html:45
+msgid "Select the \"Cookies and website data\" check box and then select \"Delete\"."
+msgstr "Cochez la case « Cookies et données de sites web », puis sélectionnez « Supprimer »."
+
+#: lms/templates/static_templates/cookies.html:47
+msgid "To block cookies, for example, in the Microsoft Internet Explorer 11 for Windows 10:"
+msgstr "Pour bloquer les cookies, par exemple dans Microsoft Internet Explorer 11 pour Windows 10 :"
+
+#: lms/templates/static_templates/cookies.html:48
+msgid "Open Internet Explorer, select \"Tools\" and then select \"Internet options\"."
+msgstr "Ouvrez Internet Explorer, sélectionnez « Outils », puis « Options Internet »."
+
+#: lms/templates/static_templates/cookies.html:49
+msgid "Select the \"Privacy\" tab, \"Advanced\" and choose whether you want to block the cookies."
+msgstr "Sélectionnez l’onglet « Confidentialité », « Avancé », et choisissez si vous souhaitez bloquer les cookies."
+
+#: lms/templates/static_templates/cookies.html:59
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click on \"Content settings\"."
+msgstr "Ouvrez Google Chrome. En haut à droite, sélectionnez « Plus », puis « Paramètres », choisissez « Paramètres avancés » et cliquez sur « Paramètres de contenu »."
+
+#: lms/templates/static_templates/cookies.html:60
+msgid "Select \"Cookies\" and then select \"See all cookies and site data\"."
+msgstr "Sélectionnez « Cookies », puis « Afficher tous les cookies et données de sites »."
+
+#: lms/templates/static_templates/cookies.html:61
+msgid "Select \"Remove all\". Confirm by clicking \"Clear all\"."
+msgstr "Sélectionnez « Tout supprimer ». Confirmez en cliquant sur « Tout effacer »."
+
+#: lms/templates/static_templates/cookies.html:63
+msgid "To block cookies, for example, by default:"
+msgstr "Pour bloquer les cookies, par exemple par défaut :"
+
+#: lms/templates/static_templates/cookies.html:64
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click \"Content settings\"."
+msgstr "Ouvrez Google Chrome. En haut à droite, sélectionnez « Plus », puis « Paramètres », choisissez « Paramètres avancés » et cliquez sur « Paramètres de contenu »."
+
+#: lms/templates/static_templates/cookies.html:65
+msgid "Select \"Cookies\" and turn off the \"Allow sites to save and read cookie data\" button."
+msgstr "Sélectionnez « Cookies » et désactivez le bouton « Autoriser les sites à enregistrer et lire les données des cookies »."
+
+#: lms/templates/static_templates/cookies.html:75
+msgid "Open Safari, select \"Preferences\", select \"Privacy\", select \"Manage Website Data\". Select one or more websites, and then click on \"Remove\" or \"Remove All\"."
+msgstr "Ouvrez Safari, sélectionnez « Préférences », sélectionnez « Confidentialité », sélectionnez « Gérer les données des sites web ». Sélectionnez un ou plusieurs sites, puis cliquez sur « Supprimer » ou « Tout supprimer »."
+
+#: lms/templates/static_templates/cookies.html:78
+msgid "Open Safari, select \"Preferences\", select \"Privacy\" and click on \"Block all cookies\"."
+msgstr "Ouvrez Safari, sélectionnez « Préférences », sélectionnez « Confidentialité » et cliquez sur « Bloquer tous les cookies »."
+
+#: lms/templates/static_templates/cookies.html:89
+msgid "Open Mozilla Firefox, select \"Options\"."
+msgstr "Ouvrez Mozilla Firefox, sélectionnez « Options »."
+
+#: lms/templates/static_templates/cookies.html:90
+msgid "Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Manage Data\" button and then choose \"Remove Selected\" and \"Remove All\"."
+msgstr "Sélectionnez « Vie privée et sécurité » et accédez à « Cookies et données de sites ». Sélectionnez le bouton « Gérer les données », puis choisissez « Supprimer la sélection » et « Tout supprimer »."
+
+#: lms/templates/static_templates/cookies.html:93
+msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
+msgstr "Ouvrez Mozilla Firefox, sélectionnez le bouton de menu et choisissez « Options ». Sélectionnez « Vie privée et sécurité » et accédez à « Cookies et données de sites ». Sélectionnez « Bloquer les cookies et les données de sites »."
+
+#: lms/templates/static_templates/cookies.html:104
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr "Ouvrez Opera, sélectionnez « Paramètres », sélectionnez « Avancé » et cliquez sur « Confidentialité et sécurité »."
+
+#: lms/templates/static_templates/cookies.html:105
+msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
+msgstr "Sélectionnez « Paramètres de contenu », sélectionnez « Cookies » et cliquez sur « Ne conserver les données locales que jusqu’à la fermeture du navigateur »."
+
+#: lms/templates/static_templates/cookies.html:109
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr "Ouvrez Opera, sélectionnez « Paramètres », sélectionnez « Avancé » et cliquez sur « Confidentialité et sécurité »."
+
+#: lms/templates/static_templates/cookies.html:110
+msgid "Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites to save and read cookie data\"."
+msgstr "Sélectionnez « Paramètres de contenu », sélectionnez « Cookies » et désactivez « Autoriser les sites à enregistrer et lire les données des cookies »."
+
+#: lms/templates/static_templates/cookies.html:125
+msgid "Open the Google Chrome app. To the right of the address bar, select \"More\" and then \"Settings\"."
+msgstr "Ouvrez l’application Google Chrome. À droite de la barre d’adresse, sélectionnez « Plus » puis « Paramètres »."
+
+#: lms/templates/static_templates/cookies.html:126
+msgid "Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site data\"."
+msgstr "Sélectionnez « Confidentialité » puis « Effacer les données de navigation ». Choisissez une période, par exemple « Dernière heure » ou « Toutes les périodes ». Cochez « Cookies, licences multimédias et données de sites »."
+
+#: lms/templates/static_templates/cookies.html:127
+msgid "Uncheck all the other items. Select \"Clear data\" and then \"Clear\"."
+msgstr "Décochez tous les autres éléments. Sélectionnez « Effacer les données » puis « Effacer »."
+
+#: lms/templates/static_templates/cookies.html:131
+msgid "Open the Google Chrome app. Select \"More\", \"Settings\". Click on \"Site settings\" and \"Cookies\". Turn \"Cookies\" off."
+msgstr "Ouvrez l’application Google Chrome. Sélectionnez « Plus », « Paramètres ». Cliquez sur « Paramètres des sites » puis « Cookies ». Désactivez « Cookies »."
+
+#: lms/templates/static_templates/cookies.html:141
+msgid "Open the Google Chrome app. At the bottom right, select \"More\" and then \"Settings\"."
+msgstr "Ouvrez l’application Google Chrome. En bas à droite, sélectionnez « Plus » puis « Paramètres »."
+
+#: lms/templates/static_templates/cookies.html:142
+msgid "Select \"Cookies, Site Data\". Uncheck the other items."
+msgstr "Sélectionnez « Cookies, données de sites ». Décochez les autres éléments."
+
+#: lms/templates/static_templates/cookies.html:143
+msgid "Select \"Clear Browsing Data\", and then \"Clear Browsing Data\". Select \"Done\"."
+msgstr "Sélectionnez « Effacer les données de navigation », puis « Effacer les données de navigation ». Sélectionnez « Terminé »."
+
+#: lms/templates/static_templates/cookies.html:152
+msgid "Click on the \"Home\" button, select \"Settings\", select \"Safari\". Select \"Advanced\", and then \"Website Data\" and then tap \"Remove All Website Data\"."
+msgstr "Appuyez sur le bouton « Accueil », sélectionnez « Réglages », sélectionnez « Safari ». Sélectionnez « Avancé », puis « Données de sites » et touchez « Supprimer toutes les données de sites »."
+
+#: lms/templates/static_templates/cookies.html:157
+msgid "Click on the \"Home\" button, select \"Settings\", and select \"Safari\"."
+msgstr "Appuyez sur le bouton « Accueil », sélectionnez « Réglages », puis « Safari »."
+
+#: lms/templates/static_templates/cookies.html:158
+msgid "Select \"Block All Cookies\"."
+msgstr "Sélectionnez « Bloquer tous les cookies »."
+
+#: lms/templates/static_templates/cookies.html:168
+msgid "Select the \"Menu\" button. Select \"Settings\", Select one of the option: \"Privacy & Security\", \"Privacy\", \"Security\". Select \"Clear Cache\". Confirm the action by clicking on \"OK\"."
+msgstr "Sélectionnez le bouton « Menu ». Sélectionnez « Paramètres ». Sélectionnez l’une des options : « Vie privée et sécurité », « Vie privée », « Sécurité ». Sélectionnez « Vider le cache ». Confirmez l’action en cliquant sur « OK »."
+
+#: lms/templates/static_templates/cookies.html:169
+msgid "Select \"Clear all cookie data\", Confirm the action by clicking on \"OK\"."
+msgstr "Sélectionnez « Supprimer toutes les données des cookies », confirmez l’action en cliquant sur « OK »."
+
+# Keep existing privacy entries below
 #: lms/templates/static_templates/privacy.html:12
 msgid "Effective October 2nd, 2024"
 msgstr "En vigueur à partir du 2 octobre 2024"
@@ -27374,6 +27603,10 @@ msgstr ") attache une grande importance à votre vie privée et souhaite que vou
 #: lms/templates/static_templates/privacy.html:21
 msgid "This Privacy Policy applies to information that we collect through www.holcimacademy.com (\"Site\"), and HGRS is the data controller for such information."
 msgstr "La présente Politique de confidentialité s'applique aux informations que nous collectons via www.holcimacademy.com (« Site »), et HGRS est le responsable du traitement de ces informations."
+
+#: lms/templates/static_templates/privacy.html:22
+msgid "Information we collect about you."
+msgstr "Informations que nous collectons à votre sujet."
 
 #: lms/templates/static_templates/privacy.html:23
 msgid "We collect information that you provide to us. This includes your contact data, such as name, job title, profession, years of experience, address, country, telephone number, email address and other contact details, mobile device unique identifier and the IP address of your computer. Sometimes we require your information to provide a service, for example when you enroll in training courses or participate in a program that we offer. Other times, you may voluntarily provide your information, for example when you contact us, complete online forms or surveys."
@@ -27411,6 +27644,10 @@ msgstr "Avec votre consentement. Nous pouvons solliciter votre consentement pour
 msgid "In an aggregated or de-identified format. We may use anonymous, de-identified, or aggregate information that does not reasonably identify you for any purpose, as permitted by applicable law."
 msgstr "Sous forme agrégée ou désidentifiée. Nous pouvons utiliser des informations anonymes, désidentifiées ou agrégées qui ne permettent pas raisonnablement de vous identifier, à toute fin autorisée par le droit applicable."
 
+#: lms/templates/static_templates/privacy.html:42
+msgid "How we share your information."
+msgstr "Comment nous partageons vos informations."
+
 #: lms/templates/static_templates/privacy.html:44
 msgid "With service providers and business partners. We may share information, including Personal Information, with service providers and business partners that help us carry out the uses described above. For example, service providers and business partners may help us create and offer training services and courses. In some cases, the Sites are integrated with third-party services or contain links to websites published by third parties. These third parties are responsible for their own privacy practices, and you should pay attention anytime you are redirected to a third-party website and be sure to review its privacy policy."
 msgstr "Avec des prestataires de services et des partenaires commerciaux. Nous pouvons partager des informations, y compris des Informations personnelles, avec des prestataires et partenaires qui nous aident à réaliser les usages décrits ci‑dessus. Par exemple, des prestataires et partenaires peuvent nous aider à créer et proposer des services et des cours de formation. Dans certains cas, les Sites sont intégrés à des services tiers ou contiennent des liens vers des sites Web publiés par des tiers. Ces tiers sont responsables de leurs propres pratiques de confidentialité ; soyez vigilant lorsque vous êtes redirigé vers un site tiers et prenez connaissance de sa politique de confidentialité."
@@ -27431,6 +27668,10 @@ msgstr "Avec votre consentement. Nous pouvons solliciter votre consentement pour
 msgid "In a de-identified, aggregate manner. We may de-identify or aggregate your Personal Information and share it with the public and third parties such as researchers and business partners."
 msgstr "Sous forme agrégée et désidentifiée. Nous pouvons désidentifier ou agréger vos Informations personnelles et les partager avec le public et des tiers, tels que des chercheurs et des partenaires commerciaux."
 
+#: lms/templates/static_templates/privacy.html:55
+msgid "Retention, storage, and security."
+msgstr "Conservation, stockage et sécurité."
+
 #: lms/templates/static_templates/privacy.html:56
 msgid "We may retain your information for as long as needed to provide you with offerings and services or fulfill the purpose for which it was collected; to maintain a record of your transactions for financial reporting, audit, and compliance purposes; and to comply with our legal obligations, resolve disputes, enforce our agreements, and as otherwise permitted by applicable law."
 msgstr "Nous pouvons conserver vos informations aussi longtemps que nécessaire pour vous fournir des offres et services ou pour atteindre la finalité pour laquelle elles ont été collectées ; pour conserver un enregistrement de vos transactions à des fins de reporting financier, d'audit et de conformité ; et pour respecter nos obligations légales, résoudre des litiges, faire respecter nos accords et, plus largement, dans les limites autorisées par le droit applicable."
@@ -27438,3 +27679,12 @@ msgstr "Nous pouvons conserver vos informations aussi longtemps que nécessaire 
 #: lms/templates/static_templates/privacy.html:58
 msgid "We store information, including Personal Information, on servers located in the United States. However, information may be stored in other countries where we operate, and in countries where our service providers operate and business partners. If you are in the European Union, Switzerland, or other regions with laws governing data collection and use, you acknowledge that we may transfer, process, and store your personal information in the United States and other countries, the privacy laws of which may be considered less strict than those of your region."
 msgstr "Nous stockons des informations, y compris des Informations personnelles, sur des serveurs situés aux États‑Unis. Toutefois, les informations peuvent être stockées dans d'autres pays où nous opérons, ainsi que dans des pays où nos prestataires de services et partenaires commerciaux opèrent. Si vous êtes dans l'Union européenne, en Suisse ou dans d'autres régions dont les lois régissent la collecte et l'utilisation des données, vous reconnaissez que nous pouvons transférer, traiter et stocker vos informations personnelles aux États‑Unis et dans d'autres pays dont les lois en matière de confidentialité peuvent être considérées comme moins strictes que celles de votre région."
+
+#: lms/templates/static_templates/privacy.html:60
+msgid "We use administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the information that we collect, store, use, or transmit. Nonetheless, no method of transmission over the Internet, or method of electronic storage, is 100% secure; and therefore, we cannot guarantee its absolute security. While we work hard to ensure the integrity and security of our network and systems, we cannot guarantee that our security measures will prevent \"hackers\" or other unauthorized persons from illegally accessing or obtaining information."
+msgstr "Nous utilisons des mesures de protection administratives, physiques et techniques qui protègent de manière raisonnable et appropriée la confidentialité, l'intégrité et la disponibilité des informations que nous collectons, stockons, utilisons ou transmettons. Néanmoins, aucune méthode de transmission sur Internet ni aucune méthode de stockage électronique n'est sûre à 100 %; par conséquent, nous ne pouvons pas en garantir la sécurité absolue. Bien que nous travaillions dur pour assurer l'intégrité et la sécurité de notre réseau et de nos systèmes, nous ne pouvons pas garantir que nos mesures de sécurité empêcheront des « hackers » ou d'autres personnes non autorisées d'accéder illégalement aux informations ou de les obtenir."
+
+#: lms/templates/static_templates/privacy.html:62
+msgid "If we learn of a security breach involving our copy of your Personal Information, we may attempt to notify you electronically so that you may take appropriate protective steps. By using the Site or providing Personal Information to us, you agree that we can communicate with you electronically regarding security, privacy, and administrative issues relating to your use of the Sites. If a security system breach occurs, we may post a notice on the applicable Site homepage or elsewhere on the Site and may send an email to you at the email address associated with you in our records. Depending on where you are located, you may have a legal right to receive notice of a security breach, involving your Personal Information, in writing."
+msgstr "Si nous apprenons l'existence d'une violation de sécurité impliquant notre copie de vos Informations personnelles, nous pourrons tenter de vous en informer par voie électronique afin que vous puissiez prendre les mesures de protection appropriées. En utilisant le Site ou en nous fournissant des Informations personnelles, vous acceptez que nous communiquions avec vous par voie électronique au sujet de la sécurité, de la confidentialité et des questions administratives liées à votre utilisation des Sites. En cas de violation du système de sécurité, nous pourrons publier un avis sur la page d'accueil du Site concerné ou ailleurs sur le Site et envoyer un e‑mail à l'adresse associée à votre compte dans nos dossiers. Selon votre lieu de résidence, vous pouvez avoir le droit légal de recevoir une notification écrite d'une violation de sécurité impliquant vos Informations personnelles."
+
