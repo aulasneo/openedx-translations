@@ -2899,7 +2899,6 @@ msgstr "Condiciones del servicio y código de honor"
 #: lms/djangoapps/branding/api.py:318 lms/djangoapps/branding/api.py:392
 #: lms/djangoapps/certificates/views/webview.py:190
 #: cms/templates/widgets/footer.html:30
-#: lms/templates/static_templates/privacy.html:4
 #: lms/templates/static_templates/privacy.html:10
 #: themes/red-theme/lms/templates/footer.html:101
 #: themes/stanford-style/lms/templates/footer.html:19
@@ -2918,8 +2917,7 @@ msgstr "Política de accesibilidad"
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:331
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:1082
 #: cms/templates/widgets/footer.html:25
-#: lms/templates/static_templates/tos.html:5
-#: lms/templates/static_templates/tos.html:10
+#: lms/templates/static_templates/tos.html:8
 #: themes/red-theme/lms/templates/footer.html:97
 #: themes/stanford-style/lms/templates/footer.html:18
 #: themes/stanford-style/lms/templates/static_templates/tos.html:8
@@ -25302,7 +25300,6 @@ msgstr ""
 #: lms/templates/static_templates/media-kit.html:13
 #: lms/templates/static_templates/news.html:14
 #: lms/templates/static_templates/press.html:14
-#: lms/templates/static_templates/tos.html:13
 msgid "This page left intentionally blank. Feel free to add your own content."
 msgstr ""
 "Esta página se dejó en blanco intencionalmente. Siéntase libre de agregar su "
@@ -26171,6 +26168,7 @@ msgstr "recibirás un certificado que podrás compartir con tu red"
 msgid "and submit as a part of your CPD requirements."
 msgstr "y presentar como parte de tus requisitos de CPD."
 
+#: lms/templates/footer.html:185
 #: lms/templates/static_templates/cookies.html:10
 msgid "Cookies Policy"
 msgstr "Política de cookies"
@@ -26179,532 +26177,668 @@ msgstr "Política de cookies"
 msgid "What is a cookie?"
 msgstr "¿Qué es una cookie?"
 
-#: lms/templates/static_templates/cookies.html:19
+#: lms/templates/static_templates/cookies.html:13
+msgid "A cookie is a small file of letters and numbers, which are transferred to your computer's hard drive or mobile device when you visit the website. The cookies are then sent back to the originating website on each subsequent visit or to another website that recognizes that cookie."
+msgstr "Una cookie es un pequeño archivo de letras y números que se transfiere al disco duro de tu ordenador o a tu dispositivo móvil cuando visitas el sitio web. Luego, las cookies se envían de vuelta al sitio web de origen en cada visita posterior o a otro sitio web que reconozca esa cookie."
+
+#: lms/templates/static_templates/cookies.html:14
+msgid "Cookies are mostly used to allow websites to function, or to function more efficiently, as well as to provide information to website owners."
+msgstr "Las cookies se utilizan principalmente para permitir que los sitios web funcionen, o para que funcionen de forma más eficiente, así como para proporcionar información a los propietarios del sitio."
+
+#: lms/templates/static_templates/cookies.html:16
 msgid "Use of cookies"
 msgstr "Uso de cookies"
 
-#: lms/templates/static_templates/cookies.html:27
-msgid "What type of cookies do we use?"
-msgstr "¿Qué tipos de cookies usamos?"
+#: lms/templates/static_templates/cookies.html:17
+msgid "We use cookies for many different reasons. We may collect information about your computer, including your IP address, operating system and browser type, for system administration purposes. This is statistical data about our users' browsing actions and patterns and does not identify you as an individual. If you agree, we may obtain information about your general internet usage by using a cookie file. The website uses cookies to distinguish you from other users of the website. This helps us to deliver a better and more personalised service to you when you browse the website and also allows us to improve the website."
+msgstr "Utilizamos cookies por diversos motivos. Podemos recopilar información sobre tu ordenador, incluida tu dirección IP, sistema operativo y tipo de navegador, con fines de administración del sistema. Se trata de datos estadísticos sobre las acciones y pautas de navegación de nuestros usuarios y no te identifican personalmente. Si estás de acuerdo, podemos obtener información sobre tu uso general de Internet mediante un archivo de cookie. El sitio utiliza cookies para distinguirte de otros usuarios del sitio web. Esto nos ayuda a ofrecerte un servicio mejor y más personalizado cuando navegas por el sitio y también nos permite mejorarlo."
 
-#: lms/templates/static_templates/cookies.html:31
+#: lms/templates/static_templates/cookies.html:18
+msgid "What type of cookies do we use?"
+msgstr "¿Qué tipos de cookies utilizamos?"
+
+#: lms/templates/static_templates/cookies.html:19
+msgid "We are always looking for new ways to improve its website and improve the service it offers you. We use cookies to improve the use and functionality of its website and to gain a better understanding of how you use it."
+msgstr "Siempre buscamos nuevas formas de mejorar nuestro sitio web y el servicio que te ofrecemos. Utilizamos cookies para mejorar el uso y la funcionalidad de nuestro sitio y para comprender mejor cómo lo utilizas."
+
+#: lms/templates/static_templates/cookies.html:20
 msgid "Cookie List"
 msgstr "Lista de cookies"
 
-#: lms/templates/static_templates/cookies.html:38
+#: lms/templates/static_templates/cookies.html:21
+msgid "A cookie is a small piece of data (text file) that a website &ndash; when visited by a user &ndash; asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies &ndash; which are cookies from a domain different than the domain of the website you are visiting &ndash; for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:"
+msgstr "Una cookie es un pequeño fragmento de datos (archivo de texto) que un sitio web —cuando un usuario lo visita— solicita a tu navegador que almacene en tu dispositivo para recordar información sobre ti, como tu preferencia de idioma o tus datos de inicio de sesión. Estas cookies son establecidas por nosotros y se denominan cookies propias (first-party). También utilizamos cookies de terceros —provenientes de un dominio diferente al del sitio que estás visitando— para nuestros esfuerzos de publicidad y marketing. En concreto, utilizamos cookies y otras tecnologías de seguimiento para los siguientes fines:"
+
+#: lms/templates/static_templates/cookies.html:22
 msgid "Strictly Necessary Cookies"
 msgstr "Cookies estrictamente necesarias"
 
-#: lms/templates/static_templates/cookies.html:44
+#: lms/templates/static_templates/cookies.html:23
+msgid "These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information."
+msgstr "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Normalmente solo se activan en respuesta a acciones que realizas y que equivalen a una solicitud de servicios, como definir tus preferencias de privacidad, iniciar sesión o completar formularios. Puedes configurar tu navegador para bloquear estas cookies o alertarte sobre ellas, pero algunas partes del sitio no funcionarán. Estas cookies no almacenan información que te identifique personalmente."
+
+#: lms/templates/static_templates/cookies.html:24
 msgid "Performance Cookies"
 msgstr "Cookies de rendimiento"
 
-#: lms/templates/static_templates/cookies.html:50
+#: lms/templates/static_templates/cookies.html:25
+msgid "These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance."
+msgstr "Estas cookies nos permiten contabilizar las visitas y las fuentes de tráfico para poder medir y mejorar el rendimiento de nuestro sitio. Nos ayudan a saber qué páginas son las más y las menos populares y a ver cómo se desplazan los visitantes por el sitio. Toda la información que recopilan estas cookies es agregada y, por lo tanto, anónima. Si no permites estas cookies, no sabremos cuándo has visitado nuestro sitio y no podremos supervisar su rendimiento."
+
+#: lms/templates/static_templates/cookies.html:26
 msgid "Functional Cookies"
 msgstr "Cookies funcionales"
 
-#: lms/templates/static_templates/cookies.html:54
+#: lms/templates/static_templates/cookies.html:27
+msgid "These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly."
+msgstr "Estas cookies permiten que el sitio web ofrezca funciones mejoradas y personalización. Pueden ser establecidas por nosotros o por proveedores externos cuyos servicios hemos añadido a nuestras páginas. Si no permites estas cookies, algunos o todos estos servicios pueden no funcionar correctamente."
+
+#: lms/templates/static_templates/cookies.html:28
 msgid "Targeting Cookies"
 msgstr "Cookies de segmentación"
 
-#: lms/templates/static_templates/cookies.html:60
+#: lms/templates/static_templates/cookies.html:29
+msgid "These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising."
+msgstr "Estas cookies pueden ser establecidas en nuestro sitio por nuestros socios publicitarios. Pueden ser utilizadas por esas empresas para elaborar un perfil de tus intereses y mostrarte anuncios relevantes en otros sitios. No almacenan información personal de forma directa, sino que se basan en la identificación única de tu navegador y tu dispositivo de Internet. Si no permites estas cookies, verás publicidad menos dirigida."
+
+#: lms/templates/static_templates/cookies.html:30
 msgid "Adapt Browser Settings To Cookies"
 msgstr "Adaptar la configuración del navegador a las cookies"
 
+#: lms/templates/static_templates/cookies.html:31
+msgid "If you are the only person using the computer, you may set long terms of expiry for browsing history. If you share the computer, you may consider setting the browser to delete the browsing data each time when you close the browser."
+msgstr "Si eres la única persona que usa el ordenador, puedes establecer un periodo largo de conservación del historial de navegación. Si compartes el ordenador, puedes considerar configurar el navegador para que elimine los datos de navegación cada vez que lo cierres."
+
+#: lms/templates/static_templates/cookies.html:32
+msgid "How to control cookies on your computer"
+msgstr "Cómo controlar las cookies en tu ordenador"
+
+#: lms/templates/static_templates/cookies.html:33
+msgid "Most internet browsers are initially set up to automatically accept cookies."
+msgstr "La mayoría de los navegadores de Internet están configurados inicialmente para aceptar cookies automáticamente."
+
+#: lms/templates/static_templates/cookies.html:34
+msgid "The users can configure their browser to reject all the cookie files or to alert the user when cookies are sent to the device."
+msgstr "Los usuarios pueden configurar su navegador para rechazar todos los archivos de cookies o para alertar cuando se envíen cookies al dispositivo."
+
+#: lms/templates/static_templates/cookies.html:35
+msgid "It is important to note that the deactivation or refusal to receive cookies can make certain sections difficult to view and use."
+msgstr "Es importante señalar que la desactivación o el rechazo de las cookies puede hacer que ciertas secciones sean difíciles de consultar y de utilizar."
+
+#: lms/templates/static_templates/cookies.html:36
+msgid "All the modern browsers offer the possibility to change the settings of cookies. You can configure the settings of the cookies following the instructions below:"
+msgstr "Todos los navegadores modernos ofrecen la posibilidad de modificar la configuración de las cookies. Puedes ajustar los parámetros de las cookies siguiendo las instrucciones de abajo:"
+
+#: lms/templates/static_templates/cookies.html:39
+msgid "On computer"
+msgstr "En el ordenador"
+
+#: lms/templates/static_templates/cookies.html:43
+#: lms/templates/static_templates/cookies.html:58
+#: lms/templates/static_templates/cookies.html:74
+#: lms/templates/static_templates/cookies.html:88
+#: lms/templates/static_templates/cookies.html:103
+#: lms/templates/static_templates/cookies.html:124
+#: lms/templates/static_templates/cookies.html:140
+#: lms/templates/static_templates/cookies.html:150
+#: lms/templates/static_templates/cookies.html:167
+msgid "To remove cookies:"
+msgstr "Para eliminar las cookies:"
+
+#: lms/templates/static_templates/cookies.html:77
+#: lms/templates/static_templates/cookies.html:92
+#: lms/templates/static_templates/cookies.html:108
+#: lms/templates/static_templates/cookies.html:130
+#: lms/templates/static_templates/cookies.html:155
+#: lms/templates/static_templates/cookies.html:171
+msgid "To block cookies:"
+msgstr "Para bloquear las cookies:"
+
+#: lms/templates/static_templates/cookies.html:44
+msgid "Open Internet Explorer. At the top right select \"Tools\", point to \"Safety\", and then select \"Delete browsing history\"."
+msgstr "Abre Internet Explorer. En la parte superior derecha, selecciona \"Herramientas\", apunta a \"Seguridad\" y luego selecciona \"Eliminar el historial de exploración\"."
+
+#: lms/templates/static_templates/cookies.html:45
+msgid "Select the \"Cookies and website data\" check box and then select \"Delete\"."
+msgstr "Marca la casilla \"Cookies y datos de sitios web\" y luego selecciona \"Eliminar\"."
+
+#: lms/templates/static_templates/cookies.html:47
+msgid "To block cookies, for example, in the Microsoft Internet Explorer 11 for Windows 10:"
+msgstr "Para bloquear las cookies, por ejemplo, en Microsoft Internet Explorer 11 para Windows 10:"
+
+#: lms/templates/static_templates/cookies.html:48
+msgid "Open Internet Explorer, select \"Tools\" and then select \"Internet options\"."
+msgstr "Abre Internet Explorer, selecciona \"Herramientas\" y luego \"Opciones de Internet\"."
+
+#: lms/templates/static_templates/cookies.html:49
+msgid "Select the \"Privacy\" tab, \"Advanced\" and choose whether you want to block the cookies."
+msgstr "Selecciona la pestaña \"Privacidad\", \"Avanzado\" y elige si deseas bloquear las cookies."
+
+#: lms/templates/static_templates/cookies.html:59
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click on \"Content settings\"."
+msgstr "Abre Google Chrome. En la parte superior derecha, selecciona \"Más\", luego \"Configuración\", elige \"Configuración avanzada\" y haz clic en \"Configuración de contenido\"."
+
+#: lms/templates/static_templates/cookies.html:60
+msgid "Select \"Cookies\" and then select \"See all cookies and site data\"."
+msgstr "Selecciona \"Cookies\" y luego \"Ver todas las cookies y los datos de sitios\"."
+
+#: lms/templates/static_templates/cookies.html:61
+msgid "Select \"Remove all\". Confirm by clicking \"Clear all\"."
+msgstr "Selecciona \"Eliminar todo\". Confirma haciendo clic en \"Borrar todo\"."
+
+#: lms/templates/static_templates/cookies.html:63
+msgid "To block cookies, for example, by default:"
+msgstr "Para bloquear las cookies, por ejemplo, de forma predeterminada:"
+
+#: lms/templates/static_templates/cookies.html:64
+msgid "Open Google Chrome. At the top right select \"More\", then \"Settings\", select \"Advanced\" and click \"Content settings\"."
+msgstr "Abre Google Chrome. En la parte superior derecha, selecciona \"Más\", luego \"Configuración\", elige \"Configuración avanzada\" y haz clic en \"Configuración de contenido\"."
+
 #: lms/templates/static_templates/cookies.html:65
-msgid "How Can I Stop The Cookies?"
-msgstr "¿Cómo puedo desactivar las cookies?"
+msgid "Select \"Cookies\" and turn off the \"Allow sites to save and read cookie data\" button."
+msgstr "Selecciona \"Cookies\" y desactiva el botón \"Permitir que los sitios guarden y lean datos de cookies\"."
 
-#: lms/templates/static_templates/cookies.html:233
+#: lms/templates/static_templates/cookies.html:75
+msgid "Open Safari, select \"Preferences\", select \"Privacy\", select \"Manage Website Data\". Select one or more websites, and then click on \"Remove\" or \"Remove All\"."
+msgstr "Abre Safari, selecciona \"Preferencias\", selecciona \"Privacidad\", selecciona \"Gestionar datos de sitios web\". Selecciona uno o más sitios y, a continuación, haz clic en \"Eliminar\" o \"Eliminar todo\"."
+
+#: lms/templates/static_templates/cookies.html:78
+msgid "Open Safari, select \"Preferences\", select \"Privacy\" and click on \"Block all cookies\"."
+msgstr "Abre Safari, selecciona \"Preferencias\", selecciona \"Privacidad\" y haz clic en \"Bloquear todas las cookies\"."
+
+#: lms/templates/static_templates/cookies.html:89
+msgid "Open Mozilla Firefox, select \"Options\"."
+msgstr "Abre Mozilla Firefox, selecciona \"Opciones\"."
+
+#: lms/templates/static_templates/cookies.html:90
+msgid "Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Manage Data\" button and then choose \"Remove Selected\" and \"Remove All\"."
+msgstr "Selecciona \"Privacidad y seguridad\" y ve a \"Cookies y datos del sitio\". Selecciona el botón \"Gestionar datos\" y luego elige \"Eliminar seleccionados\" y \"Eliminar todo\"."
+
+#: lms/templates/static_templates/cookies.html:93
+msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
+msgstr "Abre Mozilla Firefox, selecciona el botón de menú y elige \"Opciones\". Selecciona \"Privacidad y seguridad\" y ve a \"Cookies y datos del sitio\". Selecciona \"Bloquear cookies y datos del sitio\"."
+
+#: lms/templates/static_templates/cookies.html:104
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr "Abre Opera, selecciona \"Configuración\", selecciona \"Avanzado\" y haz clic en \"Privacidad y seguridad\"."
+
+#: lms/templates/static_templates/cookies.html:105
+msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
+msgstr "Selecciona \"Configuración de contenido\", selecciona \"Cookies\" y haz clic en \"Conservar los datos locales solo hasta que cierres el navegador\"."
+
+#: lms/templates/static_templates/cookies.html:109
+msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
+msgstr "Abre Opera, selecciona \"Configuración\", selecciona \"Avanzado\" y haz clic en \"Privacidad y seguridad\"."
+
+#: lms/templates/static_templates/cookies.html:110
+msgid "Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites to save and read cookie data\"."
+msgstr "Selecciona \"Configuración de contenido\", selecciona \"Cookies\" y desactiva \"Permitir que los sitios guarden y lean datos de cookies\"."
+
+#: lms/templates/static_templates/cookies.html:125
+msgid "Open the Google Chrome app. To the right of the address bar, select \"More\" and then \"Settings\"."
+msgstr "Abre la aplicación Google Chrome. A la derecha de la barra de direcciones, selecciona \"Más\" y luego \"Configuración\"."
+
+#: lms/templates/static_templates/cookies.html:126
+msgid "Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site data\"."
+msgstr "Selecciona \"Privacidad\" y luego \"Borrar datos de navegación\". Elige un intervalo de tiempo, como \"Última hora\" o \"Desde siempre\". Marca \"Cookies, licencias multimedia y datos del sitio\"."
+
+#: lms/templates/static_templates/cookies.html:127
+msgid "Uncheck all the other items. Select \"Clear data\" and then \"Clear\"."
+msgstr "Desmarca todos los demás elementos. Selecciona \"Borrar datos\" y luego \"Borrar\"."
+
+#: lms/templates/static_templates/cookies.html:131
+msgid "Open the Google Chrome app. Select \"More\", \"Settings\". Click on \"Site settings\" and \"Cookies\". Turn \"Cookies\" off."
+msgstr "Abre la aplicación Google Chrome. Selecciona \"Más\", \"Configuración\". Haz clic en \"Configuración de sitios\" y \"Cookies\". Desactiva \"Cookies\"."
+
+#: lms/templates/static_templates/cookies.html:141
+msgid "Open the Google Chrome app. At the bottom right, select \"More\" and then \"Settings\"."
+msgstr "Abre la aplicación Google Chrome. En la parte inferior derecha, selecciona \"Más\" y luego \"Configuración\"."
+
+#: lms/templates/static_templates/cookies.html:142
+msgid "Select \"Cookies, Site Data\". Uncheck the other items."
+msgstr "Selecciona \"Cookies y datos de sitios\". Desmarca los demás elementos."
+
+#: lms/templates/static_templates/cookies.html:143
+msgid "Select \"Clear Browsing Data\", and then \"Clear Browsing Data\". Select \"Done\"."
+msgstr "Selecciona \"Borrar datos de navegación\" y luego \"Borrar datos de navegación\". Selecciona \"Listo\"."
+
+#: lms/templates/static_templates/cookies.html:152
+msgid "Click on the \"Home\" button, select \"Settings\", select \"Safari\". Select \"Advanced\", and then \"Website Data\" and then tap \"Remove All Website Data\"."
+msgstr "Pulsa el botón \"Inicio\", selecciona \"Ajustes\", selecciona \"Safari\". Selecciona \"Avanzado\" y luego \"Datos de sitios web\" y, a continuación, toca \"Eliminar todos los datos de sitios web\"."
+
+#: lms/templates/static_templates/cookies.html:157
+msgid "Click on the \"Home\" button, select \"Settings\", and select \"Safari\"."
+msgstr "Pulsa el botón \"Inicio\", selecciona \"Ajustes\" y selecciona \"Safari\"."
+
+#: lms/templates/static_templates/cookies.html:158
+msgid "Select \"Block All Cookies\"."
+msgstr "Selecciona \"Bloquear todas las cookies\"."
+
+#: lms/templates/static_templates/cookies.html:168
+msgid "Select the \"Menu\" button. Select \"Settings\", Select one of the option: \"Privacy & Security\", \"Privacy\", \"Security\". Select \"Clear Cache\". Confirm the action by clicking on \"OK\"."
+msgstr "Selecciona el botón \"Menú\". Selecciona \"Configuración\". Selecciona una de las opciones: \"Privacidad y seguridad\", \"Privacidad\", \"Seguridad\". Selecciona \"Borrar caché\". Confirma la acción haciendo clic en \"OK\"."
+
+#: lms/templates/static_templates/cookies.html:169
+msgid "Select \"Clear all cookie data\", Confirm the action by clicking on \"OK\"."
+msgstr "Selecciona \"Borrar todos los datos de cookies\". Confirma la acción haciendo clic en \"OK\"."
+
+#: lms/templates/static_templates/cookies.html:119
 msgid "On a smartphone or tablet"
-msgstr "En un smartphone o tablet"
-
-#: lms/templates/static_templates/cookies.html:348
+msgstr "En un smartphone o una tableta"
+#: lms/templates/static_templates/cookies.html:181
 msgid "Updates to the cookies policy"
 msgstr "Actualizaciones de la política de cookies"
 
-#: lms/templates/static_templates/cookies.html:349
-msgid ""
-"We reserve the right to make any changes to this policy, particularly in "
-"response to legislative requirements."
-msgstr ""
-"Nos reservamos el derecho de realizar cambios en esta política, en "
-"particular en respuesta a requisitos legislativos."
+#: lms/templates/static_templates/cookies.html:182
+msgid "We reserve the right to make any changes to this policy, particularly in response to legislative requirements."
+msgstr "Nos reservamos el derecho de realizar cualquier cambio en esta política, especialmente en respuesta a requisitos legislativos."
 
-#: lms/templates/static_templates/cookies.html:351
-msgid "Your rights"
-msgstr "Tus derechos"
+#: lms/templates/static_templates/privacy.html:12
+msgid "Effective October 2nd, 2024"
+msgstr "Vigente a partir del 2 de octubre de 2024"
 
-#: lms/templates/static_templates/cookies.html:352
-msgid ""
-"To exercise your right to query, access and amend your personal data, you "
-"can contact us by email at"
-msgstr ""
-"Para ejercer tu derecho a consultar, acceder y modificar tus datos "
-"personales, puedes contactarnos por correo electrónico a"
+#: lms/templates/static_templates/privacy.html:14
+msgid "Holcim Group Services Ltd, Grafenauweg 10, 6300 Zug, Switzerland"
+msgstr "Holcim Group Services Ltd, Grafenauweg 10, 6300 Zug, Suiza"
 
-#: lms/templates/static_templates/privacy.html:25
+#: lms/templates/static_templates/privacy.html:19
+msgid ") cares about your privacy, and we want you to understand our privacy practices. Please read this Privacy Policy to learn how we collect, use, and protect information that directly or indirectly identifies you or could reasonably be linked to (your \"Personal Information\")."
+msgstr ") se preocupa por tu privacidad y queremos que comprendas nuestras prácticas de privacidad. Lee esta Política de privacidad para saber cómo recopilamos, usamos y protegemos la información que te identifica directa o indirectamente o que podría vincularse razonablemente contigo (tu \"Información Personal\")."
+
+#: lms/templates/static_templates/privacy.html:21
+msgid "This Privacy Policy applies to information that we collect through www.holcimacademy.com (\"Site\"), and HGRS is the data controller for such information."
+msgstr "Esta Política de privacidad se aplica a la información que recopilamos a través de www.holcimacademy.com (\"Sitio\"), y HGRS es el responsable del tratamiento de dicha información."
+
+#: lms/templates/static_templates/privacy.html:22
 msgid "Information we collect about you."
 msgstr "Información que recopilamos sobre ti."
 
-#: lms/templates/static_templates/privacy.html:43
-msgid "Minors."
-msgstr "Menores."
+#: lms/templates/static_templates/privacy.html:23
+msgid ""
+"We collect information that you provide to us. This includes your contact data, such as name, job title, profession, years of experience, address, country, telephone number, email address and other contact details, mobile device unique identifier and the IP address of your computer. Sometimes we require your information to provide a service, for example when you enroll in training courses or participate in a program that we offer. Other times, you may voluntarily provide your information, for example when you contact us, complete online forms or surveys."
+msgstr ""
+"Recopilamos la información que nos proporcionas. Esto incluye tus datos de contacto, como nombre, cargo, profesión, años de experiencia, dirección, país, número de teléfono, dirección de correo electrónico y otros datos de contacto, el identificador único del dispositivo móvil y la dirección IP de tu ordenador. A veces necesitamos tu información para prestar un servicio, por ejemplo, cuando te inscribes en cursos de formación o participas en un programa que ofrecemos. En otras ocasiones, puedes proporcionar tu información de forma voluntaria, por ejemplo, cuando nos contactas, completas formularios en línea o encuestas."
 
-#: lms/templates/static_templates/privacy.html:48
-msgid "How we use your information."
-msgstr "Cómo usamos tu información."
+#: lms/templates/static_templates/privacy.html:25
+msgid "We do not intentionally collect any \"sensitive\" data without your explicit consent for specified purposes or as otherwise permitted or required by applicable law. Sensitive data include genetic, biometric and health data, data relating to criminal convictions and offenses, data concerning an individual's sex life or sexual orientation, and Personal Information revealing racial and ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership."
+msgstr "No recopilamos intencionadamente datos \"sensibles\" sin tu consentimiento explícito para fines específicos o salvo que la ley aplicable lo permita o exija. Los datos sensibles incluyen datos genéticos, biométricos y de salud, datos relativos a condenas y delitos penales, datos sobre la vida sexual u orientación sexual de una persona, así como Información Personal que revele el origen racial o étnico, opiniones políticas, creencias religiosas o filosóficas o afiliación sindical."
 
-#: lms/templates/static_templates/privacy.html:74
+#: lms/templates/static_templates/privacy.html:26
+msgid "We may use cookies and other tracking technologies (collectively, \"Cookies\") from time to time that automatically track and collect information about your online interactions with us. For information about how we use Cookies and your options for managing Cookies, please see our Cookie Policy."
+msgstr "Podemos usar periódicamente cookies y otras tecnologías de seguimiento (conjuntamente, \"Cookies\") que rastrean y recopilan automáticamente información sobre tus interacciones en línea con nosotros. Para obtener información sobre cómo utilizamos las Cookies y tus opciones de gestión, consulta nuestra Política de cookies."
+
+#: lms/templates/static_templates/privacy.html:28
+msgid "The Sites are not designed or intended for minors (individuals under the age of 13, or the legal age of majority in your jurisdiction), and we do not knowingly collect Personal Information from minors. If we learn that we have collected Personal Information from a minor, we will take steps to delete the data without notice as soon as possible."
+msgstr "Los Sitios no están diseñados ni destinados a menores (personas menores de 13 años o por debajo de la mayoría de edad legal en tu jurisdicción), y no recopilamos conscientemente Información Personal de menores. Si llegamos a saber que hemos recopilado Información Personal de un menor, tomaremos medidas para eliminar los datos sin previo aviso lo antes posible."
+
+#: lms/templates/static_templates/privacy.html:31
+msgid "To fulfill our contract with you. We use your information to provide you with offerings and services that you request. For example, when you sign up to program or enroll in a training course, we use your information to create and manage your participation or enrollment."
+msgstr "Cumplir nuestro contrato contigo. Usamos tu información para proporcionarte las ofertas y servicios que solicitas. Por ejemplo, cuando te registras en un programa o te inscribes en un curso de formación, utilizamos tu información para crear y gestionar tu participación o inscripción."
+
+#: lms/templates/static_templates/privacy.html:33
+msgid "For our legitimate business interests. We use your information to contact you about important policy or service updates and to share news and marketing about updates, events, services, and offerings. We also use your information to perform analytics that track usage of the Site against goals and mission, to improve our offerings and services, and to operate and improve the Sites including performance and security."
+msgstr "Para nuestros intereses comerciales legítimos. Usamos tu información para contactarte sobre actualizaciones importantes de políticas o servicios y para compartir novedades y comunicaciones de marketing sobre actualizaciones, eventos, servicios y ofertas. También utilizamos tu información para realizar análisis que rastrean el uso del Sitio frente a objetivos y misión, para mejorar nuestras ofertas y servicios, y para operar y mejorar los Sitios, incluida su rendimiento y seguridad."
+
+#: lms/templates/static_templates/privacy.html:35
+msgid "For legal obligations. We use your information to exercise, enforce, and comply with legal rights and obligations as we believe reasonably necessary or appropriate, including without limitation responding to subpoenas, court orders, or other legal process and to protect your, our, or others' rights, property, or safety."
+msgstr "Por obligaciones legales. Usamos tu información para ejercer, hacer cumplir y cumplir derechos y obligaciones legales cuando lo consideremos razonablemente necesario o apropiado, incluyendo, sin limitarse a, responder a citaciones, órdenes judiciales u otros procedimientos legales y para proteger tus derechos, los nuestros o los de terceros, así como los bienes o la seguridad."
+
+#: lms/templates/static_templates/privacy.html:37
+msgid "With your consent. We may seek your consent for additional uses of information, including Personal Information, and will use it only for the purpose described to you. All use of Personal Information is subject to applicable law."
+msgstr "Con tu consentimiento. Podemos solicitar tu consentimiento para usos adicionales de información, incluida la Información Personal, y la utilizaremos únicamente para la finalidad que se te haya descrito. Todo uso de Información Personal está sujeto a la ley aplicable."
+
+#: lms/templates/static_templates/privacy.html:39
+msgid "In an aggregated or de-identified format. We may use anonymous, de-identified, or aggregate information that does not reasonably identify you for any purpose, as permitted by applicable law."
+msgstr "En formato agregado o desidentificado. Podemos usar información anónima, desidentificada o agregada que no te identifique razonablemente para cualquier fin permitido por la ley aplicable."
+
+#: lms/templates/static_templates/privacy.html:42
 msgid "How we share your information."
 msgstr "Cómo compartimos tu información."
 
-#: lms/templates/static_templates/privacy.html:102
+#: lms/templates/static_templates/privacy.html:44
+msgid "With service providers and business partners. We may share information, including Personal Information, with service providers and business partners that help us carry out the uses described above. For example, service providers and business partners may help us create and offer training services and courses. In some cases, the Sites are integrated with third-party services or contain links to websites published by third parties. These third parties are responsible for their own privacy practices, and you should pay attention anytime you are redirected to a third-party website and be sure to review its privacy policy."
+msgstr "Con proveedores de servicios y socios comerciales. Podemos compartir información, incluida Información Personal, con proveedores y socios comerciales que nos ayudan a llevar a cabo los usos descritos anteriormente. Por ejemplo, proveedores y socios pueden ayudarnos a crear y ofrecer servicios y cursos de formación. En algunos casos, los Sitios están integrados con servicios de terceros o contienen enlaces a sitios web publicados por terceros. Estos terceros son responsables de sus propias prácticas de privacidad; presta atención cada vez que seas redirigido a un sitio de terceros y asegúrate de revisar su política de privacidad."
+
+#: lms/templates/static_templates/privacy.html:46
+msgid "In the event of a major transaction or reorganization. We may share information in connection with evaluating and/or engaging in a major transaction such as a merger, sale, acquisition, reorganization, transfer of assets, bankruptcy, or change in ownership, and in such case(s), may share information also with affiliates and successors for their use consistent with this Privacy Policy."
+msgstr "En caso de una operación importante o reorganización. Podemos compartir información en relación con la evaluación y/o la realización de una operación importante como una fusión, venta, adquisición, reorganización, transferencia de activos, quiebra o cambio de propiedad y, en tal(es) caso(s), también podremos compartir información con afiliadas y sucesoras para su uso conforme a esta Política de privacidad."
+
+#: lms/templates/static_templates/privacy.html:48
+msgid "With our related companies. We may share information with related companies including affiliates, statutory members, subsidiaries, and other entities under common control and ownership."
+msgstr "Con nuestras compañías relacionadas. Podemos compartir información con compañías relacionadas, incluidas afiliadas, miembros estatutarios, subsidiarias y otras entidades bajo control y propiedad comunes."
+
+#: lms/templates/static_templates/privacy.html:50
+msgid "With your consent. We may seek your consent for additional disclosures of information, including Personal Information, and will share it only as described to you."
+msgstr "Con tu consentimiento. Podemos solicitar tu consentimiento para divulgaciones adicionales de información, incluida la Información Personal, y la compartiremos solo según se te haya descrito."
+
+#: lms/templates/static_templates/privacy.html:52
+msgid "In a de-identified, aggregate manner. We may de-identify or aggregate your Personal Information and share it with the public and third parties such as researchers and business partners."
+msgstr "De forma desidentificada y agregada. Podemos desidentificar o agregar tu Información Personal y compartirla con el público y con terceros, como investigadores y socios comerciales."
+
+#: lms/templates/static_templates/privacy.html:55
 msgid "Retention, storage, and security."
 msgstr "Conservación, almacenamiento y seguridad."
 
-#: lms/templates/static_templates/privacy.html:152
+#: lms/templates/static_templates/privacy.html:56
+msgid "We may retain your information for as long as needed to provide you with offerings and services or fulfill the purpose for which it was collected; to maintain a record of your transactions for financial reporting, audit, and compliance purposes; and to comply with our legal obligations, resolve disputes, enforce our agreements, and as otherwise permitted by applicable law."
+msgstr "Podemos conservar tu información durante el tiempo necesario para proporcionarte ofertas y servicios o cumplir la finalidad para la que se recopiló; para mantener un registro de tus transacciones con fines de reporte financiero, auditoría y cumplimiento; y para cumplir nuestras obligaciones legales, resolver disputas, hacer cumplir nuestros acuerdos y en la medida en que lo permita la ley aplicable."
+
+#: lms/templates/static_templates/privacy.html:58
+msgid "We store information, including Personal Information, on servers located in the United States. However, information may be stored in other countries where we operate, and in countries where our service providers operate and business partners. If you are in the European Union, Switzerland, or other regions with laws governing data collection and use, you acknowledge that we may transfer, process, and store your personal information in the United States and other countries, the privacy laws of which may be considered less strict than those of your region."
+msgstr "Almacenamos información, incluida Información Personal, en servidores ubicados en Estados Unidos. Sin embargo, la información puede almacenarse en otros países donde operamos, y en países donde operan nuestros proveedores de servicios y socios comerciales. Si te encuentras en la Unión Europea, Suiza u otras regiones con leyes que rigen la recopilación y el uso de datos, reconoces que podemos transferir, procesar y almacenar tu información personal en Estados Unidos y otros países cuyas leyes de privacidad pueden considerarse menos estrictas que las de tu región."
+
+#: lms/templates/static_templates/privacy.html:60
+msgid "We use administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the information that we collect, store, use, or transmit. Nonetheless, no method of transmission over the Internet, or method of electronic storage, is 100% secure; and therefore, we cannot guarantee its absolute security. While we work hard to ensure the integrity and security of our network and systems, we cannot guarantee that our security measures will prevent \"hackers\" or other unauthorized persons from illegally accessing or obtaining information."
+msgstr "Utilizamos medidas de protección administrativas, físicas y técnicas que protegen de manera razonable y adecuada la confidencialidad, integridad y disponibilidad de la información que recopilamos, almacenamos, usamos o transmitimos. No obstante, ningún método de transmisión por Internet ni método de almacenamiento electrónico es 100 % seguro; por lo tanto, no podemos garantizar su seguridad absoluta. Aunque trabajamos arduamente para asegurar la integridad y seguridad de nuestra red y sistemas, no podemos garantizar que nuestras medidas de seguridad impidan que \"hackers\" u otras personas no autorizadas accedan ilegalmente a la información o la obtengan."
+
+#: lms/templates/static_templates/privacy.html:62
+msgid "If we learn of a security breach involving our copy of your Personal Information, we may attempt to notify you electronically so that you may take appropriate protective steps. By using the Site or providing Personal Information to us, you agree that we can communicate with you electronically regarding security, privacy, and administrative issues relating to your use of the Sites. If a security system breach occurs, we may post a notice on the applicable Site homepage or elsewhere on the Site and may send an email to you at the email address associated with you in our records. Depending on where you are located, you may have a legal right to receive notice of a security breach, involving your Personal Information, in writing."
+msgstr "Si llegamos a saber de una violación de seguridad que involucre nuestra copia de tu Información Personal, podemos intentar notificarte electrónicamente para que tomes las medidas de protección adecuadas. Al usar el Sitio o proporcionarnos Información Personal, aceptas que nos comuniquemos contigo por medios electrónicos en relación con temas de seguridad, privacidad y asuntos administrativos relativos a tu uso de los Sitios. Si se produce una violación del sistema de seguridad, podemos publicar un aviso en la página de inicio del Sitio correspondiente o en otra parte del Sitio y enviarte un correo electrónico a la dirección asociada contigo en nuestros registros. Según tu lugar de residencia, puedes tener el derecho legal de recibir por escrito una notificación de una violación de seguridad que implique tu Información Personal."
+
+#: lms/templates/static_templates/cookies.html:183
+#: lms/templates/static_templates/privacy.html:63
+msgid "Your rights"
+msgstr "Tus derechos"
+
+#: lms/templates/static_templates/cookies.html:184
+msgid "To exercise your right to query, access and amend your personal data, you can contact us by email at"
+msgstr "Para ejercer tu derecho a consultar, acceder y modificar tus datos personales, puedes contactarnos por correo electrónico en"
+
+#: lms/templates/static_templates/privacy.html:64
+msgid "You have the right to request from us access to and rectification of, erasure of your Personal Information, restriction of processing concerning you and to object to processing. In particular, you have the right to request a copy of the Personal Information that we hold about you. If you use this service repeatedly, we may make a small charge for this. If you would like to transfer your personal data to another controller, we will provide you with the personal data which you provided to us and which has been processed by automated means in a machine-readable portable format free of charge."
+msgstr "Tienes derecho a solicitarnos el acceso, la rectificación o la supresión de tu Información Personal, la limitación del tratamiento que te concierne y a oponerte al tratamiento. En particular, tienes derecho a solicitar una copia de la Información Personal que conservamos sobre ti. Si usas este servicio de forma repetida, podríamos aplicar un pequeño cargo. Si deseas transferir tus datos personales a otro responsable, te proporcionaremos sin costo los datos personales que nos facilitaste y que hayan sido tratados por medios automatizados en un formato portátil legible por máquina."
+
+#: lms/templates/static_templates/privacy.html:66
+msgid "As we want to make sure that your personal data is accurate and up to date you may also ask us to correct or remove any information which you think is inaccurate."
+msgstr "Como queremos asegurarnos de que tus datos personales sean exactos y estén actualizados, también puedes pedirnos que corrijamos o eliminemos cualquier información que consideres inexacta."
+
+#: lms/templates/static_templates/privacy.html:67
+msgid "For any of the above requests, please send a description of your personal data concerned and state name, email address, your personal account number as proof of identity to"
+msgstr "Para cualquiera de las solicitudes anteriores, envía una descripción de los datos personales en cuestión e indica tu nombre, dirección de correo electrónico y número de cuenta personal como prueba de identidad a"
+
+#: lms/templates/static_templates/privacy.html:69
+msgid "If you have any concerns about how your Personal Information is handled by us or wish to raise a complaint on how we have handled your personal data, you can contact us at"
+msgstr "Si tienes inquietudes sobre cómo tratamos tu Información Personal o deseas presentar una queja sobre cómo hemos gestionado tus datos personales, puedes contactarnos en"
+
+#: lms/templates/static_templates/privacy.html:70
+msgid "to have the matter investigated. If you are not satisfied with our response or believe we are processing your personal data not in accordance with the law you can complain to the competent data protection supervisory authority in your country."
+msgstr "para que el asunto sea investigado. Si no estás satisfecho con nuestra respuesta o consideras que tratamos tus datos personales en contra de la ley, puedes presentar una reclamación ante la autoridad de control competente en materia de protección de datos de tu país."
+
+#: lms/templates/static_templates/privacy.html:71
 msgid "How to manage your Personal Information."
 msgstr "Cómo gestionar tu Información Personal."
 
-#: lms/templates/static_templates/privacy.html:163
+#: lms/templates/static_templates/privacy.html:72
+msgid "You may stop receiving promotional communications by following the \"unsubscribe\" instructions contained in the messages you receive or by contacting us directly at privacy@holcim.com. We may continue to contact you about non-promotional matters including administrative and transactional updates."
+msgstr "Puedes dejar de recibir comunicaciones promocionales siguiendo las instrucciones de \"cancelar suscripción\" incluidas en los mensajes que recibes o contactándonos directamente en privacy@holcim.com. Podemos seguir contactándote sobre asuntos no promocionales, incluidas actualizaciones administrativas y transaccionales."
+
+#: lms/templates/static_templates/privacy.html:73
+msgid "You may manage cookies by updating your preferences in the \"cookie settings\" tool available on the applicable Site. Please see our Cookie Policy for more information."
+msgstr "Puedes gestionar las cookies actualizando tus preferencias en la herramienta de \"configuración de cookies\" disponible en el Sitio correspondiente. Consulta nuestra Política de cookies para obtener más información."
+
+#: lms/templates/static_templates/privacy.html:75
+msgid "To update, edit, access, and/or delete your Personal Information, or to request that we restrict our use of your Personal Information for any purpose, please contact us directly at privacy@holcim.com."
+msgstr "Para actualizar, modificar, acceder y/o eliminar tu Información Personal, o para solicitar que restrinjamos su uso para cualquier finalidad, contáctanos directamente en privacy@holcim.com."
+
+#: lms/templates/static_templates/privacy.html:76
 msgid "Updates."
 msgstr "Actualizaciones."
 
-#: lms/templates/static_templates/privacy.html:170
+#: lms/templates/static_templates/privacy.html:77
+msgid "We reserve the right to modify this Privacy Policy at any time without advance notice. Any changes to the Privacy Policy will be effective immediately upon posting on this page, with an updated effective date. By continuing to use the Sites after any changes have been made, you signify your agreement on a prospective basis to the modified Privacy Policy and all the changes. Be sure to return to this page periodically to ensure familiarity with the most current version of the Privacy Policy."
+msgstr "Nos reservamos el derecho de modificar esta Política de privacidad en cualquier momento y sin previo aviso. Cualquier cambio en la Política de privacidad entrará en vigor inmediatamente tras su publicación en esta página, con la fecha de vigencia actualizada. Al seguir utilizando los Sitios después de realizarse cualquier cambio, manifiestas tu conformidad, de forma prospectiva, con la Política de privacidad modificada y con todos los cambios. Asegúrate de volver a esta página periódicamente para conocer la versión más reciente de la Política de privacidad."
+
+#: lms/templates/static_templates/privacy.html:78
 msgid "Contact Information."
 msgstr "Información de contacto."
+
+#: lms/templates/static_templates/privacy.html:79
+msgid "If you have privacy concerns, have disclosed data you would prefer to keep private, or would like to access the Personal Information that we maintain about you, please contact us at privacy@holcim.com. You may also write to us at: ATTN: Group Compliance, PRIVACY, Grafenauweg 10, 6300 Zug, Switzerland."
+msgstr "Si tienes inquietudes sobre privacidad, has divulgado datos que preferirías mantener privados o deseas acceder a la Información Personal que mantenemos sobre ti, contáctanos en privacy@holcim.com. También puedes escribirnos a: ATTN: Group Compliance, PRIVACY, Grafenauweg 10, 6300 Zug, Suiza."
+
+#: lms/templates/footer.html:186
+msgid "Privacy Notice"
+msgstr "Aviso de privacidad"
+
+{{ ... }}
+#: lms/templates/courseware/course_about.html:139
+msgid "From beginners to intermediate"
+msgstr "De principiantes a intermedios"
+
+#: lms/templates/courseware/course_about.html:143
+msgid "Flexible schedule"
+msgstr "Horario flexible"
+
+#: lms/templates/courseware/course_about.html:144
+msgid "Learn at your own pace anytime"
+msgstr "Aprende a tu propio ritmo en cualquier momento"
+
+#: lms/templates/courseware/course_about.html:149
+msgid "Earn and share the certificate with your network"
+msgstr "Obtén y comparte el certificado con tu red"
+
+#: lms/templates/static_templates/about.html:13
+msgid "ABOUT HOLCIM SUSTAINABLE CONSTRUCTION ACADEMY"
+msgstr "SOBRE LA ACADEMIA HOLCIM DE CONSTRUCCIÓN SOSTENIBLE"
+
+#: lms/templates/static_templates/about.html:20
+msgid ""
+"At Holcim, we’re on a mission to decarbonize building, and enable circular, "
+"low-carbon, energy-efficient, and regenerative buildings and cities. We’re "
+"doing this by partnering with like-minded organizations like the Canary "
+"Wharf Group. We also need to share knowledge and best practices across the "
+"entire value chain to accelerate the shift to sustainable construction."
+msgstr ""
+"En Holcim, tenemos la misión de descarbonizar la construcción y habilitar "
+"edificios y ciudades circulares, de bajas emisiones de carbono, eficientes "
+"energéticamente y regenerativos. Lo estamos logrando colaborando con "
+"organizaciones afines como Canary Wharf Group. También necesitamos compartir "
+"conocimientos y buenas prácticas en toda la cadena de valor para acelerar la "
+"transición hacia la construcción sostenible."
+
+#: lms/templates/static_templates/about.html:22
+msgid ""
+"That’s why we’re launching the Holcim Sustainable Construction Academy, "
+"which we developed with like-minded experts: academics from ETH Zurich and "
+"University of Cambridge, and leading experts from pioneering companies like "
+"Canary Wharf Group, Arup and Ramboll. It’s a one-stop-shop learning journey "
+"on sustainable construction – from design and materials to new technologies "
+"and circularity – for architects, engineers, developers and urban planners. "
+"And it’s more than just a learning portal – it’s a movement to accelerate "
+"the shift to more sustainable and regenerative building."
+msgstr ""
+"Por eso lanzamos la Holcim Sustainable Construction Academy, que "
+"desarrollamos junto con expertos afines: académicos de la ETH Zurich y la "
+"Universidad de Cambridge, y especialistas de empresas pioneras como Canary "
+"Wharf Group, Arup y Ramboll. Es un recorrido de aprendizaje integral sobre "
+"construcción sostenible —desde el diseño y los materiales hasta las nuevas "
+"tecnologías y la circularidad— para arquitectos, ingenieros, promotores y "
+"urbanistas. Y es más que un portal de aprendizaje: es un movimiento para "
+"acelerar la transición hacia una construcción más sostenible y regenerativa."
+
+#: lms/templates/static_templates/about.html:30
+msgid "FREQUENTLY ASKED QUESTIONS"
+msgstr "PREGUNTAS FRECUENTES"
+
+#: lms/templates/static_templates/about.html:39
+msgid "What are the fees for these courses?"
+msgstr "¿Cuáles son las tarifas de estos cursos?"
+
+#: lms/templates/static_templates/about.html:40
+msgid ""
+"All courses on the Holcim Sustainable Construction are free of charge. "
+"Simply register and enroll in any courses you choose."
+msgstr ""
+"Todos los cursos de la Academia Holcim de la Construcción Sostenible son "
+"gratuitos. Simplemente regístrate e inscríbete en los cursos que elijas."
+
+#: lms/templates/static_templates/about.html:44
+msgid "What is the right order to take these courses?"
+msgstr "¿Cuál es el orden adecuado para tomar estos cursos?"
+
+#: lms/templates/static_templates/about.html:45
+msgid ""
+"The courses are meant to be modular, with varying levels of difficulty aimed "
+"at learners with different backgrounds. You may first look into the Basic-"
+"level courses for an introduction to sustainable construction topics, or you "
+"may begin with the more specialized and Intermediate-level topic of "
+"\"Designing with Concrete\". It's up to you and your self-assessment of your "
+"knowledge level."
+msgstr ""
+"Los cursos están pensados para ser modulares, con distintos niveles de "
+"dificultad dirigidos a personas con diferentes antecedentes. Puedes "
+"consultar primero los cursos de nivel Básico para una introducción a los "
+"temas de construcción sostenible, o comenzar por el tema más especializado "
+"de nivel Intermedio \"Diseñar con hormigón\". Depende de ti y de tu "
+"autoevaluación de tu nivel de conocimientos."
+
+#: lms/templates/static_templates/about.html:49
+msgid "What happens if I fail to gain a certificate for a course?"
+msgstr "¿Qué sucede si no obtengo el certificado de un curso?"
+
+#: lms/templates/static_templates/about.html:50
+msgid ""
+"If you fail to get a minimum grade of 80% in any course, you may request for "
+"a reset through this <a href=\"https://holcimacademy.com/contact\">contact "
+"form</a>. Please state your username and the topics that you would like to "
+"reset in your message."
+msgstr ""
+"Si no logras una calificación mínima del 80 % en algún curso, puedes "
+"solicitar un restablecimiento mediante este <a href=\"https://holcimacademy.com/contact\">formulario de contacto</a>. "
+"Indica tu nombre de usuario y los temas que te gustaría restablecer en tu "
+"mensaje."
+
+#: lms/templates/static_templates/about.html:54
+msgid "How do I sign up for a Holcim Academy course?"
+msgstr "¿Cómo me inscribo en un curso de la Academia Holcim?"
+
+#: lms/templates/static_templates/about.html:55
+msgid ""
+"Visit our course catalog to explore the range of courses that we offer and "
+"click on any link to view the course info page. You’ll see all the important "
+"details about the course, and have the opportunity to enroll. In order to "
+"enroll in courses on <a href=\"https://holcimacademy.com\">http://"
+"holcimacademy.com</a> you’ll need to register and create an account. Once "
+"you select Enroll Now, you can begin your learning journey."
+msgstr ""
+"Visita nuestro catálogo de cursos para explorar la oferta y haz clic en "
+"cualquier enlace para ver la página de información del curso. Verás todos "
+"los detalles importantes y tendrás la oportunidad de inscribirte. Para "
+"inscribirte en cursos en <a href=\"https://holcimacademy.com\">http://"
+"holcimacademy.com</a> debes registrarte y crear una cuenta. Una vez que "
+"selecciones \"Inscribirse ahora\", podrás comenzar tu recorrido de aprendizaje."
+
+#: lms/templates/static_templates/about.html:58
+msgid "How can I earn a certificate?"
+msgstr "¿Cómo puedo obtener un certificado?"
+
+#: lms/templates/static_templates/about.html:59
+msgid ""
+"To earn a verified certificate, you must complete and pass the course with a "
+"grade that is equal to or above the minimum of 80%. This certificate will be "
+"delivered digitally through your Learner Dashboard on the platform. You may "
+"either share this on LinkedIn as a certificate credential, on Twitter and "
+"Facebook as a post, or you may grab a screenshot of the certificate and "
+"share it on any of your preferred social media platforms."
+msgstr ""
+"Para obtener un certificado verificado, debes completar y aprobar el curso "
+"con una calificación igual o superior al 80 %. Este certificado se entregará "
+"digitalmente a través de tu Panel del Estudiante en la plataforma. Puedes "
+"compartirlo en LinkedIn como credencial de certificación, publicarlo en "
+"Twitter y Facebook, o tomar una captura de pantalla del certificado y "
+"compartirla en cualquiera de tus redes sociales preferidas."
+
+#: lms/templates/static_templates/about.html:62
+msgid ""
+"I have gone through an entire Holcim Academy course. How can I give my "
+"feedback?"
+msgstr ""
+"He completado un curso completo de la Academia Holcim. ¿Cómo puedo dar mi "
+"opinión?"
+
+#: lms/templates/static_templates/about.html:63
+msgid ""
+"Please fill up <a href=\"https://forms.gle/1FvWiLjJUA6a9PFS7\">this form</a> "
+"to give your feedback and help us improve on the Academy."
+msgstr ""
+"Completa <a href=\"https://forms.gle/1FvWiLjJUA6a9PFS7\">este formulario</a> "
+"para dejarnos tus comentarios y ayudarnos a mejorar la Academia."
+
+#: lms/templates/static_templates/about.html:66
+msgid ""
+"Where can I get help for an issue with my Holcim Academy account or course "
+"experience?"
+msgstr ""
+"¿Dónde puedo obtener ayuda para un problema con mi cuenta o con mi "
+"experiencia en un curso de la Academia Holcim?"
+
+#: lms/templates/static_templates/about.html:67
+msgid ""
+"You may contact us through this <a href=\"https://holcimacademy.com/"
+"contact\">contact form.</a>"
+msgstr ""
+"Puedes contactarnos mediante este <a href=\"https://holcimacademy.com/"
+"contact\">formulario de contacto</a>."
+
+#: lms/templates/courseware/courses.html:169
+#: lms/templates/courses_list.html:127
+msgid "Find the right course for you"
+msgstr "Encuentra el curso adecuado para ti"
+
+#: lms/templates/courseware/courses.html:173
+#: lms/templates/courses_list.html:131
+msgid "Language:"
+msgstr "Idioma:"
+
+#: lms/templates/courseware/courses.html:191
+#: lms/templates/courses_list.html:140
+msgid "Level:"
+msgstr "Nivel:"
 
 #: lms/templates/static_templates/tos.html:9
 msgid "General Disclosure"
 msgstr "Divulgación general"
 
-#: lms/templates/static_templates/tos.html:41
+#: lms/templates/static_templates/tos.html:10
+msgid "The programs provided by Holcim and/or Subject Matter Experts of Holcim Sustainable Construction Academy (hereafter referred to as \"Company\") are meant only for educational and training purposes, and are not to be taken as professional advice or consultancy."
+msgstr "Los programas proporcionados por Holcim y/o por expertos en la materia de la Holcim Sustainable Construction Academy (en adelante, la \"Compañía\") están destinados únicamente a fines educativos y de formación y no deben considerarse asesoramiento o consultoría profesional."
+
+#: lms/templates/static_templates/tos.html:12
+msgid "The educational training program provided here is not designed or intended to officially qualify students for employment. It is intended solely for the advocacy, personal enrichment, and development of students. The Company's products (including but not limited to training and coaching materials) are for education and/or illustration purposes only, and are provided with the understanding that the Company is not engaged in rendering architectural, engineering, scientific, or other professional advice. The Company is not liable for any damages, loss, or expense incurred by or imposed upon the students in connection with any third party claims, suits, actions, demands or judgments resulting from the students' reliance on the Company's academic perspectives in the learning content."
+msgstr "El programa de formación educativa que se ofrece aquí no está diseñado ni destinado a calificar oficialmente a los estudiantes para el empleo. Su propósito es exclusivamente la sensibilización, el enriquecimiento personal y el desarrollo de los estudiantes. Los productos de la Compañía (incluidos, entre otros, materiales de formación y coaching) tienen fines exclusivamente educativos y/o ilustrativos y se proporcionan con el entendimiento de que la Compañía no ofrece asesoramiento profesional en arquitectura, ingeniería, ciencia u otras áreas. La Compañía no es responsable de ningún daño, pérdida o gasto incurrido por los estudiantes o impuesto a ellos en relación con reclamaciones, demandas, acciones, solicitudes o sentencias de terceros resultantes de la confianza de los estudiantes en las perspectivas académicas de la Compañía en los contenidos de aprendizaje."
+
+#: lms/templates/static_templates/tos.html:14
+msgid "The Company's mission is to provide the highest quality education and programs that help built environment professionals reach their full potential. In promoting our educational programs, the company may illustrate success stories. These testimonials are not paid for. As stipulated by law, we cannot and do not guarantee results or offer professional architectural, engineering, or scientific advice. Students' results will vary and will be based on your drive, effort, follow-through and other variables beyond our control. We believe in full transparency and a high standard of integrity. That's why we also put our disclaimers on all our pages, and why we give you our contact information for any questions."
+msgstr "La misión de la Compañía es proporcionar educación y programas de la más alta calidad que ayuden a los profesionales del entorno construido a alcanzar su máximo potencial. Al promocionar nuestros programas educativos, la Compañía puede mostrar historias de éxito. Estos testimonios no son remunerados. Según lo estipulado por la ley, no podemos ni garantizamos resultados, ni ofrecemos asesoramiento profesional en arquitectura, ingeniería o ciencia. Los resultados de los estudiantes variarán y dependerán de su motivación, esfuerzo, constancia y otras variables fuera de nuestro control. Creemos en la plena transparencia y en altos estándares de integridad. Por eso también incluimos nuestros avisos legales en todas nuestras páginas y facilitamos nuestra información de contacto para cualquier consulta."
+
+#: lms/templates/static_templates/tos.html:17
+msgid "The Company's programs may contain references or links to materials from third-parties. Reference to any third-party products, services, processes or other information, by trade name, trademark, manufacturer, supplier or otherwise does not constitute or imply endorsement, sponsorship or recommendation thereof, or any affiliation with us. We are not responsible for examining or evaluating the content or accuracy and we do not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third-parties. We are not liable for any harm or damages related to the purchase or use of goods, services, resources, content, or any other transactions made in connection with any third-party websites. Complaints, claims, concerns, or questions regarding third-party products should be directed to the third-party."
+msgstr "Los programas de la Compañía pueden contener referencias o enlaces a materiales de terceros. La mención de productos, servicios, procesos u otra información de terceros, por nombre comercial, marca, fabricante, proveedor u otros, no constituye ni implica aprobación, patrocinio o recomendación, ni ninguna afiliación con nosotros. No somos responsables de examinar o evaluar el contenido o su exactitud, y no garantizamos ni asumimos responsabilidad por materiales o sitios web de terceros, ni por otros materiales, productos o servicios de terceros. No somos responsables de ningún daño o perjuicio relacionado con la compra o el uso de bienes, servicios, recursos, contenido u otras transacciones realizadas en relación con sitios web de terceros. Las quejas, reclamaciones, inquietudes o preguntas sobre productos de terceros deben dirigirse al tercero correspondiente."
+
+#: lms/templates/static_templates/tos.html:18
 msgid "No Reproduction of Material"
 msgstr "Prohibida la reproducción del material"
 
-#: lms/templates/static_templates/tos.html:45
+#: lms/templates/static_templates/tos.html:19
+msgid "No part of our materials may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording, or by any information storage and retrieval system without the express written permission of the Company."
+msgstr "Ninguna parte de nuestros materiales puede ser reproducida o transmitida por ningún medio ni en ninguna forma, electrónica o mecánica, incluyendo fotocopia, grabación o cualquier sistema de almacenamiento y recuperación de información, sin el permiso expreso y por escrito de la Compañía."
+
+#: lms/templates/static_templates/tos.html:20
 msgid "Miscellaneous"
 msgstr "Disposiciones varias"
 
-#: lms/templates/static_templates/tos.html:64
+#: lms/templates/static_templates/tos.html:23
+msgid "Severability. If any provisions in the Agreement or these Terms and Conditions are found to be invalid, void or unenforceable, the remaining provisions shall nevertheless continue in full force without being impaired or invalidated in any way."
+msgstr "Divisibilidad. Si alguna disposición del Acuerdo o de estos Términos y Condiciones se considera inválida, nula o inaplicable, las disposiciones restantes continuarán no obstante plenamente vigentes sin verse afectadas o invalidadas de ninguna manera."
+
+#: lms/templates/static_templates/tos.html:26
+msgid "The Agreement and these Terms and Conditions supersede any and all other agreements, either oral or in writing between you and us with respect to your purchase of products and services noted in the Agreement, and contain all of the covenants and agreements which pertain to such purchase. You hereby acknowledge that no representations, inducements, promises, or agreements, orally or otherwise, have been made by us, or anyone acting on behalf of us, which are not embodied herein, and that no other agreement, statement, or promise not contained in the Agreement and these Terms and Conditions shall be valid or binding on us, except for any other written agreement dated concurrent with or after the Agreement and these Terms and Conditions which supersede the terms herein."
+msgstr "El Acuerdo y estos Términos y Condiciones sustituyen cualquier otro acuerdo, oral o escrito, entre usted y nosotros con respecto a su compra de productos y servicios indicada en el Acuerdo, y contienen todos los convenios y acuerdos relacionados con dicha compra. Por la presente, usted reconoce que no se han realizado declaraciones, incentivos, promesas o acuerdos, de forma oral o de otro modo, por parte nuestra ni de nadie que actúe en nuestro nombre, que no estén incorporados aquí, y que ningún otro acuerdo, declaración o promesa no contenida en el Acuerdo y en estos Términos y Condiciones será válido o vinculante para nosotros, salvo cualquier otro acuerdo escrito con fecha concurrente o posterior al Acuerdo y a estos Términos y Condiciones que prevalezca sobre los términos aquí establecidos."
+
+#: lms/templates/static_templates/tos.html:29
 msgid "Limitation of our Liability to You"
-msgstr "Limitación de nuestra responsabilidad hacia ti"
+msgstr "Limitación de nuestra responsabilidad hacia usted"
 
-#: lms/templates/static_templates/cookies.html:13
-msgid ""
-"A cookie is a small file of letters and numbers, which are transferred to "
-"your computer's hard drive"
-msgstr ""
-"Una cookie es un pequeño archivo de letras y números que se transfiere al "
-"disco duro de tu ordenador"
-
-#: lms/templates/static_templates/cookies.html:16
-msgid ""
-"Cookies are mostly used to allow websites to function, or to function more "
-"efficiently, as well as to provide information to website owners."
-msgstr ""
-"Las cookies se utilizan principalmente para permitir que los sitios web "
-"funcionen, o para que funcionen de manera más eficiente, así como para "
-"proporcionar información a los propietarios de los sitios."
-
-#: lms/templates/static_templates/cookies.html:17
-msgid "Above all, cookies allow the identification of your device."
-msgstr ""
-"Por encima de todo, las cookies permiten la identificación de tu dispositivo."
-
-#: lms/templates/static_templates/cookies.html:19
-msgid ""
-"We use cookies for many different reasons. We may collect information about "
-"your computer, including your IP address, operating system and browser type, "
-"for system administration purposes. This is statistical data about our "
-"users' browsing actions and patterns and does not identify you as an "
-"individual. If you agree, we may obtain information about your general "
-"internet usage by using a cookie file. The website uses cookies to "
-"distinguish you from other users of the website. This helps us to deliver a "
-"better and more personalised service to you when you browse the website and "
-"also allows us to improve the website."
-msgstr ""
-"Usamos cookies por diversas razones. Podemos recopilar información sobre tu "
-"ordenador, incluida tu dirección IP, el sistema operativo y el tipo de "
-"navegador, con fines de administración del sistema. Estos datos son "
-"estadísticos sobre las acciones y patrones de navegación de nuestros "
-"usuarios y no te identifican como individuo. Si estás de acuerdo, podemos "
-"obtener información sobre tu uso general de Internet mediante un archivo de "
-"cookies. El sitio web utiliza cookies para distinguirte de otros usuarios "
-"del sitio. Esto nos ayuda a ofrecerte un servicio mejor y más personalizado "
-"cuando navegas por el sitio web y también nos permite mejorarlo."
-
-#: lms/templates/static_templates/cookies.html:21
-msgid ""
-"We are always looking for new ways to improve its website and improve the "
-"service it offers you. We use cookies to improve the use and functionality "
-"of its website and to gain a better understanding of how you use it."
-msgstr ""
-"Siempre buscamos nuevas formas de mejorar nuestro sitio web y el servicio "
-"que te ofrecemos. Utilizamos cookies para mejorar el uso y la funcionalidad "
-"de nuestro sitio web y para comprender mejor cómo lo utilizas."
-
-#: lms/templates/static_templates/cookies.html:23
-msgid ""
-"A cookie is a small piece of data (text file) that a website &ndash; when "
-"visited by a user &ndash; asks your browser to store on your device in order "
-"to remember information about you, such as your language preference or login "
-"information. Those cookies are set by us and called first-party cookies. We "
-"also use third-party cookies &ndash; which are cookies from a domain "
-"different than the domain of the website you are visiting &ndash; for our "
-"advertising and marketing efforts. More specifically, we use cookies and "
-"other tracking technologies for the following purposes:"
-msgstr ""
-"Una cookie es un pequeño fragmento de datos (archivo de texto) que un sitio "
-"web &ndash; cuando es visitado por un usuario &ndash; solicita a tu "
-"navegador que almacene en tu dispositivo para recordar información sobre ti, "
-"como tu preferencia de idioma o la información de inicio de sesión. Esas "
-"cookies son establecidas por nosotros y se denominan cookies de origen. "
-"También utilizamos cookies de terceros &ndash; que son cookies de un dominio "
-"diferente al del sitio web que estás visitando &ndash; para nuestros "
-"esfuerzos de publicidad y marketing. En concreto, utilizamos cookies y otras "
-"tecnologías de seguimiento para los siguientes fines:"
-
-#: lms/templates/static_templates/cookies.html:25
-msgid ""
-"These cookies are necessary for the website to function and cannot be "
-"switched off in our systems. They are usually only set in response to "
-"actions made by you which amount to a request for services, such as setting "
-"your privacy preferences, logging in or filling in forms. You can set your "
-"browser to block or alert you about these cookies, but some parts of the "
-"site will not then work. These cookies do not store any personally "
-"identifiable information."
-msgstr ""
-"Estas cookies son necesarias para que el sitio web funcione y no pueden "
-"desactivarse en nuestros sistemas. Normalmente solo se establecen en "
-"respuesta a acciones realizadas por ti que equivalen a una solicitud de "
-"servicios, como configurar tus preferencias de privacidad, iniciar sesión o "
-"completar formularios. Puedes configurar tu navegador para bloquear o "
-"alertarte sobre estas cookies, pero entonces algunas partes del sitio no "
-"funcionarán. Estas cookies no almacenan ninguna información de "
-"identificación personal."
-
-#: lms/templates/static_templates/cookies.html:27
-msgid ""
-"These cookies allow us to count visits and traffic sources so we can measure "
-"and improve the performance of our site. They help us to know which pages "
-"are the most and least popular and see how visitors move around the site. "
-"All information these cookies collect is aggregated and therefore anonymous. "
-"If you do not allow these cookies we will not know when you have visited our "
-"site, and will not be able to monitor its performance."
-msgstr ""
-"Estas cookies nos permiten contar visitas y fuentes de tráfico para poder "
-"medir y mejorar el rendimiento de nuestro sitio. Nos ayudan a saber qué "
-"páginas son las más y las menos populares y a ver cómo se mueven los "
-"visitantes por el sitio. Toda la información que recopilan estas cookies es "
-"agregada y, por lo tanto, anónima. Si no permites estas cookies, no sabremos "
-"cuándo has visitado nuestro sitio y no podremos monitorear su rendimiento."
-
-#: lms/templates/static_templates/cookies.html:29
-msgid ""
-"These cookies enable the website to provide enhanced functionality and "
-"personalisation. They may be set by us or by third party providers whose "
-"services we have added to our pages. If you do not allow these cookies then "
-"some or all of these services may not function properly."
-msgstr ""
-"Estas cookies permiten que el sitio web ofrezca funciones mejoradas y "
-"personalización. Pueden ser establecidas por nosotros o por proveedores "
-"externos cuyos servicios hemos incorporado en nuestras páginas. Si no "
-"permites estas cookies, es posible que algunos o todos estos servicios no "
-"funcionen correctamente."
-
-#: lms/templates/static_templates/cookies.html:31
-msgid ""
-"These cookies may be set through our site by our advertising partners. They "
-"may be used by those companies to build a profile of your interests and show "
-"you relevant adverts on other sites. They do not store directly personal "
-"information, but are based on uniquely identifying your browser and internet "
-"device. If you do not allow these cookies, you will experience less targeted "
-"advertising."
-msgstr ""
-"Estas cookies pueden ser establecidas en nuestro sitio por nuestros socios "
-"publicitarios. Es posible que esas empresas las utilicen para crear un "
-"perfil de tus intereses y mostrarte anuncios relevantes en otros sitios. No "
-"almacenan información personal de forma directa, sino que se basan en la "
-"identificación única de tu navegador y tu dispositivo de Internet. Si no "
-"permites estas cookies, verás publicidad menos dirigida."
-
-#: lms/templates/static_templates/cookies.html:33
-msgid ""
-"If you are the only person using the computer, you may set long terms of "
-"expiry for browsing history. If you share the computer, you may consider "
-"setting the browser to delete the browsing data each time when you close the "
-"browser."
-msgstr ""
-"Si eres la única persona que utiliza el ordenador, puedes establecer plazos "
-"largos de caducidad para el historial de navegación. Si compartes el "
-"ordenador, puedes considerar configurar el navegador para que elimine los "
-"datos de navegación cada vez que lo cierres."
-
-#: lms/templates/static_templates/cookies.html:35
-msgid ""
-"Most internet browsers are initially set up to automatically accept cookies."
-msgstr ""
-"La mayoría de los navegadores de Internet están configurados inicialmente "
-"para aceptar cookies automáticamente."
-
-#: lms/templates/static_templates/cookies.html:36
-msgid ""
-"The users can configure their browser to reject all the cookie files or to "
-"alert the user when cookies are sent to the device."
-msgstr ""
-"Los usuarios pueden configurar su navegador para rechazar todos los archivos "
-"de cookies o para alertar cuando se envían cookies al dispositivo."
-
-#: lms/templates/static_templates/cookies.html:37
-msgid ""
-"It is important to note that the deactivation or refusal to receive cookies "
-"can make certain sections difficult to view and use."
-msgstr ""
-"Es importante tener en cuenta que la desactivación o el rechazo de recibir "
-"cookies puede dificultar la visualización y el uso de ciertas secciones."
-
-#: lms/templates/static_templates/cookies.html:75
-msgid "On computer"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:77
-msgid "Microsoft Internet Explorer"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:79
-msgid "To remove cookies:"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:80
-msgid ""
-"Open Internet Explorer. At the top right select \"Tools\", point to "
-"\"Safety\", and then select \"Delete browsing history\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:81
-msgid ""
-"Select the \"Cookies and website data\" check box and then select \"Delete\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:83
-msgid ""
-"To block cookies, for example, in the Microsoft Internet Explorer 11 for "
-"Windows 10:"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:84
-msgid ""
-"Open Internet Explorer, select \"Tools\" and then select \"Internet "
-"options\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:85
-msgid ""
-"Select the \"Privacy\" tab, \"Advanced\" and choose whether you want to "
-"block the cookies."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:92
-msgid "Google Chrome"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:94
-msgid "To remove cookies"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:95
-msgid ""
-"Open Google Chrome. At the top right select \"More\", then \"Settings\", "
-"select \"Advanced\" and click on \"Content settings\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:96
-msgid "Select \"Cookies\" and then select \"See all cookies and site data\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:97
-msgid "Select \"Remove all\". Confirm by clicking \"Clear all\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:99
-msgid "To block cookies, for example, by default:"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:100
-msgid ""
-"Open Google Chrome. At the top right select \"More\", then \"Settings\", "
-"select \"Advanced\" and click \"Content settings\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:101
-msgid ""
-"Select \"Cookies\" and turn off the \"Allow sites to save and read cookie "
-"data\" button."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:108
-msgid "Apple Safari"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:111
-msgid ""
-"Open Safari, select \"Preferences\", select \"Privacy\", select \"Manage "
-"Website Data\". Select one or more websites, and then click on \"Remove\" or "
-"\"Remove All\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:113
-msgid "To block cookies:"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:114
-msgid ""
-"Open Safari, select \"Preferences\", select \"Privacy\" and click on \"Block "
-"all cookies\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:121
-msgid "Mozilla Firefox"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:125
-msgid "Open Mozilla Firefox, select \"Options\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:126
-msgid ""
-"Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". "
-"Select the \"Manage Data\" button and then choose \"Remove Selected\" and "
-"\"Remove All\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:129
-msgid ""
-"Open Mozilla Firefox, select the menu button and choose \"Options\". Select "
-"\"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the "
-"\"Block cookies and site data\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:136
-msgid "Opera"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:140
-msgid ""
-"Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & "
-"security\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:141
-msgid ""
-"Select \"Content settings\", select \"Cookies\" and click on \"Keep local "
-"data only until you quit your browser\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:146
-msgid ""
-"Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites "
-"to save and read cookie data\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:158
-msgid "Android"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:161
-msgid ""
-"Open the Google Chrome app. To the right of the address bar, select \"More\" "
-"and then \"Settings\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:162
-msgid ""
-"Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, "
-"like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site "
-"data\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:163
-msgid "Uncheck all the other items. Select \"Clear data\" and then \"Clear\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:166
-msgid "To block cookies"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:167
-msgid ""
-"Open the Google Chrome app. Select \"More\", \"Settings\". Click on \"Site "
-"settings\" and \"Cookies\". Turn \"Cookies\" off."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:174
-msgid "iOS (Apple)"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:177
-msgid ""
-"Open the Google Chrome app. At the bottom right, select \"More\" and then "
-"\"Settings\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:178
-msgid "Select \"Cookies, Site Data\". Uncheck the other items."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:179
-msgid ""
-"Select \"Clear Browsing Data\", and then \"Clear Browsing Data\". Select "
-"\"Done\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:184
-msgid "Safari Apple iOS"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:188
-msgid ""
-"Click on the \"Home\" button, select \"Settings\", select \"Safari\". Select "
-"\"Advanced\", and then \"Website Data\" and then tap \"Remove All Website "
-"Data\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:193
-msgid ""
-"Click on the \"Home\" button, select \"Settings\", and select \"Safari\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:194
-msgid "Select \"Block All Cookies\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:201
-msgid "Android Browser"
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:204
-msgid ""
-"Select the \"Menu\" button. Select \"Settings\", Select one of the option: "
-"\"Privacy & Security\", \"Privacy\", \"Security\". Select \"Clear Cache\". "
-"Confirm the action by clicking on \"OK\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:205
-msgid ""
-"Select \"Clear all cookie data\", Confirm the action by clicking on \"OK\"."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:208
-msgid ""
-"Select the \"Menu\" button. Select \"Settings\". Select one of the options: "
-"\"Privacy & Security\", \"Privacy\", \"Security\". De-activate the \"Allow "
-"cookies\" option."
-msgstr ""
-
-#: lms/templates/static_templates/cookies.html:209
-msgid ""
-"To opt out from the Google Analytics tracking across all websites, please "
-"click on the following link:"
-msgstr ""
+#: lms/templates/static_templates/tos.html:30
+msgid "All implied warranties, including but not limited to implied warranties of Merchantability, fitness for a particular purpose, and non-infringement are hereby disclaimed. We shall not be liable for any incidental or consequential damages. Our liability under the agreement and these terms and conditions is limited to the price paid by you for the products or services that are the subject of a dispute or controversy. In no event shall we be liable for any losses of profits or any other commercial damage, including but not limited to special indirect, exemplary, incidental, consequential, punitive or other damages. The terms \"Company,\" \"we,\" \"us,\" \"our,\" or \"ours,\" as used only in this paragraph shall include our parent entity, subsidiaries, affiliates, officers, directors, shareholders, employees, agents, licensees, successors and assigns."
+msgstr "Se rechazan todas las garantías implícitas, incluidas, entre otras, las garantías implícitas de comerciabilidad, adecuación para un propósito particular y de no infracción. No seremos responsables de daños incidentales o consecuentes. Nuestra responsabilidad en virtud del acuerdo y de estos términos y condiciones se limita al precio que usted pagó por los productos o servicios que son objeto de disputa o controversia. En ningún caso seremos responsables por pérdidas de beneficios ni por otros daños comerciales, incluidos, entre otros, daños especiales, indirectos, ejemplares, incidentales, consecuentes, punitivos u otros. Los términos \"Compañía\", \"nosotros\", \"nos\", \"nuestro\" o \"nuestros\", tal como se utilizan únicamente en este párrafo, incluyen nuestra entidad matriz, subsidiarias, afiliadas, directivos, directores, accionistas, empleados, agentes, licenciatarios, sucesores y cesionarios."
