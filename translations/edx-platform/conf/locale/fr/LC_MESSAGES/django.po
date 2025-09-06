@@ -27523,14 +27523,11 @@ msgstr "Sélectionnez « Vie privée et sécurité » et accédez à « Cookies 
 msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
 msgstr "Ouvrez Mozilla Firefox, sélectionnez le bouton de menu et choisissez « Options ». Sélectionnez « Vie privée et sécurité » et accédez à « Cookies et données de sites ». Sélectionnez « Bloquer les cookies et les données de sites »."
 
-#: lms/templates/static_templates/cookies.html:104
-msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
-msgstr "Ouvrez Opera, sélectionnez « Paramètres », sélectionnez « Avancé » et cliquez sur « Confidentialité et sécurité »."
-
 #: lms/templates/static_templates/cookies.html:105
 msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
 msgstr "Sélectionnez « Paramètres de contenu », sélectionnez « Cookies » et cliquez sur « Ne conserver les données locales que jusqu’à la fermeture du navigateur »."
 
+#: lms/templates/static_templates/cookies.html:104
 #: lms/templates/static_templates/cookies.html:109
 msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
 msgstr "Ouvrez Opera, sélectionnez « Paramètres », sélectionnez « Avancé » et cliquez sur « Confidentialité et sécurité »."

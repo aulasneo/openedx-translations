@@ -26353,22 +26353,18 @@ msgstr "Abre Mozilla Firefox, selecciona \"Opciones\"."
 #: lms/templates/static_templates/cookies.html:90
 msgid "Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Manage Data\" button and then choose \"Remove Selected\" and \"Remove All\"."
 msgstr "Selecciona \"Privacidad y seguridad\" y ve a \"Cookies y datos del sitio\". Selecciona el botón \"Gestionar datos\" y luego elige \"Eliminar seleccionados\" y \"Eliminar todo\"."
-
 #: lms/templates/static_templates/cookies.html:93
 msgid "Open Mozilla Firefox, select the menu button and choose \"Options\". Select \"Privacy & Security\" and go to the \"Cookies and Site Data\". Select the \"Block cookies and site data\"."
 msgstr "Abre Mozilla Firefox, selecciona el botón de menú y elige \"Opciones\". Selecciona \"Privacidad y seguridad\" y ve a \"Cookies y datos del sitio\". Selecciona \"Bloquear cookies y datos del sitio\"."
 
 #: lms/templates/static_templates/cookies.html:104
+#: lms/templates/static_templates/cookies.html:109
 msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
 msgstr "Abre Opera, selecciona \"Configuración\", selecciona \"Avanzado\" y haz clic en \"Privacidad y seguridad\"."
 
 #: lms/templates/static_templates/cookies.html:105
 msgid "Select \"Content settings\", select \"Cookies\" and click on \"Keep local data only until you quit your browser\"."
 msgstr "Selecciona \"Configuración de contenido\", selecciona \"Cookies\" y haz clic en \"Conservar los datos locales solo hasta que cierres el navegador\"."
-
-#: lms/templates/static_templates/cookies.html:109
-msgid "Open Opera, select \"Settings\", select \"Advanced\" and click \"Privacy & security\"."
-msgstr "Abre Opera, selecciona \"Configuración\", selecciona \"Avanzado\" y haz clic en \"Privacidad y seguridad\"."
 
 #: lms/templates/static_templates/cookies.html:110
 msgid "Select \"Content settings\", select \"Cookies\" and turn off \"Allow sites to save and read cookie data\"."
@@ -26377,7 +26373,6 @@ msgstr "Selecciona \"Configuración de contenido\", selecciona \"Cookies\" y des
 #: lms/templates/static_templates/cookies.html:125
 msgid "Open the Google Chrome app. To the right of the address bar, select \"More\" and then \"Settings\"."
 msgstr "Abre la aplicación Google Chrome. A la derecha de la barra de direcciones, selecciona \"Más\" y luego \"Configuración\"."
-
 #: lms/templates/static_templates/cookies.html:126
 msgid "Select \"Privacy\" and then \"Clear browsing data\". Choose a time range, like \"Last hour\" or \"All time\". Check \"Cookies, media licenses and site data\"."
 msgstr "Selecciona \"Privacidad\" y luego \"Borrar datos de navegación\". Elige un intervalo de tiempo, como \"Última hora\" o \"Desde siempre\". Marca \"Cookies, licencias multimedia y datos del sitio\"."
@@ -26600,7 +26595,6 @@ msgstr "Si tienes inquietudes sobre privacidad, has divulgado datos que preferir
 msgid "Privacy Notice"
 msgstr "Aviso de privacidad"
 
-{{ ... }}
 #: lms/templates/courseware/course_about.html:139
 msgid "From beginners to intermediate"
 msgstr "De principiantes a intermedios"
