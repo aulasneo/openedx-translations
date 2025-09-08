@@ -2876,6 +2876,9 @@ msgstr "{platform_name} para Empresas"
 msgid "Contact"
 msgstr "Contacto"
 
+msgid "HELP CENTER"
+msgstr "Centro de ayuda"
+
 #: lms/djangoapps/branding/api.py:294 lms/djangoapps/branding/api.py:373
 #: themes/stanford-style/lms/templates/footer.html:16
 #: themes/stanford-style/lms/templates/static_templates/about.html:42
