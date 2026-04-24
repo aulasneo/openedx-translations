@@ -1,160 +1,42 @@
 {
-  "Hyperlink.externalLinkAltText": {
-    "string": "en una nueva pestaña"
-  },
-  "Hyperlink.externalLinkTitle": {
-    "string": "Se abre en una nueva pestaña"
-  },
-  "dropzone.Dropzone.invalidSizeLessError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.invalidSizeMoreError": {
-    "developer_comment": "",
-    "string": "El archivo debe ser menor que {size} ."
-  },
-  "dropzone.Dropzone.invalidType": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.multipleDraggedError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.unexpectedValidationError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "dropzone.Dropzone.uploadError": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Alert.closeLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.CardCarousel.scrollToNext": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.CardCarousel.scrollToPrevious": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ChipCarousel.scrollToNext": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ChipCarousel.scrollToPrevious": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.allSelectedText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectAllText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectedText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.ExpandAll.collapseAllLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.ExpandAll.expandAllLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.FilterStatus.clearFiltersText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.RowStatus.statusText": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.SidebarFilters.title": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.DataTable.filtersDropdownTitle": {
-    "developer_comment": "Título del menú desplegable de filtros",
-    "string": "Filtros"
-  },
-  "pgn.DataTable.paginationLabel": {
-    "developer_comment": "Nombre accesible para el elemento de navegación de un componente de paginación",
-    "string": "paginación de tabla"
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeBetween": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeMax": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileSizeMin": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.DefaultContent.label": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.UploadProgress.cancelLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Dropzone.UploadProgress.uploadLabel": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.FormAutosuggest.iconButtonClosed": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.FormAutosuggest.iconButtonOpened": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.Modal.closeButon": {
-    "developer_comment": "Nombre accesible para el botón de cerrar en el cuadro de diálogo modal",
-    "string": "cerrar"
-  },
-  "pgn.ProductTour.Checkpoint.bottom-position-text": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ProductTour.Checkpoint.page-index-text": {
-    "developer_comment": "Índice de página que muestra tu lugar en el ProductTour",
-    "string": "{paso} de {totalSteps}"
-  },
-  "pgn.ProductTour.Checkpoint.top-position-text": {
-    "developer_comment": "",
-    "string": ""
-  },
-  "pgn.ProductTour.checkpointHeader.close": {
-    "developer_comment": "Texto alternativo para cerrar el componente ProductTour",
-    "string": "Cerrar tour"
-  },
-  "pgn.Toast.closeLabel": {
-    "developer_comment": "",
-    "string": ""
-  }
+  "Hyperlink.externalLinkAltText": "en una nueva pestaña",
+  "Hyperlink.externalLinkTitle": "Se abre en una nueva pestaña",
+  "dropzone.Dropzone.invalidSizeLessError": "El archivo debe ser mayor que {size}.",
+  "dropzone.Dropzone.invalidSizeMoreError": "El archivo debe ser menor que {size} .",
+  "dropzone.Dropzone.invalidType": "El tipo de archivo debe ser {count, plural, one {{typeString} archivo} other {uno de los archivos {typeString}}}.",
+  "dropzone.Dropzone.multipleDraggedError": "Solo se permite una carga.",
+  "dropzone.Dropzone.unexpectedValidationError": "Se produjo un problema inesperado durante la validación del archivo. Inténtalo de nuevo.",
+  "dropzone.Dropzone.uploadError": "Se produjo un problema al cargar su archivo. Inténtalo de nuevo.",
+  "pgn.Alert.closeLabel": "Descartar",
+  "pgn.CardCarousel.scrollToNext": "Desplazarse al siguiente",
+  "pgn.CardCarousel.scrollToPrevious": "Desplázate al anterior",
+  "pgn.ChipCarousel.scrollToNext": "Desplazarse al siguiente",
+  "pgn.ChipCarousel.scrollToPrevious": "Desplázate al anterior",
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "Todos los {numSelectedRows} seleccionados",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Borrar selección",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Selecciona todo {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} seleccionados",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} seleccionados ({numSelectedRowsOnPage} se muestran a continuación)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "Contraer todo",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "Expandir todo",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Borrar filtros",
+  "pgn.DataTable.RowStatus.statusText": "Mostrando {firstRow} - {lastRow} de {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "Filtros",
+  "pgn.DataTable.filtersDropdownTitle": "Filtros",
+  "pgn.DataTable.paginationLabel": "paginación de tabla",
+  "pgn.Dropzone.DefaultContent.fileSizeBetween": "Entre {sizeMin} y {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMax": "máximo {sizeMax}",
+  "pgn.Dropzone.DefaultContent.fileSizeMin": "Min {sizeMin}",
+  "pgn.Dropzone.DefaultContent.fileTypeRestriction": "Cargar {count, plural, one {{firstPart} files} other {{firstPart} o {secondPart} files}}",
+  "pgn.Dropzone.DefaultContent.label": "Arrastre y suelte su archivo aquí o haz clic para cargarlo.",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "Cancelar",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Cargando {filename}.",
+  "pgn.FormAutosuggest.iconButtonClosed": "Cerrar el menú de opciones",
+  "pgn.FormAutosuggest.iconButtonOpened": "Abre el menú de opciones",
+  "pgn.Modal.closeButon": "Cerrar",
+  "pgn.ProductTour.Checkpoint.bottom-position-text": "Parte inferior del paso {step}",
+  "pgn.ProductTour.Checkpoint.page-index-text": "{paso} de {totalSteps}",
+  "pgn.ProductTour.Checkpoint.top-position-text": "Parte superior del paso {step}",
+  "pgn.ProductTour.checkpointHeader.close": "Cerrar tour",
+  "pgn.Toast.closeLabel": "Cerrar"
 }
