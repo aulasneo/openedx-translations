@@ -73,5 +73,6 @@
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Adjusted grade",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Date",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Grader",
-  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Reason"
+  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Reason",
+  "gradebook.GradesView.EditModal.Overrides.adjustedGradeError": "The value exceeds the maximum grade:"
 }
